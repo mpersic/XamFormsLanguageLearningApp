@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamFormsLanguageLearningApp.Views.AboutPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:admob="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+    xmlns:vm="clr-namespace:XamFormsLanguageLearningApp.ViewModels"
+    Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+        <Style TargetType="admob:MTAdView">
+            <Setter Property="HeightRequest">
+                <Setter.Value>
+                    <x:OnIdiom Phone="50" Tablet="90" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="FillAndExpand">
+        <StackLayout
+            HorizontalOptions="Center"
+            Orientation="Horizontal"
+            VerticalOptions="Center">
+            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand" />
+            <admob:MTAdView AdsId="ca-app-pub-9059808668630923/8030440475" />
+            <admob:MTAdView AdsId="ca-app-pub-9059808668630923/8030440475" BackgroundColor="Yellow" />
+            <Button
+                Text="Show video" Clicked="Button_Clicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

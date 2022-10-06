@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="grammarunits-brojevi.json" />
+    <None Remove="grammarunits-glagoli.json" />
+    <None Remove="grammarunits-imenice.json" />
+    <None Remove="grammarunits-pridjevi.json" />
+    <None Remove="grammarunits-prijedlozi.json" />
+    <None Remove="grammarunits-prilozi.json" />
+    <None Remove="grammarunits-recenice.json" />
+    <None Remove="grammarunits-zamjenice.json" />
+    <None Remove="prezent-aktiv.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="grammarunits-brojevi.json" />
+    <EmbeddedResource Include="grammarunits-glagoli.json" />
+    <EmbeddedResource Include="grammarunits-imenice.json" />
+    <EmbeddedResource Include="grammarunits-pridjevi.json" />
+    <EmbeddedResource Include="grammarunits-prijedlozi.json" />
+    <EmbeddedResource Include="grammarunits-prilozi.json" />
+    <EmbeddedResource Include="grammarunits-recenice.json" />
+    <EmbeddedResource Include="grammarunits-zamjenice.json" />
+    <EmbeddedResource Include="grammarunits.json" />
+    <EmbeddedResource Include="prezent-aktiv.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MarcTron.Admob" Version="1.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JsonAssets\Gramatika\" />
+    <Folder Include="Modules\Grammar\UnitSelected\SelectedUnitRevision\" />
+    <Folder Include="Modules\Grammar\UnitSelected\SelectedUnitMenu\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Modules\Grammar\GrammarPage.xaml.cs">
+      <DependentUpon>GrammarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Modules\Grammar\UnitSelected\GrammarUnitPage.xaml.cs">
+      <DependentUpon>GrammarUnitPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Modules\Grammar\UnitSelection\GrammarUnitSelectionPage.xaml.cs">
+      <DependentUpon>GrammarUnitSelectionPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Modules\Grammar\UnitSelected\SelectedUnitExam\SelectedUnitExamPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

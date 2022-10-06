@@ -1,0 +1,82 @@
+[
+  {
+    "Intro": "Prezent se tvori tako da se glagolskoj osnovi dodaju sljedeći nastavci:",
+    "GlagolPoLicima": [
+      "1. lice jednine: -e",
+      "2. lice jednine: -(e)st",
+      "3. lice jednine: -(e)t",
+      "1. lice množine: -en",
+      "2. lice množine: -(e)t",
+      "3. lice množine: -en"
+    ],
+    "Deklinacija": []
+  },
+  {
+    "Intro": "Glagolska osnova dobije se ako se od infinitiva odbije nastavak –en:",
+    "GlagolPoLicima": [],
+    "Deklinacija": [ "gehen → geh-", "kochen → koch-" ]
+  },
+  {
+    "Intro": "Kod glagola kojih osnova završava na -d ili -t u 2. i 3. licu jednine i u 2. licu množine -e- se umeće između osnove i nastavka:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "reden: du redest, er redet, ihr redet (govoriti)",
+      "antworten: du antwortest, er antwortet, ihr antwortet (odgovoriti)"
+    ]
+  },
+  {
+    "Intro": "Isto se tako ponašaju i glagoli kojih osnova završava na -m ili -n.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "atmen: du atmest, er atmet, ihr atmet (disati)",
+      "rechnen: du rechnest, er rechnet, ihr rechnet (računati)"
+    ]
+  },
+  {
+    "Intro": "Ako ispred -n stoji r ili I, –e- se ne umeće između osnove i nastavka.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "leren: du lernst, er lernt, ihr lernt (učiti)"
+    ]
+  },
+  {
+    "Intro": "U 2. licu jednine gubi se -s iz nastavka ako glagolska osnova završava na -s, -ß ili –z:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "reisen: du reist (putovati)",
+      "grüßen: du grüßt (pozdraviti)",
+      "heizen: du heizt (ložiti)"
+    ]
+  },
+  {
+    "Intro": "Ako infinitiv glagola završava na -eln, u 1. licu jednine se gubi osnovno e. ",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "handeln: handeln → ich handle (djelovati, trgovati)"
+    ]
+  },
+  {
+    "Intro": "Ako infinitiv glagola završava na -eln ili -ern, 1. i 3. lice množine gube -e iz svog nastavka za prezent:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "handeln: wir handeln, sie handeln (trgovati, djelovati)",
+      "rudern: wir rudern, sie rudern (veslati)"
+    ]
+  },
+  {
+    "Intro": "Neki nepravilni glagoli imaju u 2. i 3. licu jednine promjenu osnovnog vokala:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "a > ä \t\ttragen - du trägst, er trägt (nositi)",
+      "au > äu \t\tlaufen - du läufst, er läuft (trčati)",
+      "e > i (ie) \thelfen - du hilfst, er hilft (pomoći)"
+    ]
+  }
+]

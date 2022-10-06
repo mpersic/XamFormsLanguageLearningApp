@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamFormsLanguageLearningApp.GrammarUnitPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:XamFormsLanguageLearningApp.ViewModels"
+    xmlns:model="clr-namespace:XamFormsLanguageLearningApp.Models"
+    Title="{Binding Title}"
+    Shell.TabBarIsVisible="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <CollectionView
+            x:Name="ItemsListView"
+            Margin="10"
+            ItemsSource="{Binding GrammarExamples}"
+            SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label
+                            FontSize="16"
+                            LineBreakMode="NoWrap"
+                            Style="{DynamicResource ListItemTextStyle}"
+                            Text="{Binding Intro}" />
+                        <FlexLayout
+                            AutomationId="MessagesList"
+                            BindableLayout.ItemsSource="{Binding GlagolPoLicima}"
+                            Direction="Column"
+                            VerticalOptions="Start">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="16"
+                                            HorizontalOptions="Start"
+                                            Text="{Binding .}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </FlexLayout>
+                        <FlexLayout
+                            AutomationId="MessagesList1"
+                            BindableLayout.ItemsSource="{Binding Deklinacija}"
+                            Direction="Column"
+                            VerticalOptions="Start">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid MinimumHeightRequest="60">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="16"
+                                            HorizontalOptions="Start"
+                                            Text="{Binding .}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </FlexLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:GrammarViewModel}}, Path=ItemTapped}"
+                                CommandParameter="{Binding .}"
+                                NumberOfTapsRequired="1" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            <CollectionView.FooterTemplate>
+                <DataTemplate>
+                    <StackLayout Margin="0,50,0,0" BackgroundColor="Yellow" />
+                </DataTemplate>
+            </CollectionView.FooterTemplate>
+        </CollectionView>
+        <!--<Button
+            Grid.Row="0"
+            Margin="10"
+            HeightRequest="50"
+            HorizontalOptions="End"
+            Text="Dovrši"
+            VerticalOptions="End" />-->
+    </Grid>
+</ContentPage>
