@@ -20,6 +20,7 @@
             <StackLayout Spacing="10">
                 <Label
                     Margin="5,0"
+                    TextColor="Black"
                     HorizontalTextAlignment="Center"
                     Text="Želite li pokrenuti novu lekciju ili uvježbavati gradivo?" />
                 <StackLayout
@@ -45,6 +46,7 @@
             VerticalOptions="CenterAndExpand">
             <Label
                 FontAttributes="Bold"
+                TextColor="Black"
                 HorizontalOptions="Start"
                 Text="{Binding VisibleQuestion}"
                 VerticalOptions="Center" />
@@ -128,6 +130,7 @@
             VerticalOptions="CenterAndExpand">
             <Label
                 Margin="0,0,0,10"
+                TextColor="Black"
                 FontAttributes="Bold"
                 FontSize="Medium"
                 HorizontalOptions="Start"
@@ -138,6 +141,7 @@
                 HorizontalOptions="Start"
                 Text="Pročitaj" />
             <Label
+                TextColor="Black"
                 Margin="0,20,0,0"
                 FontAttributes="Bold"
                 FontSize="Medium"
@@ -157,8 +161,9 @@
             IsVisible="{Binding ExamIsCompleted}"
             VerticalOptions="Center">
             <StackLayout Spacing="10">
-                <Label HorizontalOptions="Center" Text="Test je završen!" />
+                <Label HorizontalOptions="Center" Text="Test je završen!" TextColor="Black" />
                 <Label
+                    TextColor="Black"
                     HorizontalOptions="Center"
                     IsVisible="{Binding ShowFinalScore}"
                     Text="{Binding CurrentScore}" />

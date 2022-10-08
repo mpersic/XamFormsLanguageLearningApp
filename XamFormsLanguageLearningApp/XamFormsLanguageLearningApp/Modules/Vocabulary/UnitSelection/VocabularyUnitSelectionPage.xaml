@@ -18,6 +18,7 @@
                 <StackLayout Padding="10">
                     <Label
                         FontSize="16"
+                        TextColor="Black"
                         LineBreakMode="NoWrap"
                         Style="{DynamicResource ListItemTextStyle}"
                         Text="{Binding Lesson}" />

@@ -17,6 +17,7 @@
             <DataTemplate>
                 <StackLayout Padding="10">
                     <Label
+                        TextColor="Black"
                         FontSize="16"
                         LineBreakMode="NoWrap"
                         Style="{DynamicResource ListItemTextStyle}"

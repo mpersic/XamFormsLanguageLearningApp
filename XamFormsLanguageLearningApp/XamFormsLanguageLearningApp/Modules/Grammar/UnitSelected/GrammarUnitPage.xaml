@@ -22,6 +22,7 @@
                 <DataTemplate>
                     <StackLayout>
                         <Label
+                            TextColor="Black"
                             FontSize="16"
                             LineBreakMode="NoWrap"
                             Style="{DynamicResource ListItemTextStyle}"
@@ -35,6 +36,7 @@
                                 <DataTemplate>
                                     <Grid>
                                         <Label
+                                            TextColor="Black"
                                             FontAttributes="Bold"
                                             FontSize="16"
                                             HorizontalOptions="Start"
@@ -53,6 +55,7 @@
                                 <DataTemplate>
                                     <Grid MinimumHeightRequest="60">
                                         <Label
+                                            TextColor="Black"
                                             FontAttributes="Bold"
                                             FontSize="16"
                                             HorizontalOptions="Start"
