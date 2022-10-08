@@ -1,0 +1,74 @@
+[
+  {
+    "Question": "Ein Paar trinkt Kaffee in einem Café.",
+    "Answer": [ "Par pije kavu u kafiću." ]
+  },
+  {
+    "Question": "Der Junge bestellt zu seinem Kaffee ein Glas Wasser.",
+    "Answer": [ "Dečko uz kavu naručuje čašu vode." ]
+  },
+  {
+    "Question": "Das Kind trinkt eine Tasse Milch.",
+    "Answer": [ "Dijete pije šalicu mlijeka." ]
+  },
+  {
+    "Question": "Das Mädchen genießt einen leckeren Cappuccino.",
+    "Answer": [ "Djevojka uživa u ukusnom cappuccinu." ]
+  },
+  {
+    "Question": "Oma trinkt Kaffee mit zwei Zuckerwürfeln.",
+    "Answer": [ "Baka pije kavu s dvije kockice šećera." ]
+  },
+  {
+    "Question": "Könnte ich bitte noch einen Würfelzucker haben?",
+    "Answer": [ "Mogu li molim Vas dobiti još jednu kocku šećera?" ]
+  },
+  {
+    "Question": "Marko bevorzugt Tee mit Zucker.",
+    "Answer": [ "Marko radije pije čaj sa šećerom." ]
+  },
+  {
+    "Question": "Jeden Morgen trinkt Klaudija grünen Tee.",
+    "Answer": [ "Svakog jutra Klaudija pije zeleni čaj." ]
+  },
+  {
+    "Question": "Jeden Abend trinkt Karla Kamillentee.",
+    "Answer": [ "Karla pije čaj od kamilice svaku večer." ]
+  },
+  {
+    "Question": "Könnte ich bitte noch einen Teelöffel haben?",
+    "Answer": [ "Mogu li molim Vas dobiti još jednu čajnu žličicu?" ]
+  },
+  {
+    "Question": "Die Kellnerin serviert das Getränk in einem Krug.",
+    "Answer": [ "Konobarica poslužuje piće u vrču." ]
+  },
+  {
+    "Question": "Konobarica puni čaše.",
+    "Answer": [ "Karla pije čaj od kamilice svaku večer." ]
+  },
+  {
+    "Question": "Ivan trinkt keine alkoholischen Getränke.",
+    "Answer": [ "Ivan ne pije alkoholna pića." ]
+  },
+  {
+    "Question": "Ivan trinkt Orangensaft.",
+    "Answer": [ "Ivan pije sok od naranče." ]
+  },
+  {
+    "Question": "Ivana trinkt frisch gepressten Orangensaft.",
+    "Answer": [ "Ivana pije svježe cijeđeni sok od naranče." ]
+  },
+  {
+    "Question": "Marija trinkt gerne Limonade.",
+    "Answer": [ "Marija rado pije limunadu." ]
+  },
+  {
+    "Question": "Der Barmann presst Zitronen in einer Zitronenpresse.",
+    "Answer": [ "Šanker cijedi limun u cjediljki za limun." ]
+  },
+  {
+    "Question": "Die Mädchen trinken gerne Rotwein.",
+    "Answer": [ "Djevojke rado piju crveno vino." ]
+  }
+]

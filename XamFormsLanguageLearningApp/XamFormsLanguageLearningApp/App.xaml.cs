@@ -17,6 +17,7 @@ namespace XamFormsLanguageLearningApp
 
             DependencyService.Register<MockDataStore>();
             DependencyService.Register<GrammarService>();
+            DependencyService.Register<VocabularyService>();
             MainPage = new AppShell();
         }
 

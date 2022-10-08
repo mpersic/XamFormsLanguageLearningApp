@@ -1,0 +1,58 @@
+[
+  {
+    "Question": "Montags gehe ich einkaufen.",
+    "Answer": [ "Ponedjeljkom idem u kupovinu." ]
+  },
+  {
+    "Question": "Am Montag habe ich Pizza gegessen.",
+    "Answer": [ "U ponedjeljak sam jela pizzu." ]
+  },
+  {
+    "Question": "Dienstags arbeite ich den ganzen Tag.",
+    "Answer": [ "Utorkom radim cijeli dan." ]
+  },
+  {
+    "Question": "Am Dienstag habe ich das ganze Haus aufgeräumt.",
+    "Answer": [ "U utorak sam pospremio cijelu kuću." ]
+  },
+  {
+    "Question": "Mittwochs gehe ich mit meiner Schwester zum Kaffee.",
+    "Answer": [ "Srijedom idem na kavu sa sestrom." ]
+  },
+  {
+    "Question": "Am Mittwoch habe ich einen Mathetest geschrieben.",
+    "Answer": [ "U srijedu sam pisala test iz matematike." ]
+  },
+  {
+    "Question": "Donnerstags gehe ich zum Training.",
+    "Answer": [ "Četvrtkom idem na trening." ]
+  },
+  {
+    "Question": "Am Donnerstag bin ich zu spät zum Unterricht gekommen.",
+    "Answer": [ "U četvrtak sam zakasnio na nastavu." ]
+  },
+  {
+    "Question": "Freitags essen wir zu Mittag Fisch.",
+    "Answer": [ "Petkom jedemo ribu za ručak." ]
+  },
+  {
+    "Question": "Am Freitag sind wir in einen Nachtclub gegangen.",
+    "Answer": [ "U petak smo izašli u noćni klub." ]
+  },
+  {
+    "Question": "Samstags schlafe ich länger.",
+    "Answer": [ "Subotom spavam duže." ]
+  },
+  {
+    "Question": "Am Samstag habe ich Fußball gespielt.",
+    "Answer": [ "U subotu sam igrao nogomet." ]
+  },
+  {
+    "Question": "Sonntags gehe ich in die Kirche.",
+    "Answer": [ "Nedjeljom idem u crkvu." ]
+  },
+  {
+    "Question": "Am Sonntag haben wir den Geburtstag von meinem Vater gefeiert.",
+    "Answer": [ "U nedjelju smo proslavili očev rođendan." ]
+  }
+]

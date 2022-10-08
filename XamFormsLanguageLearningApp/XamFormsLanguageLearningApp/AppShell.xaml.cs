@@ -15,7 +15,11 @@ namespace XamFormsLanguageLearningApp
             InitializeComponent();
             Routing.RegisterRoute(nameof(GrammarUnitSelectionPage), typeof(GrammarUnitSelectionPage));
             Routing.RegisterRoute(nameof(GrammarUnitPage), typeof(GrammarUnitPage));
+            Routing.RegisterRoute(nameof(VocabularyUnitSelectionPage), typeof(VocabularyUnitSelectionPage));
+            Routing.RegisterRoute(nameof(VocabularyExamPage), typeof(VocabularyExamPage));
+
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+
         }
 
         #endregion Constructors

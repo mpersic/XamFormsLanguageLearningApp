@@ -1,0 +1,91 @@
+[
+  {
+    "Question": "Ivana wurde am zehnten Juli geboren.",
+    "Answer": [ "Ivana je rođena 10. srpnja." ]
+  },
+  {
+    "Question": "Ivanas Vorfahren sind bäuerlicher Herkunft.",
+    "Answer": [ "Ivanini preci seljačkog su podrijetla." ]
+  },
+  {
+    "Question": "Ivanas Vorfahren stammen aus dem Slawonien.",
+    "Answer": [ "Ivanini preci potječu iz Slavonije." ]
+  },
+  {
+    "Question": "Ivana wurde in einem Dorf groß. ",
+    "Answer": [ "Ivana je odrasla na selu." ]
+  },
+  {
+    "Question": "Ivana wurde auf dem Land groß.",
+    "Answer": [ "Ivana je odrasla na selu." ]
+  },
+  {
+    "Question": "Ivana wuchs in einer Großfamilie auf.",
+    "Answer": [ "Ivana je odrasla u velikoj obitelji." ]
+  },
+  {
+    "Question": "Ivana hat drei Geschwister.",
+    "Answer": [ "Ivana ima troje braće i sestara." ]
+  },
+  {
+    "Question": "Ivana hatte eine glückliche Kindheit.",
+    "Answer": [ "Ivana je imala sretno djetinjstvo." ]
+  },
+  {
+    "Question": "Marko wurde in Osijek geboren.",
+    "Answer": [ "Marko je rođen u Osijeku." ]
+  },
+  {
+    "Question": "Marko wuchs in der Stadt auf.",
+    "Answer": [ "Marko je odrastao u gradu." ]
+  },
+  {
+    "Question": "Markos Eltern zogen vom Land in die Stadt um.",
+    "Answer": [ "Markovi roditelji su se sa sela preselili u grad." ]
+  },
+  {
+    "Question": "Markos Eltern zogen von Tenja nach Osijek um.",
+    "Answer": [ "Markovi roditelji su se iz Tenje preselili u Osijek." ]
+  },
+  {
+    "Question": "Marko hat keine Geschwister.",
+    "Answer": [ "Marko nema braće i sestara." ]
+  },
+
+  {
+    "Question": "Ivana hat drei Brüder.",
+    "Answer": [ "Ivana ima tri brata." ]
+  },
+  {
+    "Question": "Ivana hat zwei Schwester.",
+    "Answer": [ "Ivana ima dvije sestru." ]
+  },
+  {
+    "Question": "Kristina hat drei Schwestern.",
+    "Answer": [ "Kristina ima tri sestre." ]
+  },
+  {
+    "Question": "Kristinas Vorfahren stammen aus dem Dalmatien.",
+    "Answer": [ "Kristinini preci potječu iz Dalmacije." ]
+  },
+  {
+    "Question": "Kristina hat vier Schwestern.",
+    "Answer": [ "Kristina ima četiri sestre." ]
+  },
+  {
+    "Question": "Kristinas Vorfahren stammen aus dem Dalmatien.",
+    "Answer": [ "Kristinini preci potječu iz Dalmacije." ]
+  },
+  {
+    "Question": "Kristina wuchs bei ihrer Tante auf.",
+    "Answer": [ "Kristina je odrasla sa svojom tetom." ]
+  },
+  {
+    "Question": "Kristina versteht sich gut mit ihren Cousinen",
+    "Answer": [ "Kristina se dobro slaže sa svojim sestričnama." ]
+  },
+  {
+    "Question": "Kristina hat zwei Tanten und drei Onkel.",
+    "Answer": [ "Kristina ima dvije tete i tri ujaka." ]
+  }
+]

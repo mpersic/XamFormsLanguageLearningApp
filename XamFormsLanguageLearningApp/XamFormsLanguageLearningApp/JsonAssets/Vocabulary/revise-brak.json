@@ -1,0 +1,70 @@
+[
+  {
+    "Question": "Marko verlobte sich mit Ivana.",
+    "Answer": [ "Marko se zaručio s Ivanom." ]
+  },
+  {
+    "Question": "Die Jungvermählten machen Pläne für die Zukunft.",
+    "Answer": [ "Mladenci kuju planove za budućnost." ]
+  },
+  {
+    "Question": "Die Jungvermählten wollen eine große Familie gründen.",
+    "Answer": [ "Mladenci žele stvoriti veliku obitelj." ]
+  },
+  {
+    "Question": "Ivana will kein Einzelkind haben.",
+    "Answer": [ "Ivana ne želi imati dijete jedinca." ]
+  },
+  {
+    "Question": "Ivana kommt mit ihrer Schwiegermutter gut aus.",
+    "Answer": [ "Ivana se dobro slaže sa svojom svekrvom." ]
+  },
+  {
+    "Question": "Ivana ist schwanger.",
+    "Answer": ["Ivana je trudna."]
+  },
+  {
+    "Question": "Ivana erwartet ein Kind.",
+    "Answer": [ "Ivana čeka dijete." ]
+  },
+  {
+    "Question": "Ivana ist seit sechs Monaten schwanger.",
+    "Answer": [ "Ivana je u šestom mjesecu trudnoće." ]
+  },
+  {
+    "Question": "Ivana freut sich auf das Kind.",
+    "Answer": [ "Ivana se veseli djetetu." ]
+  },
+  {
+    "Question": "Das Ehepaar erwartet Zwillinge.",
+    "Answer": [ "Bračni par očekuje blizance." ]
+  },
+  {
+    "Question": "Ehepaar feiert seinen Hochzeitstag.",
+    "Answer": [ "Bračni par slavi godišnjicu braka." ]
+  },
+  {
+    "Question": "Die Eltern entschieden sich für den Namen Nikola.",
+    "Answer": [ "Roditelji su se odlučili za ime Nikola." ]
+  },
+  {
+    "Question": "Die Eltern haben zwei Söhne und drei Töchter.",
+    "Answer": [ "Roditelji imaju dva sina i tri kćeri." ]
+  },
+  {
+    "Question": "Die Großeltern freuen sich über den Enkel.",
+    "Answer": [ "Djed i baka se vesele unuku." ]
+  },
+  {
+    "Question": "Die Großeltern passen auf ihren Enkel auf.",
+    "Answer": [ "Baka i djed čuvaju svojeg unuka." ]
+  },
+  {
+    "Question": "Der Opa geht mit seinem Enkel spazieren.",
+    "Answer": [ "Djed ide s unukom u šetnju." ]
+  },
+  {
+    "Question": "Die Oma liest dem Enkel Märchen vor.",
+    "Answer": ["Baka unuku čita bajke."]
+  }
+]

@@ -32,10 +32,9 @@
 
     <TabBar>
         <ShellContent
-            Title="About"
-            ContentTemplate="{DataTemplate local:AboutPage}"
-            Icon="icon_about.png"
-            Route="AboutPage" />
+            Title="Vokabular"
+            ContentTemplate="{DataTemplate local:VocabularyPage}"
+            Icon="icon_about.png"/>
         <ShellContent
             Title="Gramatika"
             ContentTemplate="{DataTemplate local:GrammarPage}"

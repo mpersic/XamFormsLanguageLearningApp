@@ -36,6 +36,9 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         public IGrammarService GrammarService => DependencyService.Get<IGrammarService>();
 
+        public IVocabularyService VocabularyService => DependencyService.Get<IVocabularyService>();
+
+
         public bool IsBusy
         {
             get { return isBusy; }

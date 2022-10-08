@@ -1,0 +1,54 @@
+[
+  {
+    "Question": "Wer ist dieser Mann?",
+    "Answer": [ "Tko je ovaj čovjek?" ]
+  },
+  {
+    "Question": "Was ist das?",
+    "Answer": [ "Što je to?" ]
+  },
+  {
+    "Question": "Was machst du?",
+    "Answer": [ "Što radiš?" ]
+  },
+  {
+    "Question": "Wessen Kind ist das?",
+    "Answer": [ "Čije je ovo dijete?" ]
+  },
+  {
+    "Question": "Wo wohnst du?",
+    "Answer": [ "Gdje živiš?" ]
+  },
+  {
+    "Question": "Wo bist du jetzt?",
+    "Answer": [ "Gdje si sada?" ]
+  },
+  {
+    "Question": "Wem gehört diese Jacke?",
+    "Answer": [ "Komu pripada ova jakna?" ]
+  },
+  {
+    "Question": "Wen liebst du am meisten?",
+    "Answer": [ "Koga voliš najviše?" ]
+  },
+  {
+    "Question": "Wohin gehst du?",
+    "Answer": [ "Kamo ideš?" ]
+  },
+  {
+    "Question": "Woher kommst du?",
+    "Answer": [ "Odakle si?" ]
+  },
+  {
+    "Question": "Wie heißt du?",
+    "Answer": [ "Kako se zoveš?" ]
+  },
+  {
+    "Question": "Wie alt bist du?",
+    "Answer": [ "Koliko imaš godina?" ]
+  },
+  {
+    "Question": "Wie geht es dir?",
+    "Answer": [ "Kako si?" ]
+  }
+]

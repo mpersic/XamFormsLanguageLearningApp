@@ -1,0 +1,62 @@
+[
+  {
+    "Question": "Das Mädchen kauft Lebensmittel ein.",
+    "Answer": [ "Djevojka kupuje namirnice." ]
+  },
+  {
+    "Question": "Marija putzt das Gemüse.",
+    "Answer": [ "Marija čisti povrće." ]
+  },
+  {
+    "Question": "Ana bereitet das Gemüse zu.",
+    "Answer": [ "Ana priprema povrće." ]
+  },
+  {
+    "Question": "Elena dünstet das Gemüse.",
+    "Answer": [ "Elena dinsta povrće." ]
+  },
+  {
+    "Question": "Mein Vater würzt das Fleisch.",
+    "Answer": [ "Moj otac začinjava meso." ]
+  },
+  {
+    "Question": "Die Köchin garniert das Fleisch mit Gemüse.",
+    "Answer": [ "Kuharica ukrašava meso povrćem." ]
+  },
+  {
+    "Question": "Die Köchin rührt die Suppe um.",
+    "Answer": [ "Kuharica miješa juhu." ]
+  },
+  {
+    "Question": "Meine Schwester salzt die Suppe.",
+    "Answer": [ "Moja sestra soli juhu." ]
+  },
+  {
+    "Question": "Mein Bruder würzt die Suppe.",
+    "Answer": [ "Brat začinjava juhu." ]
+  },
+  {
+    "Question": "Die Hausfrau bewahrt Fisch in der Tiefkühltruhe auf.",
+    "Answer": [ "Kućanica drži ribu u zamrzivaču." ]
+  },
+  {
+    "Question": "Die Köchin brät den Fisch in der Pfanne.",
+    "Answer": [ "Kuharica prži ribu u tavi." ]
+  },
+  {
+    "Question": "Die Köchin brät das Fleisch bei 160 Grad.",
+    "Answer": [ "Kuharica peče meso na 160 stupnjeva." ]
+  },
+  {
+    "Question": "Ana kocht die Kartoffeln etwa zwanzig Minuten.",
+    "Answer": [ "Ana kuha krumpir dvadesetak minuta." ]
+  },
+  {
+    "Question": "Ana schält die Kartoffeln mit einem Messer.",
+    "Answer": [ "Ana nožem guli krumpire." ]
+  },
+  {
+    "Question": "Nikolina füllt die Tortilla mit Hühnchen, Paprika, Mais, Salat und Bohnen.",
+    "Answer": [ "Nikolina puni tortillu piletinom, crvenom paprikom, kukuruzom, zelenom salatom i grahom." ]
+  }
+]

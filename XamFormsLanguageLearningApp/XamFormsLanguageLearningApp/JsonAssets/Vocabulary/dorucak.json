@@ -1,0 +1,42 @@
+[
+  {
+    "Question": "Die Studentin kauft in einer Bäckerei eine Brezel.",
+    "Answer": [ "Studentica kupuje perec u pekari." ]
+  },
+  {
+    "Question": "Der Vater schneidet das Brot.",
+    "Answer": [ "Otac reže kruh." ]
+  },
+  {
+    "Question": "Ana isst Müsli zum Frühstück.",
+    "Answer": [ "Ana jede pahuljice za doručak." ]
+  },
+  {
+    "Question": "Luka isst jeden Morgen Rührei.",
+    "Answer": [ "Luka jede kajganu svakog jutra." ]
+  },
+  {
+    "Question": "Marko hat Toast mit Marmelade zum Frühstück.",
+    "Answer": [ "Marko doručkuje tost s marmeladom." ]
+  },
+  {
+    "Question": "Anton isst Brot mit Butter und Honig.",
+    "Answer": [ "Anton jede kruh s maslacem i medom." ]
+  },
+  {
+    "Question": "Marin isst ein Sandwich mit Schinken und Käse.",
+    "Answer": [ "Marin jede sendvič sa šunkom i sirom." ]
+  },
+  {
+    "Question": "Josip isst ein Gebäck mit Salami.",
+    "Answer": [ "Josip jede pecivo sa salamom." ]
+  },
+  {
+    "Question": "Matej isst Toast mit Erdnussbutter.",
+    "Answer": [ "Matej jede tost s kikiriki maslacem." ]
+  },
+  {
+    "Question": "Nikolina isst jeden Morgen Haferflocken.",
+    "Answer": [ "Nikolina svako jutro jede zobene pahuljice." ]
+  }
+]
