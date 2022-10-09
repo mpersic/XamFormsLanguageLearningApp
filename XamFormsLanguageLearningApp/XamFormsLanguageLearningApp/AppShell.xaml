@@ -41,15 +41,8 @@
             Icon="icon_feed.png" />
         <ShellContent
             Title="Informacije"
-            ContentTemplate="{DataTemplate local:GrammarPage}"
+            ContentTemplate="{DataTemplate local:InformationPage}"
             Icon="icon_feed.png" />
     </TabBar>
 
-    <!--
-        If you would like to navigate to this content you can do so by calling
-        await Shell.Current.GoToAsync("//LoginPage");
-    -->
-    <TabBar>
-        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" Route="LoginPage" />
-    </TabBar>
 </Shell>

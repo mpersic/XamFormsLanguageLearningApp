@@ -20,13 +20,12 @@
             SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
+                    <StackLayout Margin="0,10,0,0" Spacing="0">
                         <Label
-                            TextColor="Black"
                             FontSize="16"
-                            LineBreakMode="NoWrap"
                             Style="{DynamicResource ListItemTextStyle}"
-                            Text="{Binding Intro}" />
+                            Text="{Binding Intro}"
+                            TextColor="Black" />
                         <FlexLayout
                             AutomationId="MessagesList"
                             BindableLayout.ItemsSource="{Binding GlagolPoLicima}"
@@ -36,11 +35,11 @@
                                 <DataTemplate>
                                     <Grid>
                                         <Label
-                                            TextColor="Black"
                                             FontAttributes="Bold"
                                             FontSize="16"
                                             HorizontalOptions="Start"
                                             Text="{Binding .}"
+                                            TextColor="Black"
                                             VerticalOptions="Center" />
                                     </Grid>
                                 </DataTemplate>
@@ -55,11 +54,11 @@
                                 <DataTemplate>
                                     <Grid MinimumHeightRequest="60">
                                         <Label
-                                            TextColor="Black"
                                             FontAttributes="Bold"
                                             FontSize="16"
                                             HorizontalOptions="Start"
                                             Text="{Binding .}"
+                                            TextColor="Black"
                                             VerticalOptions="Center" />
                                     </Grid>
                                 </DataTemplate>
@@ -80,12 +79,12 @@
                 </DataTemplate>
             </CollectionView.FooterTemplate>
         </CollectionView>
-        <!--<Button
-            Grid.Row="0"
+        <Button
+            Grid.Row="1"
             Margin="10"
             HeightRequest="50"
             HorizontalOptions="End"
             Text="Dovrši"
-            VerticalOptions="End" />-->
+            VerticalOptions="End" />
     </Grid>
 </ContentPage>

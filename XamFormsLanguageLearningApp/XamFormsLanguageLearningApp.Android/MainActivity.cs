@@ -5,6 +5,7 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 using Android.Gms.Ads;
+using Plugin.LocalNotification;
 
 namespace XamFormsLanguageLearningApp.Droid
 {
@@ -23,6 +24,8 @@ namespace XamFormsLanguageLearningApp.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            LocalNotificationCenter.CreateNotificationChannel();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             MobileAds.Initialize(ApplicationContext);

@@ -14,10 +14,10 @@
                 VerticalOptions="Center">
                 <StackLayout Spacing="10">
                     <Label
-                        TextColor="Black"
                         Margin="5,0"
                         HorizontalTextAlignment="Center"
-                        Text="Želite li pokrenuti novu lekciju ili uvježbavati gradivo?" />
+                        Text="Želite li pokrenuti novu lekciju ili uvježbavati gradivo?"
+                        TextColor="Black" />
                     <StackLayout
                         Margin="0,5,0,0"
                         HorizontalOptions="Center"

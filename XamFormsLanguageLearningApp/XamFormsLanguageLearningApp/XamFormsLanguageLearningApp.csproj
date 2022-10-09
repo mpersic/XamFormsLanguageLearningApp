@@ -123,6 +123,7 @@
   <ItemGroup>
     <PackageReference Include="MarcTron.Admob" Version="1.6.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.LocalNotification" Version="10.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -141,6 +142,9 @@
     </Compile>
     <Compile Update="Modules\Grammar\UnitSelection\GrammarUnitSelectionPage.xaml.cs">
       <DependentUpon>GrammarUnitSelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Modules\Information\InformationPage.xaml.cs">
+      <DependentUpon>InformationPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Modules\Vocabulary\Exam\VocabularyExamPage.xaml.cs">
       <DependentUpon>VocabularyExamPage.xaml</DependentUpon>

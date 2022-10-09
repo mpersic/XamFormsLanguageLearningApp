@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -19,38 +20,47 @@ namespace XamFormsLanguageLearningApp.ViewModels
     {
         #region Fields
 
-        private List<string> _correctAnswersCollection;
-        private bool _isReading;
-        private string _name;
         private ExamState _examState;
-        private string correctAnswer;
-        private int correctAnswers;
-        private int currentQuestion;
-        private string currentScore;
-        private bool examIsCompleted;
-        private bool examIsVisible;
-        private string examName;
-        private ExamState examState;
-        private string name;
-        private bool promptForExamIsVisible;
-        private bool revisionIsVisible;
-        private bool showFinalScore;
-        private string userAnswer;
-        private string visibleQuestion;
+        private CancellationTokenSource _cts;
+        private bool _isReading;
+        private bool _examIsCompleted;
+        private bool _examIsVisible;
+        private bool _promptForExamIsVisible;
+        private bool _revisionIsVisible;
+        private bool _showFinalScore;
+        private string _name;
+        private string _correctAnswer;
+        private string _currentScore;
+        private string _examName;
+        private string _userAnswer;
+        private string _visibleQuestion;
+        private int _correctAnswers;
+        private int _currentQuestion;
+        private List<string> _correctAnswersCollection;
 
         #endregion Fields
 
+        #region Constructors
         public VocabularyExamViewModel()
         {
             CheckAnswerCommand = new Command(CheckAnwser);
             GoToTestCommand = new Command(GoToTest);
             GoToRevisionCommand = new Command(GoToRevision);
             GoToHomePageCommand = new Command(GoToHomePage);
-            _correctAnswersCollection = new List<string>();
+            ReadTextCommand = new Command(async () => await ReadTextAsync());
+
             ActiveQuestion = new ObservableCollection<WordExplanation>();
             GrammarExamples = new ObservableCollection<WordExplanation>();
             Questions = new ObservableCollection<VocabularyQuestionAnswerObj>();
+
+            _correctAnswersCollection = new List<string>();
         }
+
+        #endregion
+
+        #region Properties
+
+        #region BindableProperties
 
         public string Name
         {
@@ -65,57 +75,87 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        #region Properties
-
-        public Command CheckAnswerCommand { get; }
-
         public string CorrectAnswer
         {
-            get => correctAnswer;
-            set => SetProperty(ref correctAnswer, value);
+            get => _correctAnswer;
+            set => SetProperty(ref _correctAnswer, value);
         }
 
         public int CorrectAnswers
         {
-            get => correctAnswers;
-            set => SetProperty(ref correctAnswers, value);
+            get => _correctAnswers;
+            set => SetProperty(ref _correctAnswers, value);
         }
 
         public int CurrentQuestion
         {
-            get => currentQuestion;
-            set => SetProperty(ref currentQuestion, value);
+            get => _currentQuestion;
+            set => SetProperty(ref _currentQuestion, value);
         }
 
         public string CurrentScore
         {
-            get => currentScore;
-            set => SetProperty(ref currentScore, value);
+            get => _currentScore;
+            set => SetProperty(ref _currentScore, value);
         }
 
         public bool ExamIsCompleted
         {
-            get => examIsCompleted;
-            set => SetProperty(ref examIsCompleted, value);
+            get => _examIsCompleted;
+            set => SetProperty(ref _examIsCompleted, value);
         }
 
         public bool ExamIsVisible
         {
-            get => examIsVisible;
-            set => SetProperty(ref examIsVisible, value);
+            get => _examIsVisible;
+            set => SetProperty(ref _examIsVisible, value);
         }
 
         public string ExamName
         {
-            get => examName;
-            set => SetProperty(ref examName, value);
+            get => _examName;
+            set => SetProperty(ref _examName, value);
         }
 
         public ExamState ExamState
         {
-            get => examState;
-            set => SetProperty(ref examState, value);
+            get => _examState;
+            set => SetProperty(ref _examState, value);
         }
+
+        public bool PromptForExamIsVisible
+        {
+            get => _promptForExamIsVisible;
+            set => SetProperty(ref _promptForExamIsVisible, value);
+        }
+
+        public bool RevisionIsVisible
+        {
+            get => _revisionIsVisible;
+            set => SetProperty(ref _revisionIsVisible, value);
+        }
+
+        public bool ShowFinalScore
+        {
+            get => _showFinalScore;
+            set => SetProperty(ref _showFinalScore, value);
+        }
+
+        public string UserAnswer
+        {
+            get => _userAnswer;
+            set => SetProperty(ref _userAnswer, value);
+        }
+
+        public string VisibleQuestion
+        {
+            get => _visibleQuestion;
+            set => SetProperty(ref _visibleQuestion, value);
+        }
+
+        #endregion
+        
+        #region Commands
 
         public Command GoToHomePageCommand { get; }
 
@@ -123,45 +163,56 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         public Command GoToTestCommand { get; }
 
-        public bool PromptForExamIsVisible
-        {
-            get => promptForExamIsVisible;
-            set => SetProperty(ref promptForExamIsVisible, value);
-        }
-
         public Command ReadTextCommand { get; }
-
-        public bool RevisionIsVisible
-        {
-            get => revisionIsVisible;
-            set => SetProperty(ref revisionIsVisible, value);
-        }
 
         public Command ShowAdditionalInfoCommand { get; }
 
-        public bool ShowFinalScore
-        {
-            get => showFinalScore;
-            set => SetProperty(ref showFinalScore, value);
-        }
+        public Command CheckAnswerCommand { get; }
 
-        public string UserAnswer
-        {
-            get => userAnswer;
-            set => SetProperty(ref userAnswer, value);
-        }
+        #endregion
 
-        public string VisibleQuestion
-        {
-            get => visibleQuestion;
-            set => SetProperty(ref visibleQuestion, value);
-        }
+        #region ObservableCollections
 
         private ObservableCollection<WordExplanation> ActiveQuestion { get; }
         private ObservableCollection<WordExplanation> GrammarExamples { get; }
         private ObservableCollection<VocabularyQuestionAnswerObj> Questions { get; }
 
+        #endregion
+
         #endregion Properties
+
+        #region Methods
+
+        public async Task ReadTextAsync()
+        {
+            try
+            {
+                if (_isReading)
+                {
+                    return;
+                }
+                _isReading = true;
+                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync();
+                var german = locales.FirstOrDefault(l => l.Country == "de_DE");
+                _cts = new CancellationTokenSource();
+                await TextToSpeech.SpeakAsync(
+                    VisibleQuestion,
+                    new SpeechOptions
+                    {
+                        Locale = locales.FirstOrDefault(l => l.Country == "DEU")
+                    }
+                    , cancelToken: _cts.Token);
+
+                // This method will block until utterance finishes.
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                _isReading = false;
+            }
+        }
 
 
         private void GoToRevision()
@@ -234,13 +285,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             {
                 VisibleQuestion = "";
                 CurrentQuestion++;
-                //foreach (var question in Questions[CurrentQuestion].Question)
-                //{
-                //    VisibleQuestion += question;
-                //    //Question.Add(question);
-                //}
                 VisibleQuestion = Questions[CurrentQuestion].Question;
-                //InitializeQuestionEvent?.Invoke();
                 _correctAnswersCollection = Questions[CurrentQuestion].Answer;
                 CorrectAnswer = Questions[CurrentQuestion].Answer.First();
             }
@@ -270,23 +315,12 @@ namespace XamFormsLanguageLearningApp.ViewModels
             try
             {
                 IsBusy = true;
-                //GradedUnits.Clear();
-                //var assembly = typeof(VocabularyExamPage).GetTypeInfo().Assembly;
-                //var questionAnswersObjs = VocabularyService.GetQuestions(assembly, name);
-                //var gradedUnits = new List<GradedUnit>(
-                //    grammarUnits.Select(unit => new GradedUnit(unit)).ToList());
-
                 var substringAfterNumber = name.Split('.').Last();
                 Title = substringAfterNumber.Split('-').First();
 
                 ExamState = ExamState.Prompt;
                 ExamName = name.Split(' ').Last();
                 ProcessExamState();
-
-                //foreach (var questionAnswerObj in questionAnswersObjs)
-                //{
-                //    Questions.Add(questionAnswerObj);
-                //}
                 IsBusy = false;
             }
             catch (Exception)
@@ -295,7 +329,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        public async void ProcessExamState()
+        public void ProcessExamState()
         {
             switch (ExamState)
             {
@@ -312,7 +346,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                     ExamIsVisible = true;
                     RevisionIsVisible = false;
                     ExamIsCompleted = false;
-                    await LoadAndInitializeExam();
+                    LoadAndInitializeExam();
                     break;
 
                 case ExamState.Revise:
@@ -321,7 +355,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                     ExamIsVisible = false;
                     RevisionIsVisible = true;
                     ExamIsCompleted = false;
-                    await LoadAndInitializeExam();
+                    LoadAndInitializeExam();
                     break;
 
                 case ExamState.Final:
@@ -340,7 +374,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        private async Task LoadAndInitializeExam()
+        private void LoadAndInitializeExam()
         {
             try
             {
@@ -364,11 +398,6 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 }
 
                 CurrentQuestion = 0;
-                //foreach (var question in Questions[CurrentQuestion].Question)
-                //{
-                //    VisibleQuestion += question;
-                //}
-                //}
                 VisibleQuestion = Questions[CurrentQuestion].Question;
                 CorrectAnswer = Questions[CurrentQuestion].Answer.First();
             }
@@ -378,7 +407,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-
+        #endregion
 
     }
 }

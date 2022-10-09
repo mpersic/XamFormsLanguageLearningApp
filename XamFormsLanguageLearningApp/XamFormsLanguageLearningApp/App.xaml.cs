@@ -2,7 +2,6 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamFormsLanguageLearningApp.Services;
-using XamFormsLanguageLearningApp.Services.DataStore;
 using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp
@@ -15,7 +14,6 @@ namespace XamFormsLanguageLearningApp
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             DependencyService.Register<GrammarService>();
             DependencyService.Register<VocabularyService>();
             MainPage = new AppShell();

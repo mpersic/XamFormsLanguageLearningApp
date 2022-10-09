@@ -31,7 +31,6 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
             ItemTapped = new Command<Unit>(OnItemSelected);
 
-            AddItemCommand = new Command(OnAddItem);
         }
 
         #endregion Constructors
@@ -40,7 +39,6 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         #region Properties
 
-        public Command AddItemCommand { get; }
         public ObservableCollection<Unit> Items { get; }
         public Command<Unit> ItemTapped { get; }
         public Command LoadItemsCommand { get; }
@@ -92,10 +90,6 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        private async void OnAddItem(object obj)
-        {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
-        }
 
         private async void OnItemSelected(Unit item)
         {

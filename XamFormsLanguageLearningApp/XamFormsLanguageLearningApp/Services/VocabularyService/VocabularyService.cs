@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using XamFormsLanguageLearningApp.Extensions;
 using XamFormsLanguageLearningApp.Models;
 using XamFormsLanguageLearningApp.Models.Units;
 
@@ -27,7 +28,16 @@ namespace XamFormsLanguageLearningApp
                 var json = reader.ReadToEnd();
                 list = JsonConvert.DeserializeObject<List<VocabularyQuestionAnswerObj>>(json);
             }
-            return list;
+            if (!name.Contains("revise"))
+            {
+                list.Shuffle();
+            }
+            if (list.Count < 10)
+            {
+                throw new Exception("Not enough items in this unit!");
+            }
+            var tenExams = list.Take(10).ToList();
+            return tenExams;
         }
 
         private string ProcessNonEnglishCharacterRevision(string name)
