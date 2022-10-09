@@ -7,8 +7,6 @@ using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
 using XamFormsLanguageLearningApp.Models;
-using XamFormsLanguageLearningApp.Services.DataStore;
-
 namespace XamFormsLanguageLearningApp.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
@@ -31,8 +29,6 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
 
         #region Properties
-
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
         public IGrammarService GrammarService => DependencyService.Get<IGrammarService>();
 
