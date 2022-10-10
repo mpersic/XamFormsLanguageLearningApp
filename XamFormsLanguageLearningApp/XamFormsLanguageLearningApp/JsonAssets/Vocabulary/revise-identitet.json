@@ -1,46 +1,404 @@
 [
   {
     "Question": "Mein Name ist Luka.",
-    "Answer": [ "Moje ime je Luka." ]
+    "Answer": [ "Moje ime je Luka." ],
+    "WordExplanations": [
+      {
+        "Explanation": "moj",
+        "Word": "Mein"
+      },
+      {
+        "Explanation": "bla",
+        "Word": " name"
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": " ist"
+      },
+      {
+        "Explanation": "",
+        "Word": " Luka."
+      }
+    ]
   },
   {
     "Question": "Ich heiße Ana.",
-    "Answer": [ "Zovem se Ana." ]
+    "Answer": [ "Zovem se Ana." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich lebe in Deutschland.",
-    "Answer": [ "Živim u Njemačkoj." ]
+    "Answer": [ "Živim u Njemačkoj." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich komme aus Kroatien.",
-    "Answer": [ "Dolazim iz Hrvatske." ]
+    "Answer": [ "Dolazim iz Hrvatske." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich bin zwanzig Jahre alt.",
-    "Answer": [ "Imam dvadeset godina." ]
+    "Answer": [ "Imam dvadeset godina." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich bin Lehrerin von Beruf.",
-    "Answer": [ "Po zanimanju sam učiteljica." ]
+    "Answer": [ "Po zanimanju sam učiteljica." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich habe zwei Kinder.",
-    "Answer": [ "Imam dvoje djece." ]
+    "Answer": [ "Imam dvoje djece." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich komme aus Deutschland.",
-    "Answer": [ "Ja dolazim iz Njemačke." ]
+    "Answer": [ "Ja dolazim iz Njemačke." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich bin Tom.",
-    "Answer": [ "Ja sam Tom." ]
+    "Answer": [ "Ja sam Tom." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich bin einzelkind.",
-    "Answer": ["Ja sam jedinac."]
+    "Answer": [ "Ja sam jedinac." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   },
   {
     "Question": "Ich wohne in Berlin.",
-    "Answer": [ "Živim u Berlinu." ]
+    "Answer": [ "Živim u Berlinu." ],
+    "WordExplanations": [
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      },
+      {
+        "Explanation": "bla",
+        "Word": "bla"
+      }
+    ]
   }
 ]

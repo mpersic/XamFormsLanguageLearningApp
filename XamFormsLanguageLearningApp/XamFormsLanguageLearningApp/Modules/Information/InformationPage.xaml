@@ -3,20 +3,26 @@
     x:Class="XamFormsLanguageLearningApp.Views.InformationPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effects="clr-namespace:XamFormsLanguageLearningApp.Effects"
     xmlns:local="clr-namespace:XamFormsLanguageLearningApp.ViewModels"
     Title="Informacije">
 
-    <StackLayout>
+    <StackLayout
+        x:Name="mainLayout">
         <Label
-        FontSize="16"
-        HorizontalOptions="Center"
-        Style="{DynamicResource ListItemTextStyle}"
-        Text="Coming soon ;)"
-        TextColor="Black"
-        VerticalOptions="Center" />
-        <Button 
-            Clicked="Button_Clicked"
-            Text="Schedule notification"/>
+            FontSize="16"
+            HorizontalOptions="Center"
+            Style="{DynamicResource ListItemTextStyle}"
+            Text="Coming soon ;)"
+            TextColor="Black"
+            VerticalOptions="Center" />
+        <Button Clicked="Button_Clicked" Text="Schedule notification" />
+        <Button Clicked="Button_Clicked_1"
+                effects:TooltipEffect.Position="Bottom"
+                effects:TooltipEffect.BackgroundColor="Silver"
+                effects:TooltipEffect.TextColor="Teal"
+                effects:TooltipEffect.Text="Here is a sample text for this tool tip that can help us later, here is more text to showcase the tooltip bottom"
+                effects:TooltipEffect.HasTooltip="True"
+                Text="Tooltip" />
     </StackLayout>
-   
 </ContentPage>

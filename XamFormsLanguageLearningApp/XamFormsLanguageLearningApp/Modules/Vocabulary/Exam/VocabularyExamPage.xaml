@@ -3,14 +3,14 @@
     x:Class="XamFormsLanguageLearningApp.Views.VocabularyExamPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effect="clr-namespace:XamFormsLanguageLearningApp.Effects"
     xmlns:local="clr-namespace:XamFormsLanguageLearningApp.ViewModels"
     xmlns:model="clr-namespace:XamFormsLanguageLearningApp.Models"
-    x:Name="GrammarUnitSelection"
+    x:Name="ExamPageName"
     Title="{Binding Title}"
     Shell.TabBarIsVisible="False">
 
     <Grid>
-
         <!--  Prompt for exam state  -->
         <Frame
             Margin="10,0"
@@ -73,24 +73,59 @@
                     Text="Provjera"
                     VerticalOptions="End" />
             </StackLayout>
-
         </StackLayout>
 
         <!--  Revision visible state  -->
         <StackLayout
+            x:Name="tooltipStackLayout"
             Margin="20"
             HorizontalOptions="FillAndExpand"
             IsVisible="{Binding RevisionIsVisible}"
-            Orientation="Vertical"
-            VerticalOptions="FillAndExpand">
-            <Label
-                Margin="0,0,0,10"
-                FontAttributes="Bold"
-                FontSize="Medium"
+            Orientation="Vertical">
+
+            <effect:AwesomeWrappanel
+                x:Name="MyWarappicek"
                 HorizontalOptions="Start"
-                Text="{Binding VisibleQuestion}"
-                TextColor="Black"
-                VerticalOptions="Center" />
+                Orientation="Horizontal"
+                VerticalOptions="Start">
+                <!--<effect:AwesomeWrappanel.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </effect:AwesomeWrappanel.GestureRecognizers>-->
+                <Label
+                    x:Name="clickableLabel1"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start" />
+            </effect:AwesomeWrappanel>
+
+            <!--<FlexLayout
+                AlignContent="Start"
+                AutomationId="WordExplanationFlexLayout"
+                BackgroundColor="Yellow"
+                BindableLayout.ItemsSource="{Binding WordExplanations}"
+                Direction="Row"
+                HorizontalOptions="FillAndExpand"
+                JustifyContent="Start"
+                VerticalOptions="Start"
+                Wrap="NoWrap">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Label
+                                BackgroundColor="Red"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                HorizontalOptions="Start"
+                                LineBreakMode="WordWrap"
+                                Text="{Binding Word}"
+                                TextColor="Black"
+                                VerticalOptions="Start" />
+                        </Grid>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </FlexLayout>-->
+
             <Button
                 Command="{Binding ReadTextCommand}"
                 HorizontalOptions="Start"
@@ -102,7 +137,7 @@
                 HorizontalOptions="Start"
                 Text="{Binding CorrectAnswer}"
                 TextColor="Black"
-                VerticalOptions="Center" />
+                VerticalOptions="Start" />
             <Button
                 Command="{Binding CheckAnswerCommand}"
                 HorizontalOptions="Center"
@@ -131,8 +166,5 @@
                     Text="Povratak na početnu stranicu" />
             </StackLayout>
         </Frame>
-
     </Grid>
-
-
 </ContentPage>

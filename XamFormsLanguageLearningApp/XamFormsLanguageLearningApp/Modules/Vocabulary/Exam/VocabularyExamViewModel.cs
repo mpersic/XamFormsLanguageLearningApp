@@ -20,27 +20,30 @@ namespace XamFormsLanguageLearningApp.ViewModels
     {
         #region Fields
 
-        private ExamState _examState;
+        public List<WordExplanation> _wordExplanations;
+        private WordExplanation _activeWordExplanation;
+        private string _correctAnswer;
+        private int _correctAnswers;
+        private List<string> _correctAnswersCollection;
         private CancellationTokenSource _cts;
-        private bool _isReading;
+        private int _currentQuestion;
+        private string _currentScore;
         private bool _examIsCompleted;
         private bool _examIsVisible;
+        private string _examName;
+        private ExamState _examState;
+        private bool _isReading;
+        private string _name;
         private bool _promptForExamIsVisible;
         private bool _revisionIsVisible;
         private bool _showFinalScore;
-        private string _name;
-        private string _correctAnswer;
-        private string _currentScore;
-        private string _examName;
         private string _userAnswer;
         private string _visibleQuestion;
-        private int _correctAnswers;
-        private int _currentQuestion;
-        private List<string> _correctAnswersCollection;
 
         #endregion Fields
 
         #region Constructors
+
         public VocabularyExamViewModel()
         {
             CheckAnswerCommand = new Command(CheckAnwser);
@@ -52,28 +55,33 @@ namespace XamFormsLanguageLearningApp.ViewModels
             ActiveQuestion = new ObservableCollection<WordExplanation>();
             GrammarExamples = new ObservableCollection<WordExplanation>();
             Questions = new ObservableCollection<VocabularyQuestionAnswerObj>();
+            WordExplanations = new ObservableCollection<WordExplanation>();
 
+            _wordExplanations = new List<WordExplanation>();
             _correctAnswersCollection = new List<string>();
         }
 
-        #endregion
+        #endregion Constructors
+
+
+
+        #region Delegates
+
+        public delegate void InitializeQuestion();
+
+        #endregion Delegates
+
+        #region Events
+
+        public event InitializeQuestion InitializeQuestionEvent;
+
+        #endregion Events
+
+
 
         #region Properties
 
-        #region BindableProperties
-
-        public string Name
-        {
-            get
-            {
-                return _name;
-            }
-            set
-            {
-                _name = value;
-                LoadName(value);
-            }
-        }
+        public Command CheckAnswerCommand { get; }
 
         public string CorrectAnswer
         {
@@ -123,17 +131,40 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _examState, value);
         }
 
+        public Command GoToHomePageCommand { get; }
+
+        public Command GoToRevisionCommand { get; }
+
+        public Command GoToTestCommand { get; }
+
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+                LoadName(value);
+            }
+        }
+
         public bool PromptForExamIsVisible
         {
             get => _promptForExamIsVisible;
             set => SetProperty(ref _promptForExamIsVisible, value);
         }
 
+        public Command ReadTextCommand { get; }
+
         public bool RevisionIsVisible
         {
             get => _revisionIsVisible;
             set => SetProperty(ref _revisionIsVisible, value);
         }
+
+        public Command ShowAdditionalInfoCommand { get; }
 
         public bool ShowFinalScore
         {
@@ -153,162 +184,17 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _visibleQuestion, value);
         }
 
-        #endregion
-        
-        #region Commands
-
-        public Command GoToHomePageCommand { get; }
-
-        public Command GoToRevisionCommand { get; }
-
-        public Command GoToTestCommand { get; }
-
-        public Command ReadTextCommand { get; }
-
-        public Command ShowAdditionalInfoCommand { get; }
-
-        public Command CheckAnswerCommand { get; }
-
-        #endregion
-
-        #region ObservableCollections
-
+        public ObservableCollection<WordExplanation> WordExplanations { get; }
         private ObservableCollection<WordExplanation> ActiveQuestion { get; }
         private ObservableCollection<WordExplanation> GrammarExamples { get; }
-        private ObservableCollection<VocabularyQuestionAnswerObj> Questions { get; }
 
-        #endregion
+        private ObservableCollection<VocabularyQuestionAnswerObj> Questions { get; }
 
         #endregion Properties
 
+
+
         #region Methods
-
-        public async Task ReadTextAsync()
-        {
-            try
-            {
-                if (_isReading)
-                {
-                    return;
-                }
-                _isReading = true;
-                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync();
-                var german = locales.FirstOrDefault(l => l.Country == "de_DE");
-                _cts = new CancellationTokenSource();
-                await TextToSpeech.SpeakAsync(
-                    VisibleQuestion,
-                    new SpeechOptions
-                    {
-                        Locale = locales.FirstOrDefault(l => l.Country == "DEU")
-                    }
-                    , cancelToken: _cts.Token);
-
-                // This method will block until utterance finishes.
-            }
-            catch (Exception ex)
-            {
-            }
-            finally
-            {
-                _isReading = false;
-            }
-        }
-
-
-        private void GoToRevision()
-        {
-            ExamState = ExamState.Revise;
-            ProcessExamState();
-        }
-
-        private void GoToTest()
-        {
-            ExamState = ExamState.Enter;
-            ProcessExamState();
-        }
-
-        private async void GoToHomePage()
-        {
-            await Shell.Current.GoToAsync("..");
-        }
-
-        private async void CheckAnwser()
-        {
-            if (ExamState.Equals(ExamState.Revise))
-            {
-                NextQuestion();
-                return;
-            }
-
-            if (UserAnswer.Length == 0)
-            {
-                return;
-            }
-            if (CheckIfAnswerIsValid())
-            {
-                CorrectAnswers++;
-                CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
-                await Shell.Current.DisplayAlert("Bravo", "Točan odgovor!", "OK");
-            }
-            else
-            {
-                await Shell.Current.DisplayAlert("Ups", "Netočan odgovor.", "OK");
-            }
-            UserAnswer = string.Empty;
-            NextQuestion();
-        }
-
-        private bool CheckIfAnswerIsValid()
-        {
-            return _correctAnswersCollection.Contains(UserAnswer);
-        }
-
-        private void NextQuestion()
-        {
-            if (CanGoToNextQuestion())
-            {
-                SetUpQuestion();
-            }
-            else
-            {
-                ShowFinalScreen();
-            }
-        }
-        private bool CanGoToNextQuestion()
-        {
-            return (CurrentQuestion) < Questions.Count - 1;
-        }
-
-        private void SetUpQuestion()
-        {
-            try
-            {
-                VisibleQuestion = "";
-                CurrentQuestion++;
-                VisibleQuestion = Questions[CurrentQuestion].Question;
-                _correctAnswersCollection = Questions[CurrentQuestion].Answer;
-                CorrectAnswer = Questions[CurrentQuestion].Answer.First();
-            }
-            catch (Exception ex)
-            {
-                ShowFinalScreen();
-            }
-        }
-
-        private void ShowFinalScreen()
-        {
-            if (ExamState.Equals(ExamState.Enter))
-            {
-                SaveFinalScore();
-            }
-            ExamState = ExamState.Final;
-            ProcessExamState();
-        }
-
-        private void SaveFinalScore()
-        {
-            Preferences.Set(ExamName, $"{CorrectAnswers}/{Questions.Count}");
-        }
 
         public void LoadName(string name)
         {
@@ -374,6 +260,90 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
+        public async Task ReadTextAsync()
+        {
+            try
+            {
+                if (_isReading)
+                {
+                    return;
+                }
+                _isReading = true;
+                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync();
+                var german = locales.FirstOrDefault(l => l.Country == "de_DE");
+                _cts = new CancellationTokenSource();
+                await TextToSpeech.SpeakAsync(
+                    VisibleQuestion,
+                    new SpeechOptions
+                    {
+                        Locale = locales.FirstOrDefault(l => l.Country == "DEU")
+                    }
+                    , cancelToken: _cts.Token);
+
+                // This method will block until utterance finishes.
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                _isReading = false;
+            }
+        }
+
+        private bool CanGoToNextQuestion()
+        {
+            return (CurrentQuestion) < Questions.Count - 1;
+        }
+
+        private async void CheckAnwser()
+        {
+            if (ExamState.Equals(ExamState.Revise))
+            {
+                NextQuestion();
+                return;
+            }
+
+            if (UserAnswer.Length == 0)
+            {
+                return;
+            }
+            if (CheckIfAnswerIsValid())
+            {
+                CorrectAnswers++;
+                CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
+                await Shell.Current.DisplayAlert("Bravo", "Točan odgovor!", "OK");
+            }
+            else
+            {
+                await Shell.Current.DisplayAlert("Ups", "Netočan odgovor.", "OK");
+            }
+            UserAnswer = string.Empty;
+            NextQuestion();
+        }
+
+        private bool CheckIfAnswerIsValid()
+        {
+            return _correctAnswersCollection.Contains(UserAnswer);
+        }
+
+        private async void GoToHomePage()
+        {
+            await Shell.Current.GoToAsync("..");
+        }
+
+        private void GoToRevision()
+        {
+            ExamState = ExamState.Revise;
+            ProcessExamState();
+        }
+
+        private void GoToTest()
+        {
+            ExamState = ExamState.Enter;
+            ProcessExamState();
+        }
+
         private void LoadAndInitializeExam()
         {
             try
@@ -399,6 +369,13 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
                 CurrentQuestion = 0;
                 VisibleQuestion = Questions[CurrentQuestion].Question;
+                WordExplanations.Clear();
+                foreach (var wordExplanation in Questions[CurrentQuestion].WordExplanations)
+                {
+                    WordExplanations.Add(wordExplanation);
+                }
+                //WordExplanations = Questions[CurrentQuestion].WordExplanations;
+                InitializeQuestionEvent?.Invoke();
                 CorrectAnswer = Questions[CurrentQuestion].Answer.First();
             }
             catch (Exception ex)
@@ -407,7 +384,51 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        #endregion
+        private void NextQuestion()
+        {
+            if (CanGoToNextQuestion())
+            {
+                SetUpQuestion();
+            }
+            else
+            {
+                ShowFinalScreen();
+            }
+        }
 
+        private void SaveFinalScore()
+        {
+            Preferences.Set(ExamName, $"{CorrectAnswers}/{Questions.Count}");
+        }
+
+        private void SetUpQuestion()
+        {
+            try
+            {
+                VisibleQuestion = "";
+                CurrentQuestion++;
+                VisibleQuestion = Questions[CurrentQuestion].Question;
+                _wordExplanations = Questions[CurrentQuestion].WordExplanations;
+                InitializeQuestionEvent?.Invoke();
+                _correctAnswersCollection = Questions[CurrentQuestion].Answer;
+                CorrectAnswer = Questions[CurrentQuestion].Answer.First();
+            }
+            catch (Exception ex)
+            {
+                ShowFinalScreen();
+            }
+        }
+
+        private void ShowFinalScreen()
+        {
+            if (ExamState.Equals(ExamState.Enter))
+            {
+                SaveFinalScore();
+            }
+            ExamState = ExamState.Final;
+            ProcessExamState();
+        }
+
+        #endregion Methods
     }
 }

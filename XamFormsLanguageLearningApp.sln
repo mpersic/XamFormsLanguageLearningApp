@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsLanguageLearningApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsLanguageLearningApp.iOS", "XamFormsLanguageLearningApp\XamFormsLanguageLearningApp.iOS\XamFormsLanguageLearningApp.iOS.csproj", "{F7078921-3B12-4158-A86B-BC8F8F90FC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamFormsLanguageLearningApp", "XamFormsLanguageLearningApp\XamFormsLanguageLearningApp\XamFormsLanguageLearningApp.csproj", "{3F5B31E0-45EE-4806-A38C-451C369090C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamFormsLanguageLearningApp", "XamFormsLanguageLearningApp\XamFormsLanguageLearningApp\XamFormsLanguageLearningApp.csproj", "{3F5B31E0-45EE-4806-A38C-451C369090C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
