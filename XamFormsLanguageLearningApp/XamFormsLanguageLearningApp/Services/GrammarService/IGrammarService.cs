@@ -16,6 +16,8 @@ namespace LanguageLearningApp.Services
 
         List<GrammarExample> GetGrammarExamples(Assembly assembly, string name);
 
+        List<GrammarExamQuestion> GetGrammarExamQuestions(Assembly assembly, string name);
+
         List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName);
 
         List<Unit> GetUnits(Assembly assembly);

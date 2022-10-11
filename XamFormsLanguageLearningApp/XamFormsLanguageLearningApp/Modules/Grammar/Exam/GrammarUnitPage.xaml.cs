@@ -1,12 +1,17 @@
 ﻿using System.ComponentModel;
 using Xamarin.Forms;
-using XamFormsLanguageLearningApp.Modules.Grammar.UnitSelected.SelectedUnitExam;
 using XamFormsLanguageLearningApp.ViewModels;
 
 namespace XamFormsLanguageLearningApp
 {
     public partial class GrammarUnitPage : ContentPage
     {
+        #region Fields
+
+        private GrammarUnitViewModel _viewModel;
+
+        #endregion Fields
+
         #region Constructors
 
         public GrammarUnitPage()

@@ -5,86 +5,75 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using XamFormsLanguageLearningApp.Models;
-using XamFormsLanguageLearningApp.Models.Units;
-using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp.ViewModels
 {
     [QueryProperty(nameof(Name), nameof(Name))]
-    public class VocabularyExamViewModel : BaseViewModel
+    public class GrammarUnitViewModel : BaseViewModel
     {
         #region Fields
 
-        private string _correctAnswer;
+        private string _activeQuestionPart1;
+        private string _activeQuestionPart2;
+        private string _correctAnswer1;
+        private string _correctAnswer2;
         private int _correctAnswers;
-        private List<string> _correctAnswersCollection;
-        private CancellationTokenSource _cts;
         private int _currentQuestion;
         private string _currentScore;
         private bool _examIsCompleted;
         private bool _examIsVisible;
         private string _examName;
         private ExamState _examState;
-        private bool _isReading;
         private string _name;
         private bool _promptForExamIsVisible;
+        private bool _questionPart1Visible;
+        private bool _questionPart2Visible;
         private bool _revisionIsVisible;
         private bool _showFinalScore;
-        private string _userAnswer;
-        private string _visibleQuestion;
+        private string _userAnswer1;
+        private string _userAnswer2;
+        private bool _userInput1Visible;
+        private bool _userInput2Visible;
 
         #endregion Fields
 
         #region Constructors
 
-        public VocabularyExamViewModel()
+        public GrammarUnitViewModel()
         {
-            CheckAnswerCommand = new Command(CheckAnwser);
             GoToTestCommand = new Command(GoToTest);
+            CheckAnswerCommand = new Command(CheckAnwser);
             GoToRevisionCommand = new Command(GoToRevision);
             GoToHomePageCommand = new Command(GoToHomePage);
-            ReadTextCommand = new Command(async () => await ReadTextAsync());
 
-            ActiveQuestion = new ObservableCollection<WordExplanation>();
-            GrammarExamples = new ObservableCollection<WordExplanation>();
-            Questions = new ObservableCollection<VocabularyQuestionAnswerObj>();
-            WordExplanations = new ObservableCollection<WordExplanation>();
-
-            _correctAnswersCollection = new List<string>();
+            BindableGrammarExamQuestions = new ObservableCollection<BindableGrammarExamQuestion>();
+            GrammarExamples = new ObservableCollection<BindableGrammarExample>();
         }
 
         #endregion Constructors
 
 
 
-        #region Delegates
-
-        public delegate void InitializeQuestion();
-
-        #endregion Delegates
-
-        #region Events
-
-        public event InitializeQuestion InitializeQuestionEvent;
-
-        #endregion Events
-
-
-
         #region Properties
 
-        public Command CheckAnswerCommand { get; }
-
-        public string CorrectAnswer
+        public string ActiveQuestionPart1
         {
-            get => _correctAnswer;
-            set => SetProperty(ref _correctAnswer, value);
+            get => _activeQuestionPart1;
+            set => SetProperty(ref _activeQuestionPart1, value);
         }
+
+        public string ActiveQuestionPart2
+        {
+            get => _activeQuestionPart2;
+            set => SetProperty(ref _activeQuestionPart2, value);
+        }
+
+        public ObservableCollection<BindableGrammarExamQuestion> BindableGrammarExamQuestions { get; }
+
+        public Command CheckAnswerCommand { get; }
 
         public int CorrectAnswers
         {
@@ -134,6 +123,8 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         public Command GoToTestCommand { get; }
 
+        public ObservableCollection<BindableGrammarExample> GrammarExamples { get; }
+
         public string Name
         {
             get
@@ -153,7 +144,17 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _promptForExamIsVisible, value);
         }
 
-        public Command ReadTextCommand { get; }
+        public bool QuestionPart1Visible
+        {
+            get => _questionPart1Visible;
+            set => SetProperty(ref _questionPart1Visible, value);
+        }
+
+        public bool QuestionPart2Visible
+        {
+            get => _questionPart2Visible;
+            set => SetProperty(ref _questionPart2Visible, value);
+        }
 
         public bool RevisionIsVisible
         {
@@ -161,31 +162,35 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _revisionIsVisible, value);
         }
 
-        public Command ShowAdditionalInfoCommand { get; }
-
         public bool ShowFinalScore
         {
             get => _showFinalScore;
             set => SetProperty(ref _showFinalScore, value);
         }
 
-        public string UserAnswer
+        public string UserAnswer1
         {
-            get => _userAnswer;
-            set => SetProperty(ref _userAnswer, value);
+            get => _userAnswer1;
+            set => SetProperty(ref _userAnswer1, value);
         }
 
-        public string VisibleQuestion
+        public string UserAnswer2
         {
-            get => _visibleQuestion;
-            set => SetProperty(ref _visibleQuestion, value);
+            get => _userAnswer2;
+            set => SetProperty(ref _userAnswer2, value);
         }
 
-        public ObservableCollection<WordExplanation> WordExplanations { get; }
-        private ObservableCollection<WordExplanation> ActiveQuestion { get; }
-        private ObservableCollection<WordExplanation> GrammarExamples { get; }
+        public bool UserInput1Visible
+        {
+            get => _userInput1Visible;
+            set => SetProperty(ref _userInput1Visible, value);
+        }
 
-        private ObservableCollection<VocabularyQuestionAnswerObj> Questions { get; }
+        public bool UserInput2Visible
+        {
+            get => _userInput2Visible;
+            set => SetProperty(ref _userInput2Visible, value);
+        }
 
         #endregion Properties
 
@@ -198,6 +203,8 @@ namespace XamFormsLanguageLearningApp.ViewModels
             try
             {
                 IsBusy = true;
+                BindableGrammarExamQuestions.Clear();
+                GrammarExamples.Clear();
                 var substringAfterNumber = name.Split('.').Last();
                 Title = substringAfterNumber.Split('-').First();
 
@@ -238,7 +245,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                     ExamIsVisible = false;
                     RevisionIsVisible = true;
                     ExamIsCompleted = false;
-                    LoadAndInitializeExam();
+                    LoadAndInitializeRevision();
                     break;
 
                 case ExamState.Final:
@@ -257,71 +264,40 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        public async Task ReadTextAsync()
-        {
-            try
-            {
-                if (_isReading)
-                {
-                    return;
-                }
-                _isReading = true;
-                IEnumerable<Locale> locales = await TextToSpeech.GetLocalesAsync();
-                var german = locales.FirstOrDefault(l => l.Country == "de_DE");
-                _cts = new CancellationTokenSource();
-                await TextToSpeech.SpeakAsync(
-                    VisibleQuestion,
-                    new SpeechOptions
-                    {
-                        Locale = locales.FirstOrDefault(l => l.Country == "DEU")
-                    }
-                    , cancelToken: _cts.Token);
-
-                // This method will block until utterance finishes.
-            }
-            catch (Exception ex)
-            {
-            }
-            finally
-            {
-                _isReading = false;
-            }
-        }
-
         private bool CanGoToNextQuestion()
         {
-            return (CurrentQuestion) < Questions.Count - 1;
+            return (CurrentQuestion) < BindableGrammarExamQuestions.Count - 1;
         }
 
         private async void CheckAnwser()
         {
-            if (ExamState.Equals(ExamState.Revise))
-            {
-                NextQuestion();
-                return;
-            }
-
-            if (UserAnswer.Length == 0)
+            if (UserAnswer1.Length == 0 && UserAnswer2.Length == 0)
             {
                 return;
             }
             if (CheckIfAnswerIsValid())
             {
                 CorrectAnswers++;
-                CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
+                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
                 await Shell.Current.DisplayAlert("Bravo", "Točan odgovor!", "OK");
             }
             else
             {
                 await Shell.Current.DisplayAlert("Ups", "Netočan odgovor.", "OK");
             }
-            UserAnswer = string.Empty;
+            CleanUserInputs();
             NextQuestion();
         }
 
         private bool CheckIfAnswerIsValid()
         {
-            return _correctAnswersCollection.Contains(UserAnswer);
+            return _correctAnswer1.Equals(UserAnswer1) && _correctAnswer2.Equals(UserAnswer2);
+        }
+
+        private void CleanUserInputs()
+        {
+            UserAnswer1 = string.Empty;
+            UserAnswer2 = string.Empty;
         }
 
         private async void GoToHomePage()
@@ -349,35 +325,46 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 {
                     ExamName = $"revise-{ExamName}";
                 }
-                var assembly = typeof(VocabularyExamPage).GetTypeInfo().Assembly;
-                Questions.Clear();
-                var questionAnswersObjs = VocabularyService.GetQuestions(assembly, ExamName);
-                foreach (var questionAnswerObj in questionAnswersObjs)
+                var assembly = typeof(GrammarUnitPage).GetTypeInfo().Assembly;
+                var grammarExamQuestions = GrammarService.GetGrammarExamQuestions(assembly, ExamName);
+                foreach (var examQuestion in grammarExamQuestions)
                 {
-                    Questions.Add(questionAnswerObj);
+                    BindableGrammarExamQuestions.Add(new BindableGrammarExamQuestion(examQuestion));
                 }
 
-                if (ExamState.Equals(ExamState.Enter))
-                {
-                    UserAnswer = string.Empty;
-                    CorrectAnswers = 0;
-                    CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
-                }
+                CleanUserInputs();
 
                 CurrentQuestion = 0;
-                VisibleQuestion = Questions[CurrentQuestion].Question;
-                WordExplanations.Clear();
-                foreach (var wordExplanation in Questions[CurrentQuestion].WordExplanations)
-                {
-                    WordExplanations.Add(wordExplanation);
-                }
-                //WordExplanatios = Questions[CurrentQuestion].WordExplanations;
-                InitializeQuestionEvent?.Invoke();
-                CorrectAnswer = Questions[CurrentQuestion].Answer.First();
+                CorrectAnswers = 0;
+                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
+
+                SetupQuestionAndAnswer();
             }
             catch (Exception ex)
             {
                 GoToHomePage();
+            }
+        }
+
+        private void LoadAndInitializeRevision()
+        {
+            try
+            {
+                IsBusy = true;
+                GrammarExamples.Clear();
+                var assembly = typeof(GrammarUnitPage).GetTypeInfo().Assembly;
+                var grammarExamples = GrammarService.GetGrammarExamples(assembly, ExamName);
+                foreach (var grammarExample in grammarExamples)
+                {
+                    GrammarExamples.Add(new BindableGrammarExample(grammarExample));
+                }
+            }
+            catch (Exception)
+            {
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
 
@@ -395,29 +382,41 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         private void SaveFinalScore()
         {
-            Preferences.Set(ExamName, $"{CorrectAnswers}/{Questions.Count}");
+            Preferences.Set(ExamName, $"{CorrectAnswers}/{BindableGrammarExamQuestions.Count}");
+        }
+
+        private void SetQuestionVisibility()
+        {
+            QuestionPart1Visible = ActiveQuestionPart1 != string.Empty ? true : false;
+            QuestionPart2Visible = ActiveQuestionPart2 != string.Empty ? true : false;
+            UserInput1Visible = _correctAnswer1 != string.Empty ? true : false;
+            UserInput2Visible = _correctAnswer2 != string.Empty ? true : false;
         }
 
         private void SetUpQuestion()
         {
             try
             {
-                VisibleQuestion = "";
+                CleanUserInputs();
+
                 CurrentQuestion++;
-                VisibleQuestion = Questions[CurrentQuestion].Question;
-                WordExplanations.Clear();
-                foreach (var wordExplanation in Questions[CurrentQuestion].WordExplanations)
-                {
-                    WordExplanations.Add(wordExplanation);
-                }
-                InitializeQuestionEvent?.Invoke();
-                _correctAnswersCollection = Questions[CurrentQuestion].Answer;
-                CorrectAnswer = Questions[CurrentQuestion].Answer.First();
+                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
+
+                SetupQuestionAndAnswer();
             }
             catch (Exception ex)
             {
                 ShowFinalScreen();
             }
+        }
+
+        private void SetupQuestionAndAnswer()
+        {
+            ActiveQuestionPart1 = BindableGrammarExamQuestions[CurrentQuestion].QuestionPart1;
+            ActiveQuestionPart2 = BindableGrammarExamQuestions[CurrentQuestion].QuestionPart2;
+            _correctAnswer1 = BindableGrammarExamQuestions[CurrentQuestion].AnswerPart1;
+            _correctAnswer2 = BindableGrammarExamQuestions[CurrentQuestion].AnswerPart2;
+            SetQuestionVisibility();
         }
 
         private void ShowFinalScreen()

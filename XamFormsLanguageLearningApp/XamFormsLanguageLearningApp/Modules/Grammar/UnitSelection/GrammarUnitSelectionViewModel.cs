@@ -7,7 +7,6 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamFormsLanguageLearningApp.Models.Units;
-using XamFormsLanguageLearningApp.Modules.Grammar.UnitSelected.SelectedUnitExam;
 using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp.ViewModels
@@ -105,7 +104,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 return;
 
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(GrammarUnitPage)}?{nameof(GrammarUnitViewModel.Name)}={item.Name}");
+            await Shell.Current.GoToAsync($"{nameof(GrammarUnitPage)}?{nameof(GrammarUnitViewModel.Name)}={item.Lesson}");
         }
 
         #endregion Methods

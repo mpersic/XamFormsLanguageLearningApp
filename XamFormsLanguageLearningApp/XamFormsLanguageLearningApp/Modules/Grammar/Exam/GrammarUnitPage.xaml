@@ -13,9 +13,77 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
+
+        <!--  Prompt for exam state  -->
+        <Frame
+            Margin="10,0"
+            HorizontalOptions="Center"
+            IsVisible="{Binding PromptForExamIsVisible}"
+            VerticalOptions="Center">
+            <StackLayout Spacing="10">
+                <Label
+                    Margin="5,0"
+                    HorizontalTextAlignment="Center"
+                    Text="Želite li pokrenuti novu lekciju ili uvježbavati gradivo?"
+                    TextColor="Black" />
+                <StackLayout
+                    Margin="0,5,0,0"
+                    HorizontalOptions="Center"
+                    Orientation="Horizontal"
+                    Spacing="10">
+                    <Button
+                        Command="{Binding GoToTestCommand}"
+                        HorizontalOptions="Start"
+                        Text="Vježba" />
+                    <Button Command="{Binding GoToRevisionCommand}" Text="Lekcija" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+        <!--  Exam visible state  -->
+        <StackLayout
+            Margin="20"
+            HorizontalOptions="FillAndExpand"
+            IsVisible="{Binding ExamIsVisible}"
+            Orientation="Vertical"
+            VerticalOptions="FillAndExpand">
+            <Label
+                IsVisible="{Binding QuestionPart1Visible}"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Text="{Binding ActiveQuestionPart1}"
+                TextColor="Black" />
+            <Entry
+                IsVisible="{Binding UserInput1Visible}"
+                Text="{Binding UserAnswer1}" />
+            <Label
+                IsVisible="{Binding QuestionPart2Visible}"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Text="{Binding ActiveQuestionPart2}"
+                TextColor="Black" />
+            <Entry
+                IsVisible="{Binding UserInput2Visible}"
+                Text="{Binding UserAnswer2}" />
+            <StackLayout Spacing="10" VerticalOptions="EndAndExpand">
+                <Label
+                    HorizontalOptions="Center"
+                    Text="{Binding CurrentScore}"
+                    TextColor="Red"
+                    VerticalOptions="End" />
+                <Button
+                    Command="{Binding CheckAnswerCommand}"
+                    HorizontalOptions="Center"
+                    Text="Provjera"
+                    VerticalOptions="End" />
+            </StackLayout>
+        </StackLayout>
+
+        <!--  Revision visible state  -->
         <CollectionView
             x:Name="ItemsListView"
             Margin="10"
+            IsVisible="{Binding RevisionIsVisible}"
             ItemsSource="{Binding GrammarExamples}"
             SelectionMode="None">
             <CollectionView.ItemTemplate>
@@ -84,7 +152,30 @@
             Margin="10"
             HeightRequest="50"
             HorizontalOptions="End"
+            IsVisible="{Binding RevisionIsVisible}"
             Text="Dovrši"
             VerticalOptions="End" />
+
+        <!--  Exam finished  -->
+        <Frame
+            HorizontalOptions="Center"
+            IsVisible="{Binding ExamIsCompleted}"
+            VerticalOptions="Center">
+            <StackLayout Spacing="10">
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Test je završen!"
+                    TextColor="Black" />
+                <Label
+                    HorizontalOptions="Center"
+                    IsVisible="{Binding ShowFinalScore}"
+                    Text="{Binding CurrentScore}"
+                    TextColor="Black" />
+                <Button
+                    Command="{Binding GoToHomePageCommand}"
+                    HorizontalOptions="Start"
+                    Text="Povratak na početnu stranicu" />
+            </StackLayout>
+        </Frame>
     </Grid>
 </ContentPage>

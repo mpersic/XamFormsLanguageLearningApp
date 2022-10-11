@@ -1,46 +1,210 @@
 [
   {
     "Question": "Mein Name ist Luka.",
-    "Answer": [ "Moje ime je Luka." ]
+    "Answer": [ "Moje ime je Luka." ],
+    "WordExplanations": [
+      {
+        "Explanation": "moj",
+        "Word": "Mein"
+      },
+      {
+        "Explanation": "Name, der - ime",
+        "Word": " Name"
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": " ist"
+      },
+      {
+        "Explanation": "",
+        "Word": " Luka."
+      }
+    ]
   },
   {
     "Question": "Ich heiße Ana.",
-    "Answer": [ "Zovem se Ana." ]
+    "Answer": [ "Zovem se Ana." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "heißen: heißt, hieß, hat geheißen – zvati se",
+        "Word": "heiße "
+      },
+      {
+        "Explanation": "",
+        "Word": "Ana."
+      }
+    ]
   },
   {
     "Question": "Ich lebe in Deutschland.",
-    "Answer": [ "Živim u Njemačkoj." ]
+    "Answer": [ "Živim u Njemačkoj." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "leben: lebt, lebte, hat gelebt - živjeti",
+        "Word": "lebe "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in "
+      },
+      {
+        "Explanation": "Njemačka",
+        "Word": "Deutschland."
+      }
+    ]
   },
   {
     "Question": "Ich komme aus Kroatien.",
-    "Answer": [ "Dolazim iz Hrvatske." ]
+    "Answer": [ "Dolazim iz Hrvatske." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "kommen: kommt, kam, ist gekommen - dolaziti",
+        "Word": "komme "
+      },
+      {
+        "Explanation": "iz",
+        "Word": "aus "
+      },
+      {
+        "Explanation": "Hrvatska",
+        "Word": "Kroatien."
+      }
+    ]
   },
   {
     "Question": "Ich bin zwanzig Jahre alt.",
-    "Answer": [ "Imam dvadeset godina." ]
+    "Answer": [ "Imam dvadeset godina." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "bin "
+      },
+      {
+        "Explanation": "dvadeset",
+        "Word": "zwanzig "
+      },
+      {
+        "Explanation": "Jahr, das – godina",
+        "Word": "Jahre "
+      },
+      {
+        "Explanation": "alt - star",
+        "Word": "alt."
+      }
+    ]
   },
   {
     "Question": "Ich bin Lehrerin von Beruf.",
-    "Answer": [ "Po zanimanju sam učiteljica." ]
+    "Answer": [ "Po zanimanju sam učiteljica." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "bin "
+      },
+      {
+        "Explanation": "Lehrerin, die – učiteljica, nastavnica",
+        "Word": "Lehrerin "
+      },
+      {
+        "Explanation": "po/prema/od",
+        "Word": "von "
+      },
+      {
+        "Explanation": "Beruf, der - zanimanje",
+        "Word": "Beruf."
+      }
+    ]
   },
   {
     "Question": "Ich habe zwei Kinder.",
-    "Answer": [ "Imam dvoje djece." ]
+    "Answer": [ "Imam dvoje djece." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "habe "
+      },
+      {
+        "Explanation": "dva",
+        "Word": "zwei "
+      },
+      {
+        "Explanation": "Kind, das - dijete",
+        "Word": "Kinder."
+      }
+    ]
   },
   {
     "Question": "Ich komme aus Deutschland.",
-    "Answer": [ "Ja dolazim iz Njemačke." ]
+    "Answer": [ "Ja dolazim iz Njemačke." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "kommen: kommt, kam, ist gekommen - dolaziti",
+        "Word": "komme "
+      },
+      {
+        "Explanation": "iz",
+        "Word": "aus "
+      },
+      {
+        "Explanation": "Njemačka.",
+        "Word": "Deutschland."
+      }
+    ]
   },
   {
-    "Question": "Ich bin Tom.",
-    "Answer": [ "Ja sam Tom." ]
+    "Question": "Name",
+    "Answer": [ "ime" ],
+    "WordExplanations": [
+      {
+        "Explanation": "Name, der - ime",
+        "Word": "Name "
+      }
+    ]
   },
   {
-    "Question": "Ich bin einzelkind.",
-    "Answer": ["Ja sam jedinac."]
-  },
-  {
-    "Question": "Ich wohne in Berlin.",
-    "Answer": [ "Živim u Berlinu." ]
+    "Question": "Ich heiße Tom.",
+    "Answer": [ "Zovem se Tom." ],
+    "WordExplanations": [
+      {
+        "Explanation": "ja",
+        "Word": "Ich "
+      },
+      {
+        "Explanation": "heißen: heißt, hieß, hat geheißen – zvati se",
+        "Word": "heiße "
+      },
+      {
+        "Explanation": "",
+        "Word": "Tom."
+      }
+    ]
   }
 ]

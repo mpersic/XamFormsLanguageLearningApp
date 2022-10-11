@@ -17,9 +17,15 @@ namespace XamFormsLanguageLearningApp
 {
     public class VocabularyService : IVocabularyService
     {
+        #region Methods
+
         public List<VocabularyQuestionAnswerObj> GetQuestions(Assembly assembly, string name)
         {
             var processedName = ProcessNonEnglishCharacterRevision(name);
+            if (processedName.Contains("revise"))
+            {
+                processedName = processedName.Split('-').Last();
+            }
             var list = new List<VocabularyQuestionAnswerObj>();
             var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.{processedName}.json");
 
@@ -38,11 +44,6 @@ namespace XamFormsLanguageLearningApp
             }
             var tenExams = list.Take(10).ToList();
             return tenExams;
-        }
-
-        private string ProcessNonEnglishCharacterRevision(string name)
-        {
-            return name.Replace("č", "c").Replace("ć", "c").Replace("š", "s").Replace(" ","");
         }
 
         public List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName)
@@ -75,5 +76,12 @@ namespace XamFormsLanguageLearningApp
             }
             return list;
         }
+
+        private string ProcessNonEnglishCharacterRevision(string name)
+        {
+            return name.Replace("č", "c").Replace("ć", "c").Replace("š", "s").Replace(" ", "");
+        }
+
+        #endregion Methods
     }
 }

@@ -11,8 +11,6 @@ namespace XamFormsLanguageLearningApp.Views
 
         private VocabularyExamViewModel _viewModel;
 
-        private bool hasTooltip = false;
-
         #endregion Fields
 
         #region Constructors
@@ -40,6 +38,8 @@ namespace XamFormsLanguageLearningApp.Views
                 var tapGestureRecognizer = new TapGestureRecognizer();
                 tapGestureRecognizer.Tapped += async (s, e) =>
                 {
+                    if (item.Explanation == string.Empty)
+                        return;
                     await Shell.Current.DisplayAlert("Značenje", item.Explanation, "OK");
                 };
                 //TooltipEffect.SetHasTooltip(clickableWord, false);

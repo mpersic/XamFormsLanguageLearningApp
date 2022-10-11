@@ -1,91 +1,585 @@
 [
   {
     "Question": "Ivana wurde am zehnten Juli geboren.",
-    "Answer": [ "Ivana je rođena 10. srpnja." ]
+    "Answer": [ "Ivana je rođena 10. srpnja.", "Ivana je rođena 10.7." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "wurde geboren – gebären → pasiv - geboren werden – biti rođen",
+        "Word": "wurde "
+      },
+      {
+        "Explanation": "am = an + dem - na",
+        "Word": "am "
+      },
+      {
+        "Explanation": "zehnte - deseti",
+        "Word": "zehnten "
+      },
+      {
+        "Explanation": "Juli, der - srpanj",
+        "Word": "Juli "
+      },
+      {
+        "Explanation": "wurde geboren – gebären → pasiv - geboren werden – biti rođen",
+        "Word": "geboren."
+      }
+    ]
   },
   {
     "Question": "Ivanas Vorfahren sind bäuerlicher Herkunft.",
-    "Answer": [ "Ivanini preci seljačkog su podrijetla." ]
+    "Answer": [ "Ivanini preci seljačkog su podrijetla.", "Ivanini preci su seljačkog podrijetla." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivanas "
+      },
+      {
+        "Explanation": "Vorfahre, der - predak",
+        "Word": "Vorfahren "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "sind "
+      },
+      {
+        "Explanation": "bäuerlich - seljački",
+        "Word": "bäuerlicher "
+      },
+      {
+        "Explanation": "Herkunft, die – podrijetlo",
+        "Word": "Herkunft."
+      }
+    ]
   },
   {
     "Question": "Ivanas Vorfahren stammen aus dem Slawonien.",
-    "Answer": [ "Ivanini preci potječu iz Slavonije." ]
+    "Answer": [ "Ivanini preci potječu iz Slavonije." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivanas "
+      },
+      {
+        "Explanation": "Vorfahre, der - predak",
+        "Word": "Vorfahren "
+      },
+      {
+        "Explanation": "stammen: stammt, stammte, hat gestammt - potjecati",
+        "Word": "stammen "
+      },
+      {
+        "Explanation": "iz",
+        "Word": "aus "
+      },
+      {
+        "Explanation": "Slawonien, das - Slavonija",
+        "Word": "dem Slawonien."
+      }
+    ]
   },
   {
     "Question": "Ivana wurde in einem Dorf groß. ",
-    "Answer": [ "Ivana je odrasla na selu." ]
+    "Answer": [ "Ivana je odrasla na selu." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "werden – postati",
+        "Word": "wurde "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in "
+      },
+      {
+        "Explanation": "Dorf, das - selo",
+        "Word": "einem Dorf"
+      },
+      {
+        "Explanation": "groß - velik",
+        "Word": "groß."
+      }
+    ]
   },
   {
     "Question": "Ivana wurde auf dem Land groß.",
-    "Answer": [ "Ivana je odrasla na selu." ]
+    "Answer": [ "Ivana je odrasla na selu." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "werden – postati",
+        "Word": "wurde "
+      },
+      {
+        "Explanation": "na",
+        "Word": "auf "
+      },
+      {
+        "Explanation": "Land, das - selo",
+        "Word": "dem Land "
+      },
+      {
+        "Explanation": "groß - velik",
+        "Word": "groß."
+      }
+    ]
   },
   {
     "Question": "Ivana wuchs in einer Großfamilie auf.",
-    "Answer": [ "Ivana je odrasla u velikoj obitelji." ]
+    "Answer": [ "Ivana je odrasla u velikoj obitelji." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "wuchs auf - aufwachsen - wächst auf, wuchs auf, ist aufgewachsen - odrastati",
+        "Word": "wuchs  "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in  "
+      },
+      {
+        "Explanation": "Großfamilie, die",
+        "Word": "einer Großfamilie "
+      },
+      {
+        "Explanation": "wuchs auf - aufwachsen - wächst auf, wuchs auf, ist aufgewachsen - odrastati",
+        "Word": "auf."
+      }
+    ]
   },
   {
     "Question": "Ivana hat drei Geschwister.",
-    "Answer": [ "Ivana ima troje braće i sestara." ]
+    "Answer": [ "Ivana ima troje braće i sestara.", "Ivana ima tri brata i sestre." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "tri",
+        "Word": "drei "
+      },
+      {
+        "Explanation": "Geschwister, die – braća i sestre",
+        "Word": "Geschwister."
+      }
+    ]
   },
   {
     "Question": "Ivana hatte eine glückliche Kindheit.",
-    "Answer": [ "Ivana je imala sretno djetinjstvo." ]
+    "Answer": [ "Ivana je imala sretno djetinjstvo." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hatte "
+      },
+      {
+        "Explanation": "glücklich - sretan",
+        "Word": "eine glückliche "
+      },
+      {
+        "Explanation": "Kindheit, die - djetinjstvo",
+        "Word": "Kindheit."
+      }
+    ]
   },
   {
     "Question": "Marko wurde in Osijek geboren.",
-    "Answer": [ "Marko je rođen u Osijeku." ]
+    "Answer": [ "Marko je rođen u Osijeku." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Marko "
+      },
+      {
+        "Explanation": "wurde geboren - gebären → pasiv - geboren werden – biti rođen",
+        "Word": "wurde "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in "
+      },
+      {
+        "Explanation": "",
+        "Word": "Osijek "
+      },
+      {
+        "Explanation": "wurde geboren - gebären → pasiv - geboren werden – biti rođen",
+        "Word": "geboren."
+      }
+    ]
   },
   {
     "Question": "Marko wuchs in der Stadt auf.",
-    "Answer": [ "Marko je odrastao u gradu." ]
+    "Answer": [ "Marko je odrastao u gradu." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Marko "
+      },
+      {
+        "Explanation": "wurde geboren - gebären → pasiv - geboren werden – biti rođen",
+        "Word": "wuchs "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in "
+      },
+      {
+        "Explanation": "Stadt, die - grad",
+        "Word": "der Stadt"
+      },
+      {
+        "Explanation": "wuchs auf – aufwachsen: wächst auf, wuchs auf, ist aufgewachsen - odrastati",
+        "Word": "auf."
+      }
+    ]
   },
   {
     "Question": "Markos Eltern zogen vom Land in die Stadt um.",
-    "Answer": [ "Markovi roditelji su se sa sela preselili u grad." ]
+    "Answer": [
+      "Markovi roditelji su se sa sela preselili u grad.",
+      "Markovi roditelji su sa sela preselili u grad.",
+      "Markovi roditelji su se preselili sa sela u grad.",
+      "Markovi roditelji su preselili sa sela u grad."
+    ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Markos "
+      },
+      {
+        "Explanation": "Eltern, die - roditelji",
+        "Word": "Eltern "
+      },
+      {
+        "Explanation": "zogen um – umziehen: zieht um, zog um, ist umgezogen - preseliti",
+        "Word": "zogen "
+      },
+      {
+        "Explanation": "vom = von + dem - iz",
+        "Word": "vom "
+      },
+      {
+        "Explanation": "Land, das - selo",
+        "Word": "Land "
+      },
+      {
+        "Explanation": "u",
+        "Word": "in "
+      },
+      {
+        "Explanation": "Stadt, die - grad",
+        "Word": "die Stadt "
+      },
+      {
+        "Explanation": "zogen um – umziehen: zieht um, zog um, ist umgezogen - preseliti",
+        "Word": "um."
+      }
+    ]
   },
   {
     "Question": "Markos Eltern zogen von Tenja nach Osijek um.",
-    "Answer": [ "Markovi roditelji su se iz Tenje preselili u Osijek." ]
+    "Answer": [
+      "Markovi roditelji su se iz Tenje preselili u Osijek.",
+      "Markovi roditelji su iz Tenje preselili u Osijek.",
+      "Markovi roditelji su se preselili iz Tenje u Osijek.",
+      "Markovi roditelji su preselili iz Tenje u Osijek."
+    ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Markos "
+      },
+      {
+        "Explanation": "Eltern, die - roditelji",
+        "Word": "Eltern "
+      },
+      {
+        "Explanation": "zogen um – umziehen: zieht um, zog um, ist umgezogen - preseliti",
+        "Word": "zogen "
+      },
+      {
+        "Explanation": "iz",
+        "Word": "von "
+      },
+      {
+        "Explanation": "",
+        "Word": "Tenja "
+      },
+      {
+        "Explanation": "u",
+        "Word": "nach "
+      },
+      {
+        "Explanation": "",
+        "Word": "Osijek "
+      },
+      {
+        "Explanation": "zogen um – umziehen: zieht um, zog um, ist umgezogen - preseliti",
+        "Word": "um."
+      }
+    ]
   },
   {
     "Question": "Marko hat keine Geschwister.",
-    "Answer": [ "Marko nema braće i sestara." ]
+    "Answer": [
+      "Marko nema braće i sestara.",
+      "Marko nema ni brata ni sestru.",
+      "Marko nema ni sestru ni brata.",
+      "Marko nema niti sestru niti brata.",
+      "Marko nema niti brata niti sestru.",
+      "Marko nema sestara i braće."
+    ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Marko "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "Geschwister, die – braća i sestre",
+        "Word": "keine Geschwister."
+      }
+    ]
   },
 
   {
     "Question": "Ivana hat drei Brüder.",
-    "Answer": [ "Ivana ima tri brata." ]
+    "Answer": [ "Ivana ima tri brata." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "tri",
+        "Word": "drei "
+      },
+      {
+        "Explanation": "Brüder, der - brat",
+        "Word": "Brüder."
+      }
+    ]
   },
   {
     "Question": "Ivana hat zwei Schwester.",
-    "Answer": [ "Ivana ima dvije sestru." ]
+    "Answer": [ "Ivana ima dvije sestru." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "dva",
+        "Word": "zwei "
+      },
+      {
+        "Explanation": "Schwester, die - sestra",
+        "Word": "Schwester."
+      }
+    ]
   },
   {
     "Question": "Kristina hat drei Schwestern.",
-    "Answer": [ "Kristina ima tri sestre." ]
+    "Answer": [ "Kristina ima tri sestre." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "tri",
+        "Word": "drei "
+      },
+      {
+        "Explanation": "Schwester, die - sestra",
+        "Word": "Schwester."
+      }
+    ]
   },
   {
     "Question": "Kristinas Vorfahren stammen aus dem Dalmatien.",
-    "Answer": [ "Kristinini preci potječu iz Dalmacije." ]
+    "Answer": [ "Kristinini preci potječu iz Dalmacije." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Kristinas "
+      },
+      {
+        "Explanation": "Vorfahre, der - predak",
+        "Word": "Vorfahren "
+      },
+      {
+        "Explanation": "stammen: stammt, stammte, hat gestammt - potjecati",
+        "Word": "stammen "
+      },
+      {
+        "Explanation": "iz",
+        "Word": "aus "
+      },
+      {
+        "Explanation": "Dalmatien, das - Dalmacija",
+        "Word": "dem Dalmatien."
+      }
+    ]
   },
   {
     "Question": "Kristina hat vier Schwestern.",
-    "Answer": [ "Kristina ima četiri sestre." ]
-  },
-  {
-    "Question": "Kristinas Vorfahren stammen aus dem Dalmatien.",
-    "Answer": [ "Kristinini preci potječu iz Dalmacije." ]
+    "Answer": [ "Kristina ima četiri sestre." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Ivana "
+      },
+      {
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "četiri",
+        "Word": "vier "
+      },
+      {
+        "Explanation": "Schwester, die - sestra",
+        "Word": "Schwester."
+      }
+    ]
   },
   {
     "Question": "Kristina wuchs bei ihrer Tante auf.",
-    "Answer": [ "Kristina je odrasla sa svojom tetom." ]
+    "Answer": [
+      "Kristina je odrasla sa svojom tetom.",
+      "Kristina je odrasla s tetom."
+    ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Kristina "
+      },
+      {
+        "Explanation": "aufwachsen: wächst auf, wuchs auf, ist aufgewachsen - odrastati",
+        "Word": "wuchs "
+      },
+      {
+        "Explanation": "kod/s/pri",
+        "Word": "bei "
+      },
+      {
+        "Explanation": "ihr – njezin/svoj",
+        "Word": "ihrer "
+      },
+      {
+        "Explanation": "Tante, die - teta ",
+        "Word": "Tante "
+      },
+      {
+        "Explanation": "wuchs auf – aufwachsen: wächst auf, wuchs auf, ist aufgewachsen - odrastati",
+        "Word": "auf."
+      }
+    ]
   },
   {
     "Question": "Kristina versteht sich gut mit ihren Cousinen",
-    "Answer": [ "Kristina se dobro slaže sa svojim sestričnama." ]
+    "Answer": [ "Kristina se dobro slaže sa svojim sestričnama." ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Kristina "
+      },
+      {
+        "Explanation": "sich verstehen: versteht sich, verstand sich, hat sich verstanden – razumjeti se, slagati se",
+        "Word": "versteht sich "
+      },
+      {
+        "Explanation": "dobro",
+        "Word": "gut "
+      },
+      {
+        "Explanation": "s/sa",
+        "Word": "mit "
+      },
+      {
+        "Explanation": "ihr – njezin/svoj",
+        "Word": "ihren "
+      },
+      {
+        "Explanation": "Cousine, die - sestrična",
+        "Word": "Cousinen."
+      }
+    ]
   },
   {
     "Question": "Kristina hat zwei Tanten und drei Onkel.",
-    "Answer": [ "Kristina ima dvije tete i tri ujaka." ]
+    "Answer": [
+      "Kristina ima dvije tete i tri ujaka.",
+      "Kristina ima dvije tete i tri strica.",
+      "Kristina ima dvije tete i tri tetka."
+    ],
+    "WordExplanations": [
+      {
+        "Explanation": "",
+        "Word": "Kristina "
+      },
+      {
+        "Explanation": "hat - haben: hat, hatte, hat gehabt - imati",
+        "Word": "hat "
+      },
+      {
+        "Explanation": "dva",
+        "Word": "zwei "
+      },
+      {
+        "Explanation": "Tante, die – teta/strina/ujna",
+        "Word": "Tanten "
+      },
+      {
+        "Explanation": "i",
+        "Word": "und "
+      },
+      {
+        "Explanation": "tri",
+        "Word": "drei "
+      },
+      {
+        "Explanation": "Onkel, der – ujak/stric",
+        "Word": "Onkel  "
+      }
+    ]
   }
 ]

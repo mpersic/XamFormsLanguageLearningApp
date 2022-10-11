@@ -1,42 +1,146 @@
 [
   {
     "Question": "Hallo Ivan.",
-    "Answer": [ "Bok Ivane." ]
+    "Answer": [ "Bok Ivane." ],
+    "WordExplanations": [
+      {
+        "Explanation": "hallo - bok",
+        "Word": "Hallo"
+      },
+      {
+        "Explanation": "",
+        "Word": "Ivan."
+      }
+    ]
   },
   {
-    "Question": "Hallo Ivan.",
-    "Answer": [ "Bok Ivane." ]
+    "Question": "Hallo Marko.",
+    "Answer": [ "Bok Marko." ],
+    "WordExplanations": [
+      {
+        "Explanation": "hallo - bok",
+        "Word": "Hallo"
+      },
+      {
+        "Explanation": "",
+        "Word": "Marko."
+      }
+    ]
   },
   {
     "Question": "Guten Morgen.",
-    "Answer": [ "Dobro jutro." ]
+    "Answer": [ "Dobro jutro." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Guten"
+      },
+      {
+        "Explanation": "Morgen, der - jutro",
+        "Word": "Morgen."
+      }
+    ]
   },
   {
     "Question": "Guten Morgen Klara.",
-    "Answer": [ "Dobro jutro Klara." ]
+    "Answer": [ "Dobro jutro Klara." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Guten"
+      },
+      {
+        "Explanation": "Morgen, der - jutro",
+        "Word": "Morgen"
+      },
+      {
+        "Explanation": "",
+        "Word": "Klara."
+      }
+    ]
   },
   {
     "Question": "Guten Tag.",
-    "Answer": [ "Dobar dan." ]
+    "Answer": [ "Dobar dan." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Guten"
+      },
+      {
+        "Explanation": "Tag, der - dan",
+        "Word": "Tag."
+      }
+    ]
   },
   {
     "Question": "Guten Tag Julia.",
-    "Answer": [ "Dobar dan Julia." ]
+    "Answer": [ "Dobar dan Julia." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Guten"
+      },
+      {
+        "Explanation": "Tag, der - dan",
+        "Word": "Tag"
+      },
+      {
+        "Explanation": "",
+        "Word": "Julia."
+      }
+    ]
   },
   {
     "Question": "Guten Abend.",
-    "Answer": [ "Dobra večer." ]
+    "Answer": [ "Dobra večer." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Guten"
+      },
+      {
+        "Explanation": "Abend, der - večer",
+        "Word": "Abend."
+      }
+    ]
   },
   {
     "Question": "Gute Nacht.",
-    "Answer": [ "Laku noć." ]
+    "Answer": [ "Laku noć." ],
+    "WordExplanations": [
+      {
+        "Explanation": "gut – dobar",
+        "Word": "Gute"
+      },
+      {
+        "Explanation": "Nacht, die - noć",
+        "Word": "Nacht."
+      }
+    ]
   },
   {
     "Question": "Auf Wiedersehen.",
-    "Answer": [ "Doviđenja." ]
+    "Answer": [ "Doviđenja." ],
+    "WordExplanations": [
+      {
+        "Explanation": "na/do",
+        "Word": "Auf"
+      },
+      {
+        "Explanation": "Wiedersehen, das – vidjeti se ponovo",
+        "Word": "Wiedersehen"
+      }
+    ]
   },
   {
     "Question": "Tschüss.",
-    "Answer": [ "Bok." ]
+    "Answer": [ "Bok." ],
+    "WordExplanations": [
+      {
+        "Explanation": "tschüss - bok",
+        "Word": "Tschüss."
+      }
+    ]
   }
 ]

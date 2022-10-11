@@ -7,7 +7,6 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamFormsLanguageLearningApp.Models.Units;
-using XamFormsLanguageLearningApp.Modules.Grammar.UnitSelected.SelectedUnitExam;
 using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp.ViewModels

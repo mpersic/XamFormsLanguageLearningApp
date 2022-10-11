@@ -1,54 +1,268 @@
 [
   {
     "Question": "Wer ist dieser Mann?",
-    "Answer": [ "Tko je ovaj čovjek?" ]
+    "Answer": [ "Tko je ovaj čovjek?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "tko",
+        "Word": "Wer "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "ist "
+      },
+      {
+        "Explanation": "dies - ovaj",
+        "Word": "dieser "
+      },
+      {
+        "Explanation": "Mann, der – čovjek/muškarac",
+        "Word": "Mann?"
+      }
+    ]
   },
   {
     "Question": "Was ist das?",
-    "Answer": [ "Što je to?" ]
+    "Answer": [ "Što je to?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "što",
+        "Word": "Was "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "ist "
+      },
+      {
+        "Explanation": "das - to",
+        "Word": "das?"
+      }
+    ]
   },
   {
     "Question": "Was machst du?",
-    "Answer": [ "Što radiš?" ]
+    "Answer": [ "Što radiš?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "što",
+        "Word": "Was "
+      },
+      {
+        "Explanation": "machen: macht, machte, hat gemacht – raditi, činiti",
+        "Word": "machst "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      }
+    ]
   },
   {
     "Question": "Wessen Kind ist das?",
-    "Answer": [ "Čije je ovo dijete?" ]
+    "Answer": [ "Čije je ovo dijete?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "čiji",
+        "Word": "Wessen "
+      },
+      {
+        "Explanation": "Kind, das - dijete",
+        "Word": "Kind "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "ist "
+      },
+      {
+        "Explanation": "to",
+        "Word": "das?"
+      }
+    ]
   },
   {
     "Question": "Wo wohnst du?",
-    "Answer": [ "Gdje živiš?" ]
+    "Answer": [ "Gdje živiš?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "gdje",
+        "Word": "Wo "
+      },
+      {
+        "Explanation": "wohnen: wohnt, wohnte, hat gewohnt – živjeti, stanovati",
+        "Word": "wohnst "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      },
+      {
+        "Explanation": "to",
+        "Word": "das?"
+      }
+    ]
   },
   {
     "Question": "Wo bist du jetzt?",
-    "Answer": [ "Gdje si sada?" ]
+    "Answer": [ "Gdje si sada?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "gdje",
+        "Word": "Wo "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "bist "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du "
+      },
+      {
+        "Explanation": "sada",
+        "Word": "jetzt?"
+      }
+    ]
   },
   {
     "Question": "Wem gehört diese Jacke?",
-    "Answer": [ "Komu pripada ova jakna?" ]
+    "Answer": [ "Komu pripada ova jakna?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "komu",
+        "Word": "Wem "
+      },
+      {
+        "Explanation": "gehören: gehört, gehörte, hat gehört - pripadati",
+        "Word": "gehört "
+      },
+      {
+        "Explanation": "dies - ovaj",
+        "Word": "diese "
+      },
+      {
+        "Explanation": "Jacke, die - jakna",
+        "Word": "Jacke?"
+      }
+    ]
   },
   {
     "Question": "Wen liebst du am meisten?",
-    "Answer": [ "Koga voliš najviše?" ]
+    "Answer": [ "Koga voliš najviše?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "koga",
+        "Word": "Wen "
+      },
+      {
+        "Explanation": "lieben: liebt, liebte, hat geliebt - voljeti",
+        "Word": "liebst "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du "
+      },
+      {
+        "Explanation": "viel - puno",
+        "Word": "am meisten?"
+      }
+    ]
   },
   {
     "Question": "Wohin gehst du?",
-    "Answer": [ "Kamo ideš?" ]
+    "Answer": [ "Kamo ideš?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "kamo",
+        "Word": "Wohin "
+      },
+      {
+        "Explanation": "gehen: geht, ging, ist gegangen - ići",
+        "Word": "gehst "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      }
+    ]
   },
   {
     "Question": "Woher kommst du?",
-    "Answer": [ "Odakle si?" ]
+    "Answer": [ "Odakle si?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "odakle",
+        "Word": "Woher "
+      },
+      {
+        "Explanation": "kommen: kommt, kam, ist gekommen - dolaziti",
+        "Word": "kommst "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      }
+    ]
   },
   {
     "Question": "Wie heißt du?",
-    "Answer": [ "Kako se zoveš?" ]
+    "Answer": [ "Kako se zoveš?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "kako",
+        "Word": "Wie "
+      },
+      {
+        "Explanation": "heißen: heißt, hieß, hat geheißen – zvati se",
+        "Word": "heißt "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      }
+    ]
   },
   {
     "Question": "Wie alt bist du?",
-    "Answer": [ "Koliko imaš godina?" ]
+    "Answer": [ "Koliko imaš godina?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "kako",
+        "Word": "Wie "
+      },
+      {
+        "Explanation": "alt - star",
+        "Word": "alt "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "bist "
+      },
+      {
+        "Explanation": "ti",
+        "Word": "du?"
+      }
+    ]
   },
   {
     "Question": "Wie geht es dir?",
-    "Answer": [ "Kako si?" ]
+    "Answer": [ "Kako si?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "kako",
+        "Word": "Wie "
+      },
+      {
+        "Explanation": "gehen: geht, ging, ist gegangen - ići",
+        "Word": "geht "
+      },
+      {
+        "Explanation": "to",
+        "Word": "es "
+      },
+      {
+        "Explanation": "tebi",
+        "Word": "dir?"
+      }
+    ]
   }
 ]
