@@ -1,0 +1,572 @@
+[
+  {
+    "question": "Marko trägt karierte Hemden.",
+    "answer": [ "Marko nosi karirane košulje." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "kariert - kariran",
+        "word": "karierte"
+      },
+      {
+        "explanation": "Hemd, das - košulja",
+        "word": "Hemden."
+      }
+    ]
+  },
+  {
+    "question": "Kristijan trägt ein rotes T-Shirt.",
+    "answer": [ "Kristijan nosi crvenu majicu kratkih rukava." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Kristijan"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "rot - crven",
+        "word": "rotes"
+      },
+      {
+        "explanation": "T-Shirt, das – majica kratkih rukava",
+        "word": "T-Shirt."
+      }
+    ]
+  },
+  {
+    "question": "Dein neues gelbes T-Shirt steht dir super.",
+    "answer": [ "Tvoja nova žuta majica kratkih rukava ti odlično stoji." ],
+    "wordExplanations": [
+      {
+        "explanation": "dein - tvoj",
+        "word": "Dein"
+      },
+      {
+        "explanation": "neu - novi",
+        "word": "neues"
+      },
+      {
+        "explanation": "gelb - žut",
+        "word": "gelbes"
+      },
+      {
+        "explanation": "T-Shirt, das – majica kratkih rukava",
+        "word": "T-Shirt"
+      },
+      {
+        "explanation": "stehen: steht, stand, hat gestanden - stajati",
+        "word": "steht"
+      },
+      {
+        "explanation": "tebi",
+        "word": "dir"
+      },
+      {
+        "explanation": "",
+        "word": "super."
+      }
+    ]
+  },
+  {
+    "question": "Josip trägt blaue Jeans.",
+    "answer": [ "Josip nosi plave traperice." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Josip"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "blau - plav",
+        "word": "blaue"
+      },
+      {
+        "explanation": "Jeans, die - traperice",
+        "word": "Jeans."
+      }
+    ]
+  },
+  {
+    "question": "Marija trägt weite Röcke.",
+    "answer": [ "Marija nosi široke suknje." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marija"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "weit - širok",
+        "word": "weite"
+      },
+      {
+        "explanation": "Rock, der - suknja",
+        "word": "Röcke."
+      }
+    ]
+  },
+  {
+    "question": "Josip trägt gestrickte Pullover.",
+    "answer": [ "Josip nosi štrikane pulovere." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Josip"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "gestrickt - štrikan",
+        "word": "gestrickte"
+      },
+      {
+        "explanation": "Pullover, der - pulover",
+        "word": "Pullover."
+      }
+    ]
+  },
+  {
+    "question": "Der orange Pullover ist sehr teuer.",
+    "answer": [ "Narančasti pulover je jako skup." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "orange - narančasta",
+        "word": "orange"
+      },
+      {
+        "explanation": "Pullover, der - pulover",
+        "word": "Pullover"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "sehr - jako",
+        "word": "sehr"
+      },
+      {
+        "explanation": "teuer - skup",
+        "word": "teuer."
+      }
+    ]
+  },
+  {
+    "question": "Die Mutter zieht eine Jacke an.",
+    "answer": [ "Majka oblači jaknu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "zieht an – anziehen: zieht an, zog an, hat/ist angezogen - oblačiti",
+        "word": "zieht"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Jacke, die - jakna",
+        "word": "Jacke"
+      },
+      {
+        "explanation": "zieht an – anziehen: zieht an, zog an, hat/ist angezogen - oblačiti",
+        "word": "an."
+      }
+    ]
+  },
+  {
+    "question": "Die Mutter zieht den Reißverschluss zu.",
+    "answer": [ "Majka zatvara patentni zatvarač." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "zieht zu – zuziehen: zieht zu, zog zu, hat/ist zugezogen - zatvoriti",
+        "word": "zieht"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Reißverschluss, der - patentni zatvarač",
+        "word": "Reißverschluss"
+      },
+      {
+        "explanation": "zieht zu – zuziehen: zieht zu, zog zu, hat/ist zugezogen - zatvoriti",
+        "word": "zu."
+      }
+    ]
+  },
+  {
+    "question": "Marko trägt eine schwarze Lederjacke.",
+    "answer": [ "Marko nosi crnu kožnu jaknu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "schwarz - crn",
+        "word": "schwarze"
+      },
+      {
+        "explanation": " Lederjacke, die – kožna jakna",
+        "word": "Lederjacke."
+      }
+    ]
+  },
+  {
+    "question": "Marija trägt eine ausgebleichte Jeansjacke.",
+    "answer": [ "Marija nosi izblijedjelu traper jaknu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marija"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "ausgebleicht - izblijedio",
+        "word": "ausgebleichte"
+      },
+      {
+        "explanation": "Jeansjacke, die – traper jakna",
+        "word": "Jeansjacke."
+      }
+    ]
+  },
+  {
+    "question": "Nikola trägt weiße Socken.",
+    "answer": [ "Nikola nosi bijele čarape." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Nikola"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "weiß - bijel",
+        "word": "weiße"
+      },
+      {
+        "explanation": "Socke, die - čarapa",
+        "word": "Socken."
+      }
+    ]
+  },
+  {
+    "question": "Oma trägt ein rotes Halstuch.",
+    "answer": [ "Baka nosi crvenu maramu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Oma, die - baka",
+        "word": "Oma"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "rot - crven",
+        "word": "rotes"
+      },
+      {
+        "explanation": "Halstuch, das - marama",
+        "word": "Halstuch."
+      }
+    ]
+  },
+  {
+    "question": "Ivan nimmt den Hut ab.",
+    "answer": [ "Ivan skida šešir." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivan"
+      },
+      {
+        "explanation": "nimmt ab – abnehmen: nimmt ab, nahm ab, hat abgenommen – skinuti",
+        "word": "nimmt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Hut, der - šešir",
+        "word": "Hut"
+      },
+      {
+        "explanation": "nimmt ab – abnehmen: nimmt ab, nahm ab, hat abgenommen – skinuti",
+        "word": "ab"
+      }
+    ]
+  },
+  {
+    "question": "Opa trägt einen grauen Hut.",
+    "answer": [ "Djed nosi sivi šešir." ],
+    "wordExplanations": [
+      {
+        "explanation": "Opa, der - djed",
+        "word": "Opa"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "grau - siv",
+        "word": "grauen"
+      },
+      {
+        "explanation": "Hut, der - šešir",
+        "word": "Hut."
+      }
+    ]
+  },
+  {
+    "question": "Kinder tragen bunte Wintermützen.",
+    "answer": [ "Djeca nose šarene zimske kape." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "tragen"
+      },
+      {
+        "explanation": "bunt - šaren",
+        "word": "bunte"
+      },
+      {
+        "explanation": "Wintermütze, die – zimska kapa",
+        "word": "Wintermützen."
+      }
+    ]
+  },
+  {
+    "question": "Das kleine Mädchen zieht einen lila Schal an.",
+    "answer": [ "Djevojčica stavlja ljubičasti šal." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "klein - malen",
+        "word": "kleine"
+      },
+      {
+        "explanation": "Mädchen, das - djevojka",
+        "word": "Mädchen"
+      },
+      {
+        "explanation": "zieht an – anziehen: zieht an, zog an, hat/ist angezogen - staviti",
+        "word": "zieht"
+      },
+      {
+        "explanation": "inen ",
+        "word": "einen"
+      },
+      {
+        "explanation": "lila - ljubičast",
+        "word": "lila"
+      },
+      {
+        "explanation": "Schal, der - šal",
+        "word": "Schal"
+      },
+      {
+        "explanation": "zieht an – anziehen: zieht an, zog an, hat/ist angezogen - staviti",
+        "word": "an."
+      }
+    ]
+  },
+  {
+    "question": "Junge Menschen kleiden sich nach der neuesten Mode.",
+    "answer": [ "Mladi se oblače po posljednjoj modi." ],
+    "wordExplanations": [
+      {
+        "explanation": "jung - mlad",
+        "word": "Junge"
+      },
+      {
+        "explanation": "Mensch, der - čovjek",
+        "word": "Menschen"
+      },
+      {
+        "explanation": "kleiden sich - sich kleiden: kleidet, kleidete, hat gekleidet – oblačiti se",
+        "word": "kleiden"
+      },
+      {
+        "explanation": "kleiden sich - sich kleiden: kleidet, kleidete, hat gekleidet – oblačiti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "nach – po/prema",
+        "word": "nach"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "neu - nov",
+        "word": "neuesten"
+      },
+      {
+        "explanation": "Mode, die - moda",
+        "word": "Mode."
+      }
+    ]
+  },
+  {
+    "question": "Junge Leute ziehen billige Kleidung vor.",
+    "answer": [ "Mladi preferiraju jeftinu odjeću." ],
+    "wordExplanations": [
+      {
+        "explanation": "jung - mlad",
+        "word": "Junge"
+      },
+      {
+        "explanation": "Leute, die - ljudi",
+        "word": "Leute"
+      },
+      {
+        "explanation": "ziehen vor – vorziehen: zieht vor, zog vor, hat vorgezogen - preferirati",
+        "word": "ziehen"
+      },
+      {
+        "explanation": "billig - jeftin",
+        "word": "billige"
+      },
+      {
+        "explanation": "Kleidung, die - odjeća",
+        "word": "Kleidung"
+      },
+      {
+        "explanation": "ziehen vor – vorziehen: zieht vor, zog vor, hat vorgezogen - preferirati",
+        "word": "vor."
+      }
+    ]
+  },
+  {
+    "question": "Die Jugendliche bevorzugen lässige Kleidung.",
+    "answer": [ "Mladi preferiraju ležernu odjeću." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Jugendliche, die - mladež",
+        "word": "Jugendliche"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugen"
+      },
+      {
+        "explanation": "lässig - ležeran",
+        "word": "lässige"
+      },
+      {
+        "explanation": "Kleidung, die - odjeća",
+        "word": "Kleidung."
+      }
+    ]
+  },
+  {
+    "question": "Ältere Menschen bevorzugen bequeme Kleidung.",
+    "answer": [ "Stariji preferiraju udobnu odjeću." ],
+    "wordExplanations": [
+      {
+        "explanation": "alt - star",
+        "word": "Ältere"
+      },
+      {
+        "explanation": "Mensch, der - čovjek",
+        "word": "Menschen"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugen"
+      },
+      {
+        "explanation": "bequem - udoban",
+        "word": "bequeme"
+      },
+      {
+        "explanation": "Kleidung, die - odjeća",
+        "word": "Kleidung."
+      }
+    ]
+  }
+]

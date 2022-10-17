@@ -1,0 +1,485 @@
+[
+  {
+    "question": "Marko verlobte sich mit Ivana.",
+    "answer": [ "Marko se zaručio s Ivanom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "sich verloben: verlobt, verlobte, hat verlobt – zaručiti se",
+        "word": "verlobte"
+      },
+      {
+        "explanation": "sich verloben: verlobt, verlobte, hat verlobt – zaručiti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "",
+        "word": "Ivana."
+      }
+    ]
+  },
+  {
+    "question": "Die Jungvermählten machen Pläne für die Zukunft.",
+    "answer": [ "Mladenci kuju planove za budućnost." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Jungvermählte, der/die – mladenka/mladoženja",
+        "word": "Jungvermählten"
+      },
+      {
+        "explanation": "machen: macht, machte, hat gemacht - raditi",
+        "word": "machen"
+      },
+      {
+        "explanation": "Plan, der - plan",
+        "word": "Pläne"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Zukunft, die - budućnost",
+        "word": "Zukunft."
+      }
+    ]
+  },
+  {
+    "question": "Die Jungvermählten wollen eine große Familie gründen.",
+    "answer": [ "Mladenci žele stvoriti veliku obitelj." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Jungvermählte, der/die – mladenka/mladoženja",
+        "word": "Jungvermählten"
+      },
+      {
+        "explanation": "wollen: will, wollte, hat gewollt – željeti/htjeti",
+        "word": "wollen"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "groß - velik",
+        "word": "große"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "gründen: gründet, gründete, hat gegründet – osnovati/stvoriti",
+        "word": "gründen."
+      }
+    ]
+  },
+  {
+    "question": "Ivana will kein Einzelkind haben.",
+    "answer": [
+      "Ivana ne želi imati dijete jedinca.",
+      "Ivana ne želi imati jedinca.",
+      "Ivana ne želi imati jedno dijete.",
+      "Ivana ne želi imati samo jedno dijete."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "wollen: will, wollte, hat gewollt – željeti/htjeti",
+        "word": "will"
+      },
+      {
+        "explanation": "",
+        "word": "kein"
+      },
+      {
+        "explanation": "Einzelkind, das – dijete jedinac/jedino dijete",
+        "word": "Einzelkind"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben."
+      }
+    ]
+  },
+  {
+    "question": "Ivana erwartet ein Kind.",
+    "answer": [ "Ivana čeka dijete.", "Ivana očekuje dijete." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "erwarten: erwartet, erwartete, hat erwartet - očekivat",
+        "word": "erwartet"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kind."
+      }
+    ]
+  },
+  {
+    "question": "Ivana ist seit sechs Monaten schwanger.",
+    "answer": [
+      "Ivana je u šestom mjesecu trudnoće.",
+      "Ivana je trudna već šest mjeseci.",
+      "Ivana je trudna šest mjeseci."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen – biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "od",
+        "word": "seit"
+      },
+      {
+        "explanation": "šest",
+        "word": "sechs"
+      },
+      {
+        "explanation": "Monat, der - mjesec",
+        "word": "Monaten"
+      },
+      {
+        "explanation": "trudna",
+        "word": "schwanger."
+      }
+    ]
+  },
+  {
+    "question": "Ivana freut sich auf das Kind.",
+    "answer": [ "Ivana se veseli djetetu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "sich freuen: freut sich, freute sich, hat sich gefreut – veseliti se",
+        "word": "freut"
+      },
+      {
+        "explanation": "sich freuen: freut sich, freute sich, hat sich gefreut – veseliti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "na",
+        "word": "auf"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kind."
+      }
+    ]
+  },
+  {
+    "question": "Das Ehepaar erwartet Zwillinge.",
+    "answer": [
+      "Bračni par očekuje blizance.",
+      "Bračni par čeka blizance."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Ehepaar, das – bračni par",
+        "word": "Ehepaar"
+      },
+      {
+        "explanation": "erwarten: erwartet, erwartete, hat erwartet - očekivati",
+        "word": "erwartet"
+      },
+      {
+        "explanation": "Zwilling, der - blizanac",
+        "word": "Zwillinge."
+      }
+    ]
+  },
+  {
+    "question": "Ehepaar feiert seinen Hochzeitstag.",
+    "answer": [
+      "Bračni par slavi godišnjicu braka.",
+      "Bračni par slavi svoju godišnjicu braka."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "Ehepaar – Ehepaar, das – bračni par",
+        "word": "Ehepaar"
+      },
+      {
+        "explanation": "feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "feiert"
+      },
+      {
+        "explanation": "sein – njihov/svoj",
+        "word": "seinen"
+      },
+      {
+        "explanation": "Hochzeitstag, der – godišnjica braka",
+        "word": "Hochzeitstag."
+      }
+    ]
+  },
+  {
+    "question": "Die Eltern entschieden sich für den Namen Nikola.",
+    "answer": [ "Roditelji su se odlučili za ime Nikola." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Eltern, die - roditelji",
+        "word": "Eltern"
+      },
+      {
+        "explanation": "entschieden – sich entscheiden: entscheidet, entschied, hat entschieden – odlučiti se",
+        "word": "entschieden"
+      },
+      {
+        "explanation": "sich entscheiden: entscheidet, entschied, hat entschieden – odlučiti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Name, der - ime",
+        "word": "Namen"
+      },
+      {
+        "explanation": "",
+        "word": "Nikola."
+      }
+    ]
+  },
+  {
+    "question": "Die Eltern haben zwei Söhne und drei Töchter.",
+    "answer": [ "Roditelji imaju dva sina i tri kćeri." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Eltern, die - roditelji",
+        "word": "Eltern"
+      },
+      {
+        "explanation": "haben: haben: hat, hatte, hat gehabt - imati",
+        "word": "haben"
+      },
+      {
+        "explanation": "dva",
+        "word": "zwei"
+      },
+      {
+        "explanation": "Sohn, der - sin",
+        "word": "Söhne"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "tri",
+        "word": "drei"
+      },
+      {
+        "explanation": "Tochter, die - kći",
+        "word": "Töchter."
+      }
+    ]
+  },
+  {
+    "question": "Die Großeltern freuen sich über den Enkel.",
+    "answer": [ "Djed i baka se vesele unuku." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Großeltern, die – baka i djed",
+        "word": "Großeltern"
+      },
+      {
+        "explanation": "sich freuen: freut sich, freute sich, hat sich gefreut – veseliti se",
+        "word": "freuen"
+      },
+      {
+        "explanation": "sich freuen: freut sich, freute sich, hat sich gefreut – veseliti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "o",
+        "word": "über"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Enkel, der - unuk",
+        "word": "Enkel."
+      }
+    ]
+  },
+  {
+    "question": "Die Großeltern passen auf ihren Enkel auf.",
+    "answer": [
+      "Baka i djed čuvaju svojeg unuka.",
+      "Baka i djed paze svojeg unuka.",
+      "Baka i djed paze svog unuka.",
+      "Baka i djed čuvaju svog unuka."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Großeltern, die – baka i djed",
+        "word": "Großeltern"
+      },
+      {
+        "explanation": "aufpassen: passt auf, passte auf, hat aufgepasst – čuvati/paziti",
+        "word": "passen"
+      },
+      {
+        "explanation": "na",
+        "word": "auf"
+      },
+      {
+        "explanation": "ihr – njihov/svoj",
+        "word": "ihren"
+      },
+      {
+        "explanation": "Enkel, der - unuk",
+        "word": "Enkel"
+      },
+      {
+        "explanation": "",
+        "word": "auf."
+      }
+    ]
+  },
+  {
+    "question": "Der Opa geht mit seinem Enkel spazieren.",
+    "answer": [
+      "Djed ide s unukom u šetnju.",
+      "Djed ide sa svojim unukom u šetnju.",
+      "Djed ide šetati sa svojim unukom."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Opa, der - djed",
+        "word": "Opa"
+      },
+      {
+        "explanation": "gehen: geht, ging, ist gegangen - ići",
+        "word": "geht"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "sein – njegov/svoj",
+        "word": "seinem"
+      },
+      {
+        "explanation": "Enkel, der - unuk",
+        "word": "Enkel"
+      },
+      {
+        "explanation": "spazieren: spaziert, spazierte, ist spaziert - šetati",
+        "word": "spazieren."
+      }
+    ]
+  },
+  {
+    "question": "Die Oma liest dem Enkel Märchen vor.",
+    "answer": [ "Baka unuku čita bajke.", "Baka svojem unuku čita bajke." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Oma, die - baka",
+        "word": "Oma"
+      },
+      {
+        "explanation": "liest vor – vorlesen: liest vor, las vor, hat vorgelesen – čitati naglas",
+        "word": "liest"
+      },
+
+      {
+        "explanation": "",
+        "word": "dem"
+      },
+      {
+        "explanation": "Enkel, der - unuk",
+        "word": "Enkel"
+      },
+      {
+        "explanation": "Märchen, das - bajka",
+        "word": "Märchen"
+      },
+      {
+        "explanation": "",
+        "word": "vor."
+      }
+    ]
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "question": "Kinder essen gerne Süßigkeiten.",
+    "answer": [ "Djeca vole jesti slatkiše." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Süßigkeit, die - slatkiš",
+        "word": "Süßigkeiten."
+      }
+    ]
+  },
+  {
+    "question": "Kinder essen gerne Gummibonbons.",
+    "answer": [ "Djeca rado jedu gumene bombone." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Gummibonbon, der/das",
+        "word": "Gummibonbons."
+      }
+    ]
+  },
+  {
+    "question": "Mein Sohn isst gerne Bonbons.",
+    "answer": [ "Moj sin rado jede bombone." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Mein"
+      },
+      {
+        "explanation": "Sohn, der - sin",
+        "word": "Sohn"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Bonbon, der/das - bombon",
+        "word": "Bonbons."
+      }
+    ]
+  },
+  {
+    "question": "Deine Tochter isst gerne Erdbeereis.",
+    "answer": [ "Tvoja kći voli jesti sladoled od jagode." ],
+    "wordExplanations": [
+      {
+        "explanation": "dein - tvoj",
+        "word": "Deine"
+      },
+      {
+        "explanation": "Tochter, die - kći",
+        "word": "Tochter"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Erdbeereis, das - sladoled od jagode",
+        "word": "Erdbeereis."
+      }
+    ]
+  },
+  {
+    "question": "Schokolade und Kekse sind sehr lecker.",
+    "answer": [ "Čokolada i keksi su jako ukusni." ],
+    "wordExplanations": [
+      {
+        "explanation": "Schokolade, die - čokolada",
+        "word": "Schokolade"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Keks, der/das - keks",
+        "word": "Kekse"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "sind"
+      },
+      {
+        "explanation": "jako",
+        "word": "sehr"
+      },
+      {
+        "explanation": "ukusan",
+        "word": "lecker."
+      }
+    ]
+  },
+  {
+    "question": "Die Mutter backt Kuchen jedes Wochenende.",
+    "answer": [ "Majka peče kolače svaki vikend." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "backen: backt, backte, hat gebacken - peći",
+        "word": "backt"
+      },
+      {
+        "explanation": "Kuchen, der - kolač",
+        "word": "Kuchen"
+      },
+      {
+        "explanation": "jede - svaki",
+        "word": "jedes"
+      },
+      {
+        "explanation": "Wochenende, die - vikend",
+        "word": "Wochenende."
+      }
+    ]
+  },
+  {
+    "question": "Mein Großvater isst gerne Gugelhupf.",
+    "answer": [ "Moj djed rado jede kuglof." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Mein"
+      },
+      {
+        "explanation": "Großvater, der - djed",
+        "word": "Großvater"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Gugelhupf, der - kuglof",
+        "word": "Gugelhupf."
+      }
+    ]
+  },
+  {
+    "question": "Kinder essen gerne Schokoladentorte.",
+    "answer": [ "Djeca rado jedu čokoladnu tortu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Schokoladentorte, die – čokoladna torta",
+        "word": "Schokoladentorte."
+      }
+    ]
+  },
+  {
+    "question": "Das Mädchen bestreut die Torte mit Staubzucker.",
+    "answer": [ "Djevojka posipa tortu šećerom u prahu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Mädchen, das - djevojka",
+        "word": "Mädchen"
+      },
+      {
+        "explanation": "bestreuen: bestreut, bestreute, hat bestreut - posipati",
+        "word": "bestreut"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Torte, die - torta",
+        "word": "Torte"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Staubzucker, der – šećer u prahu",
+        "word": "Staubzucker."
+      }
+    ]
+  },
+  {
+    "question": "Die Torte schmeckt nach Vanille.",
+    "answer": [ "Torta ima okus vanilije." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Torte, die - torta",
+        "word": "Torte"
+      },
+      {
+        "explanation": "schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati",
+        "word": "schmeckt"
+      },
+      {
+        "explanation": "po",
+        "word": "nach"
+      },
+      {
+        "explanation": "vanilija",
+        "word": "Vanille."
+      }
+    ]
+  },
+  {
+    "question": "Die Sachertorte ist ein Symbol Österreichs.",
+    "answer": [ "Sacher torta je simbol Austrije." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Sachertorte, die – Sacher torta",
+        "word": "Sachertorte "
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Symbol, das - simbol",
+        "word": "Symbol"
+      },
+      {
+        "explanation": "Österreich - Austrija",
+        "word": "Österreichs."
+      }
+    ]
+  },
+  {
+    "question": "Die Tante streicht Erdbeermarmelade auf den Biskuit.",
+    "answer": [ "Teta premazuje biskvit marmeladom od jagoda." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Tante, die - teta",
+        "word": "Tante"
+      },
+      {
+        "explanation": "streichen: streicht, strich, hat/ist gestrichen – mazati/premazivati",
+        "word": "streicht"
+      },
+      {
+        "explanation": "Erdbeermarmelade, die – marmelada od jagoda",
+        "word": "Erdbeermarmelade"
+      },
+      {
+        "explanation": "na",
+        "word": "auf"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Biskuit, der/das - biskvit",
+        "word": "Biskuit."
+      }
+    ]
+  },
+  {
+    "question": "Unsere Oma backt oft Apfelstrudel.",
+    "answer": [ "Naša baka često peče štrudlu od jabuka." ],
+    "wordExplanations": [
+      {
+        "explanation": "unser - naš",
+        "word": "Unsere"
+      },
+      {
+        "explanation": "Oma, die - baka",
+        "word": "Oma"
+      },
+      {
+        "explanation": "backen: backt, backte, hat gebacken - peći",
+        "word": "backt"
+      },
+      {
+        "explanation": "često",
+        "word": "oft"
+      },
+      {
+        "explanation": "Apfelstrudel, der – štrudla od jabuka",
+        "word": "Apfelstrudel."
+      }
+    ]
+  }
+]

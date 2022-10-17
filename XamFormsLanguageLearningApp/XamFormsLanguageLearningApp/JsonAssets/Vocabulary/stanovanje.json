@@ -1,0 +1,949 @@
+[
+  {
+    "question": "Familie Horvat sucht ein Einfamilienhaus in der Innenstadt.",
+    "answer": [ "Obitelj Horvat traži kuću u centru grada." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "suchen: sucht, suchte, hat gesucht - tražiti",
+        "word": "sucht"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Einfamilienhaus, das – obiteljska kuća",
+        "word": "Einfamilienhaus"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Innenstadt, die – centar grada",
+        "word": "Innenstadt."
+      }
+    ]
+  },
+  {
+    "question": "Die Familie bezieht eine Wohnung in einem vierstöckigen Haus.",
+    "answer": [ "Obitelj se seli u stan u četverokatnici." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "beziehen: bezieht, bezog, hat bezogen - useliti",
+        "word": "bezieht"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Wohnung, die - stan",
+        "word": "Wohnung"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "vierstöckig – s četiri kata",
+        "word": "vierstöckigen"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus."
+      }
+    ]
+  },
+  {
+    "question": "Familie Horvat sucht eine Wohnung in günstiger Lage.",
+    "answer": [ "Obitelj Horvat traži stan na dobroj lokaciji." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "suchen: sucht, suchte, hat gesucht - tražiti",
+        "word": "sucht"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Wohnung, die - stan",
+        "word": "Wohnung"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "günstig – dobar/povoljan",
+        "word": "günstiger"
+      },
+      {
+        "explanation": "Lage, die - položaj",
+        "word": "Lage."
+      }
+    ]
+  },
+  {
+    "question": "Der Makler vermittelt Familie Horvat eine Wohnung.",
+    "answer": [ "Agent za nekretnine pronalazi stan za obitelj Kovač." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Makler, der – agent za nekretnine",
+        "word": "Makler"
+      },
+      {
+        "explanation": "vermitteln - pronalaziti ",
+        "word": "vermittelt"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Wohnung, die - stan",
+        "word": "Wohnung."
+      }
+    ]
+  },
+  {
+    "question": "Der Makler fordert von Familie Horvat eine Provision.",
+    "answer": [ "Agent od obitelji Horvat traži proviziju." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Makler, der – agent za nekretnine",
+        "word": "Makler"
+      },
+      {
+        "explanation": "fordern - tražiti ",
+        "word": "fordert"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Provision, die - provizija",
+        "word": "Provision."
+      }
+    ]
+  },
+  {
+    "question": "Der Vermieter verlangt von Familie Horvat eine Kaution.",
+    "answer": [ "Iznajmljivač od obitelji Horvat traži polog." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Vermieter, der – iznajmljivač/stanodavac",
+        "word": "Vermieter"
+      },
+      {
+        "explanation": "verlangen - tražiti ",
+        "word": "verlangt"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Kaution, die - polog",
+        "word": "Kaution."
+      }
+    ]
+  },
+  {
+    "question": "Der Mieter schließt mit dem Hausbesitzer einen neuen Mietvertrag ab.",
+    "answer": [ "Najmoprimac potpisuje novi ugovor o najmu s vlasnikom kuće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Mieter, der - najmoprimac",
+        "word": "Mieter"
+      },
+      {
+        "explanation": "schließt ab – abschließen: potpisati",
+        "word": "schließt"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "",
+        "word": "dem"
+      },
+      {
+        "explanation": "Hausbesitzer, der – vlasnik kuće",
+        "word": "Hausbesitzer"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "neu - novi",
+        "word": "neuen"
+      },
+      {
+        "explanation": "ugovor o najmu",
+        "word": "Mietvertrag – Mietvertrag, der"
+      },
+      {
+        "explanation": "schließt ab – abschließen: potpisati",
+        "word": "ab."
+      }
+    ]
+  },
+  {
+    "question": "Familie Horvat bezieht die Wohnung zum ersten September.",
+    "answer": [ "Obitelj Horvat useljava u stan 1. rujna." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Horvat"
+      },
+      {
+        "explanation": "beziehen: bezieht, bezog, hat bezogen - useliti",
+        "word": "bezieht"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Wohnung, die - stan",
+        "word": "Wohnung"
+      },
+      {
+        "explanation": "zum = zu + dem - za",
+        "word": "zum"
+      },
+      {
+        "explanation": "erste - prvi",
+        "word": "ersten"
+      },
+      {
+        "explanation": "September, der - rujan",
+        "word": "September."
+      }
+    ]
+  },
+  {
+    "question": "Familie Kovač sucht ein Einfamilienhaus am Stadtrand.",
+    "answer": [ "Obitelj Kovač traži obiteljsku kuću na periferiji grada." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Kovač"
+      },
+      {
+        "explanation": "suchen: sucht, suchte, hat gesucht – tražiti",
+        "word": "sucht"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Einfamilienhaus, das – obiteljska kuća",
+        "word": "Einfamilienhaus"
+      },
+      {
+        "explanation": "am = an + dem",
+        "word": "am"
+      },
+      {
+        "explanation": "Stadtrand, der - periferija grada",
+        "word": "Stadtrand."
+      }
+    ]
+  },
+  {
+    "question": "Familie Kovač interessiert sich für ein Reihenhaus im Grünen.",
+    "answer": [ "Obitelj Kovač zainteresirana je za kuću u nizu u prirodi." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Kovač"
+      },
+      {
+        "explanation": "sich interessieren: interessiert sich, interessierte sich, hat sich interessiert – zanimati se",
+        "word": "interessiert"
+      },
+      {
+        "explanation": "sich interessieren: interessiert sich, interessierte sich, hat sich interessiert – zanimati se",
+        "word": "sich"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Reihenhaus, das – kuća u nizu",
+        "word": "Reihenhaus"
+      },
+      {
+        "explanation": "u",
+        "word": "im"
+      },
+      {
+        "explanation": "im Grünen - u prirodi",
+        "word": "Grünen."
+      }
+    ]
+  },
+  {
+    "question": "Familie Kovač zieht in ein Reihenhaus in der Vorstadt.",
+    "answer": [ "Obitelj Kovač seli se u kuću u nizu u predgrađu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "",
+        "word": "Kovač"
+      },
+      {
+        "explanation": "ziehen: zieht, zog, hat/ist gezogen - seliti",
+        "word": "zieht"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Reihenhaus, das – kuća u nizu",
+        "word": "Reihenhaus"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Vorstadt, die - predgrađe",
+        "word": "Vorstadt."
+      }
+    ]
+  },
+  {
+    "question": "Das Haus liegt in einer ruhigen Gegend in der Nähe von Osijek.",
+    "answer": [ "Kuća se nalazi u mirnom dijelu nedaleko Osijeka." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "liegen: liegt, lag, hat gelegen – ležati/nalaziti se",
+        "word": "liegt"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einer"
+      },
+      {
+        "explanation": "ruhig - miran",
+        "word": "ruhigen"
+      },
+      {
+        "explanation": "područje",
+        "word": "Gegend – Gegend, die"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Nähe, die - blizina",
+        "word": "Nähe"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "",
+        "word": "Osijek."
+      }
+    ]
+  },
+  {
+    "question": "Das Haus besteht aus sechs Zimmern, Keller und Garage.",
+    "answer": [ "Kuća se sastoji od šest prostorija, podruma i garaže." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "bestehen: besteht, bestand, hat bestanden – sastojati se",
+        "word": "besteht"
+      },
+      {
+        "explanation": "aus – od/iz",
+        "word": "aus"
+      },
+      {
+        "explanation": "šest",
+        "word": "sechs"
+      },
+      {
+        "explanation": "Zimmer, das - soba",
+        "word": "Zimmern"
+      },
+      {
+        "explanation": "Keller, der - podrum",
+        "word": "Keller"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Garage, die - garaža",
+        "word": "Garage."
+      }
+    ]
+  },
+  {
+    "question": "Die kinderreiche Familie sucht eine Sozialwohnung.",
+    "answer": [ "Mnogočlana obitelj traži socijalni stan." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "kinderreich – s puno djece",
+        "word": "kinderreiche"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "suchen: sucht, suchte, hat gesucht - tražiti",
+        "word": "sucht"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Sozialwohnung, die – socijalni stan",
+        "word": "Sozialwohnung"
+      }
+    ]
+  },
+  {
+    "question": "Fräulein Hoffmann entscheidet sich für ein Appartement in einem Hochhaus.",
+    "answer": [ "Gospođica Hoffmann odlučuje se za stan u neboderu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Fräulein, die - gospođica",
+        "word": "Fräulein"
+      },
+      {
+        "explanation": "",
+        "word": "Hoffmann"
+      },
+      {
+        "explanation": "entscheidet sich – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "entscheidet"
+      },
+      {
+        "explanation": "entscheidet sich – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Appartement, das - stan",
+        "word": "Appartement"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Hochhaus, das - neboder",
+        "word": "Hochhaus."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin sucht eine Unterkunft zu einem erschwinglichen Preis.",
+    "answer": [ "Studentica traži smještaj po pristupačnoj cijeni." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "suchen: sucht, suchte, hat gesucht - tražiti",
+        "word": "sucht"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Unterkunft, die - smještaj",
+        "word": "Unterkunft"
+      },
+      {
+        "explanation": "za",
+        "word": "zu"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "erschwinglich - pristupačan",
+        "word": "erschwinglichen"
+      },
+      {
+        "explanation": "Preis, der - cijena",
+        "word": "Preis."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin besichtigt ein Zimmer in der Kärtnerstraße.",
+    "answer": [ "Studentica razgledava sobu u Kärtnerskoj ulici." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "besichtigen: besichtigt, besichtigte, hat besichtigt - razgledavati",
+        "word": "besichtigt"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Zimmer, das - soba",
+        "word": "Zimmer"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Kärtnerstraße, die - Kärtnerska ulica",
+        "word": "Kärtnerstraße."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin zieht in eine Wohngemeinschaft.",
+    "answer": [ "Studentica useljava u zajednički stan." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "ziehen: zieht, zog, hat/ist gezogen - seliti",
+        "word": "zieht"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Wohngemeinschaft, die – zajednički stan/dijeljeni stan/životna zajednica",
+        "word": "Wohngemeinschaft."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin wohnt in einer Wohngemeinschaft in Uninähe.",
+    "answer": [
+      "Studentica živi u zajedničkom stanu u blizini sveučilišta.",
+      "Studentica živi u zajedničkom stanu u blizini fakulteta."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "wohnen: wohnt, wohnte, hat gewohnt - živjeti",
+        "word": "wohnt"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einer"
+      },
+      {
+        "explanation": "Wohngemeinschaft, die – zajednički stan/dijeljeni stan/životna zajednica",
+        "word": "Wohngemeinschaft"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "Uninähe, die – blizina sveučilištu",
+        "word": "Uninähe."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin wohnt in einem Zimmer im Erdgeschoss.",
+    "answer": [ "Studentica živi u sobi u prizemlju." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "wohnen: wohnt, wohnte, hat gewohnt - živjeti",
+        "word": "wohnt"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Zimmer, das - soba",
+        "word": "Zimmer"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Erdgeschoss, das - prizemlje",
+        "word": "Erdgeschoss."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin bewohnt ein Zimmer in einem Altbau.",
+    "answer": [ "Studentica živi u sobi u starogradnji." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "bewohnen: bewohnt, bewohnte, hat bewohnt - nastaniti",
+        "word": "bewohnt"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Zimmer, das - soba",
+        "word": "Zimmer"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Altbau, der - starogradnja",
+        "word": "Altbau."
+      }
+    ]
+  },
+  {
+    "question": "Die Studentin kündigt das Appartement zum Jahresende.",
+    "answer": [ "Studentica otkazuje stan na kraju godine." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "kündigen: kündigt, kündigte, hat gekündigt - otkazati",
+        "word": "kündigt"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Appartement, das - stan",
+        "word": "Appartement"
+      },
+      {
+        "explanation": "zum = zu + dem - na",
+        "word": "zum "
+      },
+      {
+        "explanation": "Jahresende, das – kraj godine",
+        "word": "Jahresende."
+      }
+    ]
+  },
+  {
+    "question": "Die Geschäftsfrau mietet das Appartement am Frankfurter Platz.",
+    "answer": [ "Poslovna žena iznajmljuje stan na Frankfurtskom trgu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Geschäftsfrau, die - poslovna žena",
+        "word": "Geschäftsfrau"
+      },
+      {
+        "explanation": "mieten: mietet, mietete, hat gemietet - iznajmljivati",
+        "word": "mietet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Appartement, das - stan",
+        "word": "Appartement"
+      },
+      {
+        "explanation": "am = an + dem - na",
+        "word": "am"
+      },
+      {
+        "explanation": "Frankfurter - frankfurtski",
+        "word": "Frankfurter"
+      },
+      {
+        "explanation": "Platz, der - trg",
+        "word": "Platz."
+      }
+    ]
+  },
+  {
+    "question": "Der Geschäftsmann entscheidet sich für ein Haus in einem Villenviertel.",
+    "answer": [ "Poslovni čovjek odlučuje se za kuću u stambenoj četvrti." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Geschäftsmann, der - poslovni čovjek",
+        "word": "Geschäftsmann"
+      },
+      {
+        "explanation": "entscheidet sich – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "entscheidet"
+      },
+      {
+        "explanation": "entscheidet sich – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "sich"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Villenviertel, das – stambena četvrt",
+        "word": "Villenviertel"
+      }
+    ]
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "question": "Das Mädchen kauft Lebensmittel ein.",
+    "answer": [ "Djevojka kupuje namirnice." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Mädchen, das - djevojka",
+        "word": "Mädchen"
+      },
+      {
+        "explanation": "kauft ein – einkaufen: kauft ein, kaufte ein, hat eingekauft - kupovati ",
+        "word": "kauft"
+      },
+      {
+        "explanation": "Lebensmittel, das - namirnice",
+        "word": "Lebensmittel"
+      },
+      {
+        "explanation": "kauft ein – einkaufen: kauft ein, kaufte ein, hat eingekauft - kupovati ",
+        "word": "ein."
+      }
+    ]
+  },
+  {
+    "question": "Marija putzt das Gemüse.",
+    "answer": [ "Marija čisti povrće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marija"
+      },
+      {
+        "explanation": "putzen: putzt, putzte, hat geputzt - čistiti",
+        "word": "putzt"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Gemüse, das - povrće",
+        "word": "Gemüse."
+      }
+    ]
+  },
+  {
+    "question": "Ana bereitet das Gemüse zu.",
+    "answer": [ "Ana priprema povrće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ana"
+      },
+      {
+        "explanation": "bereitet zu – zubereiten: bereitet zu, bereitete zu, hat zubereitet - pripremati",
+        "word": "bereitet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Gemüse, das - povrće",
+        "word": "Gemüse"
+      },
+      {
+        "explanation": "bereitet zu – zubereiten: bereitet zu, bereitete zu, hat zubereitet - pripremati",
+        "word": "zu."
+      }
+    ]
+  },
+  {
+    "question": "Elena dünstet das Gemüse.",
+    "answer": [ "Elena dinsta povrće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Elena"
+      },
+      {
+        "explanation": "dünsten: dünstet, dünstete, hat gedünstet - dinstati",
+        "word": "dünstet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Gemüse, das - povrće",
+        "word": "Gemüse."
+      }
+    ]
+  },
+  {
+    "question": "Mein Vater würzt das Fleisch.",
+    "answer": [ "Moj otac začinjava meso." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Mein"
+      },
+      {
+        "explanation": "Vater, der - otac",
+        "word": "Vater"
+      },
+      {
+        "explanation": "würzen: würzt, würzte, hat gewürzt - začiniti",
+        "word": "würzt"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Fleisch, der - meso",
+        "word": "Fleisch."
+      }
+    ]
+  },
+  {
+    "question": "Die Köchin garniert das Fleisch mit Gemüse.",
+    "answer": [ "Kuharica ukrašava meso povrćem." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Köchin, die - kuharica",
+        "word": "Köchin"
+      },
+      {
+        "explanation": "garnieren: garniert, garnierte, hat garniert - ukrašavati",
+        "word": "garniert"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Fleisch, der - meso",
+        "word": "Fleisch"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Gemüse, das - povrće",
+        "word": "Gemüse."
+      }
+    ]
+  },
+  {
+    "question": "Die Köchin rührt die Suppe um.",
+    "answer": [ "Kuharica miješa juhu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Köchin, die - kuharica",
+        "word": "Köchin"
+      },
+      {
+        "explanation": "rührt um – umrühren: rührt um, rührte um, hat umgerührt - miješati",
+        "word": "rührt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Suppe, die - juha",
+        "word": "Suppe"
+      },
+      {
+        "explanation": "rührt um – umrühren: rührt um, rührte um, hat umgerührt - miješati",
+        "word": "um."
+      }
+    ]
+  },
+  {
+    "question": "Meine Schwester probiert die Suppe.",
+    "answer": [ "Moja sestra kuša juhu." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Meine"
+      },
+      {
+        "explanation": "Schwester, die - sestra",
+        "word": "Schwester"
+      },
+      {
+        "explanation": "probieren: probiert, probierte, hat probiert - kušati",
+        "word": "probiert"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Suppe, die - juha",
+        "word": "Suppe."
+      }
+    ]
+  },
+  {
+    "question": "Meine Schwester salzt die Suppe.",
+    "answer": [ "Moja sestra soli juhu." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Meine"
+      },
+      {
+        "explanation": "Schwester, die - sestra",
+        "word": "Schwester"
+      },
+      {
+        "explanation": "salzen: salzt, salzte, hat gesalzen/gesalzt - soliti",
+        "word": "salzt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Suppe, die - juha",
+        "word": "Suppe"
+      }
+    ]
+  },
+  {
+    "question": "Mein Bruder würzt die Suppe.",
+    "answer": [ "Brat začinjava juhu." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Mein"
+      },
+      {
+        "explanation": "Bruder, der - brat",
+        "word": "Bruder"
+      },
+      {
+        "explanation": "würzen: würzt, würzte, hat gewürzt - začiniti",
+        "word": "würzt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Suppe, die - juha",
+        "word": "Suppe."
+      }
+    ]
+  },
+  {
+    "question": "Die Hausfrau bewahrt Fisch in der Tiefkühltruhe auf.",
+    "answer": [ "Kućanica drži ribu u zamrzivaču." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Hausfrau, die – kućanica",
+        "word": "Hausfrau"
+      },
+      {
+        "explanation": "bewahrt auf – aufbewahren: bewahrt auf, bewahrte auf, hat aufbewahrt - skladištiti",
+        "word": "bewahrt"
+      },
+      {
+        "explanation": "Fisch, der - riba",
+        "word": "Fisch"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Tiefkühltruhe, die - zamrzivač",
+        "word": "Tiefkühltruhe"
+      },
+      {
+        "explanation": "bewahrt auf – aufbewahren: bewahrt auf, bewahrte auf, hat aufbewahrt - skladištiti",
+        "word": "auf."
+      }
+    ]
+  },
+  {
+    "question": "Die Köchin brät den Fisch in der Pfanne.",
+    "answer": [ "Kuharica prži ribu u tavi." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Köchin, die - kuharica",
+        "word": "Köchin"
+      },
+      {
+        "explanation": "braten: brät, briet, hat gebraten - pržiti",
+        "word": "brät"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Fisch, der - riba",
+        "word": "Fisch"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Pfanne, die - tava",
+        "word": "Pfanne."
+      }
+    ]
+  },
+  {
+    "question": "Die Köchin brät das Fleisch bei 160 Grad.",
+    "answer": [ "Kuharica peče meso na 160 stupnjeva." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Köchin, die - kuharica",
+        "word": "Köchin"
+      },
+      {
+        "explanation": "braten: brät, briet, hat gebraten - pržiti",
+        "word": "brät"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Fleisch, das - meso",
+        "word": "Fleisch"
+      },
+      {
+        "explanation": "pri",
+        "word": "bei"
+      },
+      {
+        "explanation": "",
+        "word": "160"
+      },
+      {
+        "explanation": "Grad, der/das - stupanj",
+        "word": "Grad."
+      }
+    ]
+  },
+  {
+    "question": "Ana kocht die Kartoffeln etwa zwanzig Minuten.",
+    "answer": [ "Ana kuha krumpir dvadesetak minuta." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ana"
+      },
+      {
+        "explanation": "kochen: kocht, kochte, hat gekocht - kuhati",
+        "word": "kocht"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Kartoffel, die - krumpir",
+        "word": "Kartoffeln"
+      },
+      {
+        "explanation": "oko",
+        "word": "etwa"
+      },
+      {
+        "explanation": "dvadeset",
+        "word": "zwanzig"
+      },
+      {
+        "explanation": "Minute, die - minuta",
+        "word": "Minuten."
+      }
+    ]
+  },
+  {
+    "question": "Ana schält die Kartoffeln mit einem Messer.",
+    "answer": [ "Ana nožem guli krumpire." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ana"
+      },
+      {
+        "explanation": "schälen: schält, schälte, hat geschält - guliti",
+        "word": "schält"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Kartoffel, die - krumpir",
+        "word": "Kartoffeln"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Messer, das - nož",
+        "word": "Messer."
+      }
+    ]
+  },
+  {
+    "question": "Nikolina füllt die Tortilla mit Hühnchen, Paprika, Mais, Salat und Bohnen.",
+    "answer": [ "Nikolina puni tortillu piletinom, crvenom paprikom, kukuruzom, zelenom salatom i grahom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Nikolina"
+      },
+      {
+        "explanation": "füllen: füllt, füllte, hat gefüllt - puniti",
+        "word": "füllt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Tortilla, die - tortilla",
+        "word": "Tortilla"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Hühnchen, das - piletina",
+        "word": "Hühnchen"
+      },
+      {
+        "explanation": "Paprika, der/die - paprika",
+        "word": "Paprika"
+      },
+      {
+        "explanation": "Mais, der - kukuruz",
+        "word": "Mais"
+      },
+      {
+        "explanation": "Salat, der - salata",
+        "word": "Salat"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Bohne, die - grah",
+        "word": "Bohnen."
+      }
+    ]
+  }
+]

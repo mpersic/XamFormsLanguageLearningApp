@@ -48,6 +48,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             CheckAnswerCommand = new Command(CheckAnwser);
             GoToRevisionCommand = new Command(GoToRevision);
             GoToHomePageCommand = new Command(GoToHomePage);
+            FinishRevisionCommand = new Command(FinishRevision);
 
             BindableGrammarExamQuestions = new ObservableCollection<BindableGrammarExamQuestion>();
             GrammarExamples = new ObservableCollection<BindableGrammarExample>();
@@ -118,6 +119,8 @@ namespace XamFormsLanguageLearningApp.ViewModels
         }
 
         public Command GoToHomePageCommand { get; }
+
+        public Command FinishRevisionCommand { get; }
 
         public Command GoToRevisionCommand { get; }
 
@@ -303,6 +306,12 @@ namespace XamFormsLanguageLearningApp.ViewModels
         private async void GoToHomePage()
         {
             await Shell.Current.GoToAsync("..");
+        }
+
+        private void FinishRevision()
+        {
+            ExamState = ExamState.Final;
+            ProcessExamState();
         }
 
         private void GoToRevision()

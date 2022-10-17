@@ -1,0 +1,608 @@
+[
+  {
+    "question": "Ein Paar trinkt Kaffee in einem Café.",
+    "answer": [ "Par pije kavu u kafiću." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ein"
+      },
+      {
+        "explanation": "Paar, das - par",
+        "word": "Paar"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "Kaffee, der - kava",
+        "word": "Kaffee"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Café, das - kafić",
+        "word": "Café."
+      }
+    ]
+  },
+  {
+    "question": "Der Junge bestellt zu seinem Kaffee ein Glas Wasser.",
+    "answer": [ "Dečko uz kavu naručuje čašu vode." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Junge, der - dečko",
+        "word": "Junge"
+      },
+      {
+        "explanation": "bestellen: bestellt, bestellte, hat bestellt - naručiti",
+        "word": "bestellt"
+      },
+      {
+        "explanation": "u – s/sa",
+        "word": "zu – s/s"
+      },
+      {
+        "explanation": "sein – njegov/svoj",
+        "word": "seinem"
+      },
+      {
+        "explanation": "Kaffee, der - kava",
+        "word": "Kaffee"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Glas, das - čaša",
+        "word": "Glas"
+      },
+      {
+        "explanation": "Wasser, das - voda",
+        "word": "Wasser."
+      }
+    ]
+  },
+  {
+    "question": "Das Kind trinkt eine Tasse Milch.",
+    "answer": [ "Dijete pije šalicu mlijeka." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kind"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Tasse, die - šalica",
+        "word": "Tasse"
+      },
+      {
+        "explanation": "Milch, die - mlijeko",
+        "word": "Milch."
+      }
+    ]
+  },
+  {
+    "question": "Das Mädchen genießt einen leckeren Cappuccino.",
+    "answer": [ "Djevojka uživa u ukusnom cappuccinu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Mädchen, das - djevojka",
+        "word": "Mädchen"
+      },
+      {
+        "explanation": "genießen: genießt, genoss, hat genossen - uživati",
+        "word": "genießt"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "lecker - ukusan",
+        "word": "leckeren"
+      },
+      {
+        "explanation": "Cappuccino, der - cappuccino",
+        "word": "Cappuccino."
+      }
+    ]
+  },
+  {
+    "question": "Oma trinkt Kaffee mit zwei Würfelzuckern.",
+    "answer": [ "Baka pije kavu s dvije kocke šećera." ],
+    "wordExplanations": [
+      {
+        "explanation": "Oma, die - baka",
+        "word": "Oma"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "Kaffee, der - kava",
+        "word": "Kaffee"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "dva",
+        "word": "zwei"
+      },
+      {
+        "explanation": "Würfelzucker, der – kocka šećera",
+        "word": "Würfelzuckern."
+      }
+    ]
+  },
+  {
+    "question": "Könnte ich bitte noch einen Würfelzucker haben?",
+    "answer": [ "Mogu li molim Vas dobiti još jednu kocku šećera?" ],
+    "wordExplanations": [
+      {
+        "explanation": "können - moći",
+        "word": "Könnte"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "molim",
+        "word": "bitte"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Würfelzucker, der – kocka šećera",
+        "word": "Würfelzucker"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben?"
+      }
+    ]
+  },
+  {
+    "question": "Marko bevorzugt Tee mit Zucker.",
+    "answer": [ "Marko radije pije čaj sa šećerom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugt"
+      },
+      {
+        "explanation": "Tee, der - čaj",
+        "word": "Tee"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Zucker, der - šećer",
+        "word": "Zucker."
+      }
+    ]
+  },
+  {
+    "question": "Nikola bevorzugt Tee mit Honig.",
+    "answer": [ "Nikola preferira čaj s medom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Nikola"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugt"
+      },
+      {
+        "explanation": "Tee, der - čaj",
+        "word": "Tee"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Honig, der - med",
+        "word": "Honig."
+      }
+    ]
+  },
+  {
+    "question": "Jeden Morgen trinkt Klaudija grünen Tee.",
+    "answer": [ "Svakog jutra Klaudija pije zeleni čaj." ],
+    "wordExplanations": [
+      {
+        "explanation": "jede - svaki",
+        "word": "Jeden"
+      },
+      {
+        "explanation": "Morgen, der - jutro",
+        "word": "Morgen"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "",
+        "word": "Klaudija"
+      },
+      {
+        "explanation": "grün - zelen",
+        "word": "grünen"
+      },
+      {
+        "explanation": "Tee, der - čaj",
+        "word": "Tee."
+      }
+    ]
+  },
+  {
+    "question": "Jeden Abend trinkt Karla Kamillentee.",
+    "answer": [ "Karla pije čaj od kamilice svaku večer." ],
+    "wordExplanations": [
+      {
+        "explanation": "jede - svaki",
+        "word": "Jeden"
+      },
+      {
+        "explanation": "Abend, der - večer",
+        "word": "Abend"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "",
+        "word": "Karla"
+      },
+      {
+        "explanation": "Kamillentee, der - čaj od kamilice",
+        "word": "Kamillentee."
+      }
+    ]
+  },
+  {
+    "question": "Könnte ich bitte noch einen Teelöffel haben?",
+    "answer": [ "Mogu li molim Vas dobiti još jednu čajnu žličicu?" ],
+    "wordExplanations": [
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "Könnte"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "molim",
+        "word": "bitte"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Teelöffel, der – čajna žličica",
+        "word": "Teelöffel"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben?"
+      }
+    ]
+  },
+  {
+    "question": "Die Jungen bestellen Bier.",
+    "answer": [ "Momci naručuju pivo." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Junge, der - dečko",
+        "word": "Jungen"
+      },
+      {
+        "explanation": "bestellen: bestellt, bestellte, hat bestellt - naručiti",
+        "word": "bestellen"
+      },
+      {
+        "explanation": "Bier, das - pivo",
+        "word": "Bier."
+      }
+    ]
+  },
+  {
+    "question": "Die Kellnerin serviert das Getränk in einem Krug.",
+    "answer": [ "Konobarica poslužuje piće u vrču." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Kellnerin, die - konobarica",
+        "word": "Kellnerin"
+      },
+      {
+        "explanation": "servieren: serviert, servierte, hat serviert - servirati",
+        "word": "serviert"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Getränk, das - piće",
+        "word": "Getränk"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Krug, der - vrč",
+        "word": "Krug."
+      }
+    ]
+  },
+  {
+    "question": "Die Kellnerin füllt die Gläser.",
+    "answer": [ "Konobarica puni čaše." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Kellnerin, die - konobarica",
+        "word": "Kellnerin"
+      },
+      {
+        "explanation": "füllen: füllt, füllte, hat gefüllt - puniti",
+        "word": "füllt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Glas, das - čaša",
+        "word": "Gläser."
+      }
+    ]
+  },
+  {
+    "question": "Ivan trinkt keine alkoholischen Getränke.",
+    "answer": [ "Ivan ne pije alkoholna pića." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivan"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "",
+        "word": "keine"
+      },
+      {
+        "explanation": "alkoholisch - alkoholno",
+        "word": "alkoholischen"
+      },
+      {
+        "explanation": "Getränk, das - piće",
+        "word": "Getränke."
+      }
+    ]
+  },
+  {
+    "question": "Ivan trinkt Orangensaft.",
+    "answer": [ "Ivan pije sok od naranče." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivan"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "Orangensaft, der – sok od naranče",
+        "word": "Orangensaft."
+      }
+    ]
+  },
+  {
+    "question": "Ivana trinkt frisch gepressten Orangensaft.",
+    "answer": [ "Ivana pije svježe cijeđeni sok od naranče." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "frisch - svjež",
+        "word": "frisch"
+      },
+      {
+        "explanation": "gepresst - cijeđen",
+        "word": "gepressten"
+      },
+      {
+        "explanation": "Orangensaft, der – sok od naranče",
+        "word": "Orangensaft."
+      }
+    ]
+  },
+  {
+    "question": "Marija trinkt gerne Limonade.",
+    "answer": [ "Marija rado pije limunadu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marija"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinkt"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Limonade, die - limunada",
+        "word": "Limonade."
+      }
+    ]
+  },
+  {
+    "question": "Der Barmann presst Zitronen in einer Zitronenpresse.",
+    "answer": [ "Šanker cijedi limun u cjediljki za limun." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Barmann, der - šanker",
+        "word": "Barmann"
+      },
+      {
+        "explanation": "pressen: presst, presste, hat gepresst - cijediti",
+        "word": "presst"
+      },
+      {
+        "explanation": "Zitrone, die - limun",
+        "word": "Zitronen"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einer"
+      },
+      {
+        "explanation": "Zitronenpresse, die – cjediljka za limun",
+        "word": "Zitronenpresse."
+      }
+    ]
+  },
+  {
+    "question": "Die Mädchen trinken gerne Rotwein.",
+    "answer": [ "Djevojke rado piju crveno vino." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mädchen, das - djevojka",
+        "word": "Mädchen"
+      },
+      {
+        "explanation": "trinken: trinkt, trank, hat getrunken - piti",
+        "word": "trinken"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Rotwein, der – crveno vino",
+        "word": "Rotwein."
+      }
+    ]
+  },
+  {
+    "question": "Ich hätte gern ein Mineralwasser.",
+    "answer": [ "Htjela bih mineralnu vodu." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "hätte"
+      },
+      {
+        "explanation": "rado",
+        "word": "gern"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Mineralwasser, das – mineralna voda",
+        "word": "Mineralwasser."
+      }
+    ]
+  }
+]

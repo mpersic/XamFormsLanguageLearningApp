@@ -1,0 +1,1030 @@
+[
+  {
+    "question": "Wo können wir essen?",
+    "answer": [ "Gdje možemo jesti?" ],
+    "wordExplanations": [
+      {
+        "explanation": "gdje",
+        "word": "Wo"
+      },
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "können"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen?"
+      }
+    ]
+  },
+  {
+    "question": "Wo können wir mittagessen?",
+    "answer": [ "Gdje možemo ručati?" ],
+    "wordExplanations": [
+      {
+        "explanation": "gdje",
+        "word": "Wo"
+      },
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "können"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "mittagessen: isst mittag, aß mittag, hat mittaggegessen - ručati",
+        "word": "mittagessen?"
+      }
+    ]
+  },
+  {
+    "question": "Wo finde ich ein gutes Restaurant?",
+    "answer": [ "Gdje mogu naći dobar restoran?" ],
+    "wordExplanations": [
+      {
+        "explanation": "gdje",
+        "word": "Wo"
+      },
+      {
+        "explanation": "finden: findet, fand, hat gefunden - pronaći",
+        "word": "finde"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "gut - dobar",
+        "word": "gutes"
+      },
+      {
+        "explanation": "Restaurant, das - restoran",
+        "word": "Restaurant?"
+      }
+    ]
+  },
+  {
+    "question": "Ich möchte einen Tisch reservieren.",
+    "answer": [ "Želio bih rezervirati stol." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "möchte"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Tisch, der - stol",
+        "word": "Tisch"
+      },
+      {
+        "explanation": "reserviert, reservierte, hat reserviert - rezervirati",
+        "word": "reservieren."
+      }
+    ]
+  },
+  {
+    "question": "Ich möchte einen Tisch für zwei.",
+    "answer": [ "Htio bih stol za dvoje." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "möchte"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Tisch, der - stol",
+        "word": "Tisch"
+      },
+      {
+        "explanation": "za",
+        "word": "für"
+      },
+      {
+        "explanation": "dva",
+        "word": "zwei."
+      }
+    ]
+  },
+  {
+    "question": "Können wir einen anderen Tisch bekommen?",
+    "answer": [ "Možemo li dobiti drugi stol?" ],
+    "wordExplanations": [
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "Können"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "andere - drugi",
+        "word": "anderen"
+      },
+      {
+        "explanation": "Tisch, der - stol",
+        "word": "Tisch"
+      },
+      {
+        "explanation": "bekommen: bekommt, bekam, hat/ist bekommen - dobiti",
+        "word": "bekommen?"
+      }
+    ]
+  },
+  {
+    "question": "Ist der Tisch frei?",
+    "answer": [ "Je li stol slobodan?" ],
+    "wordExplanations": [
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "Ist"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Tisch, der - stol",
+        "word": "Tisch"
+      },
+      {
+        "explanation": "frei - slobodan",
+        "word": "frei?"
+      }
+    ]
+  },
+  {
+    "question": "Haben Sie einen Kinderstuhl?",
+    "answer": [ "Imate li stolicu za djecu?" ],
+    "wordExplanations": [
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "Haben"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Kinderstuhl, der – stolica za djecu",
+        "word": "Kinderstuhl."
+      }
+    ]
+  },
+  {
+    "question": "Die Familie isst in einem Restaurant zu Abend.",
+    "answer": [ "Obitelj večera u restoranu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einem"
+      },
+      {
+        "explanation": "Restaurant, das - restoran",
+        "word": "Restaurant"
+      },
+      {
+        "explanation": "za",
+        "word": "zu"
+      },
+      {
+        "explanation": "Abend, der - večer",
+        "word": "Abend."
+      }
+    ]
+  },
+  {
+    "question": "Kann ich bitte eine Speisekarte haben?",
+    "answer": [ "Mogu li molim Vas dobiti meni?" ],
+    "wordExplanations": [
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "Kann"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "molim",
+        "word": "bitte"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Speisekarte, die - meni",
+        "word": "Speisekarte"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben?"
+      }
+    ]
+  },
+  {
+    "question": "Hier ist die Speisekarte.",
+    "answer": [ "Ovdje je jelovnik." ],
+    "wordExplanations": [
+      {
+        "explanation": "ovdje",
+        "word": "Hier"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Speisekarte, die - meni",
+        "word": "Speisekarte."
+      }
+    ]
+  },
+  {
+    "question": "Gibt es hier ein Tagesmenü?",
+    "answer": [ "Ima li ovdje dnevni meni?" ],
+    "wordExplanations": [
+      {
+        "explanation": "geben: gibt, gab, hat gegeben - dati",
+        "word": "Gibt"
+      },
+      {
+        "explanation": "to",
+        "word": "es"
+      },
+      {
+        "explanation": "ovdje",
+        "word": "hier"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Tagesmenü, das – dnevni meni",
+        "word": "Tagesmenü?"
+      }
+    ]
+  },
+  {
+    "question": "Was können Sie mir empfehlen?",
+    "answer": [ "Što mi možete preporučiti?" ],
+    "wordExplanations": [
+      {
+        "explanation": "što",
+        "word": "Was"
+      },
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "können"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "meni",
+        "word": "mir"
+      },
+      {
+        "explanation": "empfehlen: empfiehlt, empfahl, hat empfohlen - preporučiti",
+        "word": "empfehlen?"
+      }
+    ]
+  },
+  {
+    "question": "Ich bin gegenüber bestimmten Lebensmitteln allergisch.",
+    "answer": [ "Alergičan sam na određene namirnice." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "bin"
+      },
+      {
+        "explanation": "protiv/nasuprot",
+        "word": "gegenüber"
+      },
+      {
+        "explanation": "bestimmt - određen",
+        "word": "bestimmten"
+      },
+      {
+        "explanation": "Lebensmittel, das - namirnica",
+        "word": "Lebensmitteln"
+      },
+      {
+        "explanation": "allergisch - alergičan",
+        "word": "allergisch."
+      }
+    ]
+  },
+  {
+    "question": "Welche Fleischsorten bietet dieses Restaurant?",
+    "answer": [ "Koje vrste mesa nudi ovaj restoran?" ],
+    "wordExplanations": [
+      {
+        "explanation": "welche - koji",
+        "word": "Welche"
+      },
+      {
+        "explanation": "Fleischsorte, die – vrsta mesa",
+        "word": "Fleischsorten"
+      },
+      {
+        "explanation": "bieten: bietet, bot, hat geboten - nuditi",
+        "word": "bietet"
+      },
+      {
+        "explanation": "dies – ovaj",
+        "word": "dieses"
+      },
+      {
+        "explanation": "Restaurant, das - restoran",
+        "word": "Restaurant?"
+      }
+    ]
+  },
+  {
+    "question": "Magst du Rindfleisch?",
+    "answer": [ "Voliš li govedinu?" ],
+    "wordExplanations": [
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti/voljeti",
+        "word": "Magst"
+      },
+      {
+        "explanation": "ti",
+        "word": "du"
+      },
+      {
+        "explanation": "Rindfleisch, der - govedina",
+        "word": "Rindfleisch?"
+      }
+    ]
+  },
+  {
+    "question": "Ich möchte etwas ohne Fleisch.",
+    "answer": [ "Želim nešto bez mesa." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "möchte"
+      },
+      {
+        "explanation": "nešto",
+        "word": "etwas"
+      },
+      {
+        "explanation": "bez",
+        "word": "ohne"
+      },
+      {
+        "explanation": "Fleisch, der - meso",
+        "word": "Fleisch."
+      }
+    ]
+  },
+  {
+    "question": "Haben Sie auch vegetarische Speisen?",
+    "answer": [ "Imate li i vegetarijanska jela?" ],
+    "wordExplanations": [
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "Haben"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "također",
+        "word": "auch"
+      },
+      {
+        "explanation": "vegetarisch - vegeterijanski",
+        "word": "vegetarische"
+      },
+      {
+        "explanation": "Speise, die - jelo",
+        "word": "Speisen?"
+      }
+    ]
+  },
+  {
+    "question": "Möchten Sie schon bestellen?",
+    "answer": [ "Želite li već naručiti?" ],
+    "wordExplanations": [
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "Möchten"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "već",
+        "word": "schon"
+      },
+      {
+        "explanation": "bestellen: bestellt, bestellte, hat bestellt - naručiti",
+        "word": "bestellen?"
+      }
+    ]
+  },
+  {
+    "question": "Nein, wir haben uns noch nicht entschieden. ",
+    "answer": [ "Ne, nismo se još odlučili." ],
+    "wordExplanations": [
+      {
+        "explanation": "ne",
+        "word": "Nein,"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "haben uns entschieden – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "haben"
+      },
+      {
+        "explanation": "haben uns entschieden – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "uns"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "ne",
+        "word": "nicht"
+      },
+      {
+        "explanation": "haben uns entschieden – sich entscheiden: entscheidet sich, entschied sich, hat sich entschieden – odlučiti se",
+        "word": "entschieden."
+      }
+    ]
+  },
+  {
+    "question": "Möchten Sie zuerst die Getränke bestellen? ",
+    "answer": [ "Ich möchte eine Vorspeise." ],
+    "wordExplanations": [
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "Möchten"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "prvo",
+        "word": "zuerst"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Getränk, das - piće",
+        "word": "Getränke"
+      },
+      {
+        "explanation": "bestellen: bestellt, bestellte, hat bestellt - naručiti",
+        "word": "bestellen?"
+      }
+    ]
+  },
+  {
+    "question": "Ich möchte eine Vorspeise.",
+    "answer": [ "Želim predjelo." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "möchte"
+      },
+      {
+        "explanation": "ine ",
+        "word": "eine"
+      },
+      {
+        "explanation": "Vorspeise, die - predjelo",
+        "word": "Vorspeise."
+      }
+    ]
+  },
+  {
+    "question": "Möchten Sie noch Suppe?",
+    "answer": [ "Želite li još malo juhe?" ],
+    "wordExplanations": [
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "Möchten"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "Suppe, die - juha",
+        "word": "Suppe?"
+      }
+    ]
+  },
+  {
+    "question": "Was ißt du lieber, Fleisch oder Fisch? ",
+    "answer": [ "Što više voliš jesti, meso ili ribu" ],
+    "wordExplanations": [
+      {
+        "explanation": "što",
+        "word": "Was"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "ißt"
+      },
+      {
+        "explanation": "ti",
+        "word": "du"
+      },
+      {
+        "explanation": "gern - rado",
+        "word": "lieber,"
+      },
+      {
+        "explanation": "Fleisch, der - meso",
+        "word": "Fleisch"
+      },
+      {
+        "explanation": "ili",
+        "word": "oder"
+      },
+      {
+        "explanation": "Fisch, der - riba",
+        "word": "Fisch?"
+      }
+    ]
+  },
+  {
+    "question": "Ich werde Fisch nehmen.",
+    "answer": [ "Uzet ću ribu." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "werde nehmen – nehmen: nimmt, nahm, hat genommen - uzeti",
+        "word": "werde"
+      },
+      {
+        "explanation": "Fisch, der - riba",
+        "word": "Fisch"
+      },
+      {
+        "explanation": "werde nehmen – nehmen: nimmt, nahm, hat genommen - uzeti",
+        "word": "nehmen."
+      }
+    ]
+  },
+  {
+    "question": "Möchten Sie das mit Kartoffeln?",
+    "answer": [ "Želite li to s krumpirom?" ],
+    "wordExplanations": [
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti ",
+        "word": "Möchten"
+      },
+      {
+        "explanation": "Vi",
+        "word": "Sie"
+      },
+      {
+        "explanation": "to",
+        "word": "das"
+      },
+      {
+        "explanation": "s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Kartoffel, die - krumpir",
+        "word": "Kartoffeln?"
+      }
+    ]
+  },
+  {
+    "question": "Die Familie probiert ein Nationalgericht.",
+    "answer": [ "Obitelj kuša nacionalno jelo." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Familie, die - obitelj",
+        "word": "Familie"
+      },
+      {
+        "explanation": "probieren: probiert, probierte, hat probiert - kušati ",
+        "word": "probiert"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Nationalgericht, das - nacionalno jelo",
+        "word": "Nationalgericht."
+      }
+    ]
+  },
+  {
+    "question": "Könnte ich bitte ein Messer haben?",
+    "answer": [ "Mogu li molim Vas dobiti nož?" ],
+    "wordExplanations": [
+      {
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
+        "word": "Könnte"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "molim",
+        "word": "bitte"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Messer, das – nož",
+        "word": "Messer"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben?"
+      }
+    ]
+  },
+  {
+    "question": "Ja, ich bringe es Ihnen sofort.",
+    "answer": [ "Da, odmah ću vam ga donijeti." ],
+    "wordExplanations": [
+      {
+        "explanation": "da",
+        "word": "Ja,"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "bringen: bringt, brachte, hat gebracht - donijeti",
+        "word": "bringe"
+      },
+      {
+        "explanation": "to",
+        "word": "es"
+      },
+      {
+        "explanation": "Vama",
+        "word": "Ihnen"
+      },
+      {
+        "explanation": "odmah",
+        "word": "sofort."
+      }
+    ]
+  },
+  {
+    "question": "Wo sind Salz und Pfeffer?",
+    "answer": [ "Gdje su sol i papar?" ],
+    "wordExplanations": [
+      {
+        "explanation": "gdje",
+        "word": "Wo"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "sind"
+      },
+      {
+        "explanation": "Salz, das - sol",
+        "word": "Salz"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Pfeffer, der - papar",
+        "word": "Pfeffer?"
+      }
+    ]
+  },
+  {
+    "question": "Bitte noch Salz und Pfeffer.",
+    "answer": [ "Molim Vas još soli i papra." ],
+    "wordExplanations": [
+      {
+        "explanation": "molim",
+        "word": "Bitte"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "Salz, das - sol",
+        "word": "Salz"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Pfeffer, der - papar",
+        "word": "Pfeffer."
+      }
+    ]
+  },
+  {
+    "question": "Ich hätte gern noch etwas Brot.",
+    "answer": [ "Htjela bih još kruha." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "hätte"
+      },
+      {
+        "explanation": "rado",
+        "word": "gern"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "nešto",
+        "word": "etwas"
+      },
+      {
+        "explanation": "Brot, das - kruh",
+        "word": "Brot."
+      }
+    ]
+  },
+  {
+    "question": "Das habe ich nicht bestellt.",
+    "answer": [ "Nisam to naručio." ],
+    "wordExplanations": [
+      {
+        "explanation": "to",
+        "word": "Das"
+      },
+      {
+        "explanation": "habe bestellt – bestellen: bestellt, bestellte, hat bestellt - naručiti ",
+        "word": "habe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "ne",
+        "word": "nicht"
+      },
+      {
+        "explanation": "habe bestellt – bestellen: bestellt, bestellte, hat bestellt - naručiti ",
+        "word": "bestellt."
+      }
+    ]
+  },
+  {
+    "question": "Das ist mein Lieblingsgericht!",
+    "answer": [ "Ovo je moje najdraže jelo." ],
+    "wordExplanations": [
+      {
+        "explanation": "to",
+        "word": "Das"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "mein - moj",
+        "word": "mein"
+      },
+      {
+        "explanation": "Lieblingsgericht, das - najdraže jelo",
+        "word": "Lieblingsgericht!"
+      }
+    ]
+  },
+  {
+    "question": "Ich möchte einen Nachtisch.",
+    "answer": [ "Želim desert." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "möchte"
+      },
+      {
+        "explanation": " ",
+        "word": "einen"
+      },
+      {
+        "explanation": "Nachtisch, der - desert",
+        "word": "Nachtisch."
+      }
+    ]
+  },
+  {
+    "question": "Ich bin satt.",
+    "answer": [ "Sit sam." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "bin"
+      },
+      {
+        "explanation": "satt - sit",
+        "word": "satt."
+      }
+    ]
+  },
+  {
+    "question": "Hat es Ihnen geschmeckt?",
+    "answer": [ "Jeste li Vam bilo ukusno?" ],
+    "wordExplanations": [
+      {
+        "explanation": "hat geschmeckt – schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati ",
+        "word": "Hat"
+      },
+      {
+        "explanation": "to",
+        "word": "es"
+      },
+      {
+        "explanation": "Vama",
+        "word": "Ihnen"
+      },
+      {
+        "explanation": "hat geschmeckt – schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati",
+        "word": "geschmeckt."
+      }
+    ]
+  },
+  {
+    "question": "Das Essen ist kalt.",
+    "answer": [ "Jelo je hladno." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Essen, das - jelo",
+        "word": "Essen"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "kalt - hladan",
+        "word": "kalt."
+      }
+    ]
+  },
+  {
+    "question": "Das schmeckt mir nicht.",
+    "answer": [ "Ovo nema dobar okus." ],
+    "wordExplanations": [
+      {
+        "explanation": "to",
+        "word": "Das"
+      },
+      {
+        "explanation": "schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati",
+        "word": "schmeckt"
+      },
+      {
+        "explanation": "meni",
+        "word": "mir"
+      },
+      {
+        "explanation": "ne",
+        "word": "nicht."
+      }
+    ]
+  },
+  {
+    "question": "Es ist sehr lecker.",
+    "answer": [ "Jako je ukusno." ],
+    "wordExplanations": [
+      {
+        "explanation": "to",
+        "word": "Es"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "jako",
+        "word": "sehr"
+      },
+      {
+        "explanation": "lecker - ukusan",
+        "word": "lecker."
+      }
+    ]
+  }
+]

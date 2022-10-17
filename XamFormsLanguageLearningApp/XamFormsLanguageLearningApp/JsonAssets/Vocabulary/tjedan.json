@@ -1,0 +1,458 @@
+[
+  {
+    "question": "Montags gehe ich einkaufen.",
+    "answer": [ "Ponedjeljkom idem u kupovinu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Montag, der - ponedjeljak",
+        "word": "Montags"
+      },
+      {
+        "explanation": "gehen: geht, ging, ist gegangen - ići",
+        "word": "gehe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "einkaufen: kauft ein, kaufte ein, hat eingekauft - kupovati",
+        "word": "einkaufen."
+      }
+    ]
+  },
+  {
+    "question": "Am Montag habe ich Pizza gegessen.",
+    "answer": [ "U ponedjeljak sam jela pizzu." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Montag, der - ponedjeljak",
+        "word": "Montag"
+      },
+      {
+        "explanation": "habe gegessen - essen: isst, aß, hat gegessen - jesti",
+        "word": "habe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "Pizza, die - pizza",
+        "word": "Pizza"
+      },
+      {
+        "explanation": "habe gegessen - essen: isst, aß, hat gegessen - jesti",
+        "word": "gegessen."
+      }
+    ]
+  },
+  {
+    "question": "Dienstags arbeite ich den ganzen Tag.",
+    "answer": [ "Utorkom radim cijeli dan." ],
+    "wordExplanations": [
+      {
+        "explanation": "Dienstag, der -utorak",
+        "word": "Dienstags"
+      },
+      {
+        "explanation": "arbeiten: arbeitet, arbeitete, hat gearbeitet - raditi",
+        "word": "arbeite"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "ganz - cijeli",
+        "word": "ganzen"
+      },
+      {
+        "explanation": "Tag, der - dan",
+        "word": "Tag."
+      }
+    ]
+  },
+  {
+    "question": "Am Dienstag habe ich das ganze Haus aufgeräumt.",
+    "answer": [ "U utorak sam pospremio cijelu kuću" ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na ",
+        "word": "Am"
+      },
+      {
+        "explanation": "Dienstag, der - utorak",
+        "word": "Dienstag"
+      },
+      {
+        "explanation": "habe aufgeräumt – aufräumen: räumt auf, räumte auf, hat aufgeräumt - spremati",
+        "word": "habe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "ganz - cijeli",
+        "word": "ganze"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "habe aufgeräumt – aufräumen: räumt auf, räumte auf, hat aufgeräumt - spremati",
+        "word": "aufgeräumt."
+      }
+    ]
+  },
+  {
+    "question": "Mittwochs gehe ich mit meiner Schwester zum Kaffee.",
+    "answer": [ "Srijedom idem na kavu sa sestrom." ],
+    "wordExplanations": [
+      {
+        "explanation": "Mittwoch, der - srijeda",
+        "word": "Mittwochs"
+      },
+      {
+        "explanation": "gehen: geht, ging, ist gegangen - ići",
+        "word": "gehe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "mein - moj",
+        "word": "meiner"
+      },
+      {
+        "explanation": "Schwester, die - sestra",
+        "word": "Schwester"
+      },
+      {
+        "explanation": "zum = zu + dem - za",
+        "word": "zum"
+      },
+      {
+        "explanation": "Kaffee, der - kava",
+        "word": "Kaffee."
+      }
+    ]
+  },
+  {
+    "question": "Am Mittwoch habe ich einen Mathetest geschrieben.",
+    "answer": [ "U srijedu sam pisala test iz matematike." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Mittwoch, der - srijeda",
+        "word": "Mittwoch"
+      },
+      {
+        "explanation": "habe geschrieben – schreiben: schreibt, schrieb, hat geschrieben - pisati",
+        "word": "habe"
+      },
+      {
+        "explanation": "ich - ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Mathetest, der – test iz matematike",
+        "word": "Mathetest"
+      },
+      {
+        "explanation": "habe geschrieben – schreiben: schreibt, schrieb, hat geschrieben - pisati",
+        "word": "geschrieben."
+      }
+    ]
+  },
+  {
+    "question": "Donnerstags gehe ich zum Training.",
+    "answer": [ "Četvrtkom idem na trening." ],
+    "wordExplanations": [
+      {
+        "explanation": "Donnerstag, der - četvrtak",
+        "word": "Donnerstags"
+      },
+      {
+        "explanation": "gehen: geht, ging, ist gegangen - ići",
+        "word": "gehe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "zum = zu + dem - na",
+        "word": "zum"
+      },
+      {
+        "explanation": "Training, das - trening",
+        "word": "Training."
+      }
+    ]
+  },
+  {
+    "question": "Am Donnerstag bin ich zu spät zum Unterricht gekommen.",
+    "answer": [ "U četvrtak sam zakasnio na nastavu." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Donnerstag, der - četvrtak",
+        "word": "Donnerstag"
+      },
+      {
+        "explanation": "kommen: kommt, kam, ist gekommen - dolaziti",
+        "word": "bin"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "zu – pre(više)",
+        "word": "zu"
+      },
+      {
+        "explanation": "kasno",
+        "word": "spät"
+      },
+      {
+        "explanation": "zum = zu + dem - na",
+        "word": "zum"
+      },
+      {
+        "explanation": "Unterricht, der - nastava",
+        "word": "Unterricht"
+      },
+      {
+        "explanation": "bin gekommen - kommen: kommt, kam, ist gekommen - dolaziti",
+        "word": "gekommen."
+      }
+    ]
+  },
+  {
+    "question": "Freitags essen wir zu Mittag Fisch.",
+    "answer": [ "Petkom jedemo ribu za ručak." ],
+    "wordExplanations": [
+      {
+        "explanation": "Freitag, der - petak",
+        "word": "Freitags"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "za",
+        "word": "zu"
+      },
+      {
+        "explanation": "Mittag, das - ručak",
+        "word": "Mittag"
+      },
+      {
+        "explanation": "Fisch, der - riba",
+        "word": "Fisch."
+      }
+    ]
+  },
+  {
+    "question": "Am Freitag sind wir in einen Nachtclub gegangen.",
+    "answer": [ "U petak smo izašli u noćni klub." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Freitag, der - petak",
+        "word": "Freitag"
+      },
+      {
+        "explanation": "sind gegangen - gehen: geht, ging, ist gegangen - ići",
+        "word": "sind"
+      },
+      {
+        "explanation": "wir – mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "in – u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Nachtclub, der – noćni klub",
+        "word": "Nachtclub"
+      },
+      {
+        "explanation": "sind gegangen - gehen: geht, ging, ist gegangen - ići",
+        "word": "gegangen."
+      }
+    ]
+  },
+  {
+    "question": "Samstags schlafe ich länger.",
+    "answer": [ "Subotom spavam duže." ],
+    "wordExplanations": [
+      {
+        "explanation": "Samstag, der - subota",
+        "word": "Samstags"
+      },
+      {
+        "explanation": "schlafen: schläft, schlief, hat geschlafen - spavati",
+        "word": "schlafe"
+      },
+      {
+        "explanation": "ich – ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "lang - dugo",
+        "word": "länger."
+      }
+    ]
+  },
+  {
+    "question": "Am Samstag habe ich Fußball gespielt.",
+    "answer": [ "U subotu sam igrao nogomet." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Samstag, der - subota",
+        "word": "Samstag"
+      },
+      {
+        "explanation": "habe gespielt – spielen: spielt, spielte, hat gespielt - igrati",
+        "word": "habe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "Fußball, der - nogomet",
+        "word": "Fußball"
+      },
+      {
+        "explanation": "habe gespielt – spielen: spielt, spielte, hat gespielt - igrati",
+        "word": "gespielt."
+      }
+    ]
+  },
+  {
+    "question": "Sonntags gehe ich in die Kirche.",
+    "answer": [ "Nedjeljom idem u crkvu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Sonntag, der - nedjelja",
+        "word": "Sonntags"
+      },
+      {
+        "explanation": "gehen: geht, ging, ist gegangen - ići",
+        "word": "gehe"
+      },
+      {
+        "explanation": "ja",
+        "word": "ich"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Kirche, die - crkva",
+        "word": "Kirche."
+      }
+    ]
+  },
+  {
+    "question": "Am Sonntag haben wir den Geburtstag von meinem Vater gefeiert.",
+    "answer": [ "U nedjelju smo proslavili očev rođendan." ],
+    "wordExplanations": [
+      {
+        "explanation": "am = an + dem - na",
+        "word": "Am"
+      },
+      {
+        "explanation": "Sonntag, der - nedjelja",
+        "word": "Sonntag"
+      },
+      {
+        "explanation": "haben gefeiert - feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "haben"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Geburtstag, der - rođendan",
+        "word": "Geburtstag"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "mein - moj",
+        "word": "meinem"
+      },
+      {
+        "explanation": "Vater, der - otac ",
+        "word": "Vater"
+      },
+      {
+        "explanation": "haben gefeiert - feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "gefeiert."
+      }
+    ]
+  }
+]

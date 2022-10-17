@@ -33,7 +33,7 @@ namespace XamFormsLanguageLearningApp.Views
             MyWarappicek.Children.Clear();
             foreach (var item in _viewModel.WordExplanations)
             {
-                var clickableWord = new Label() { Text = item.Word };
+                var clickableWord = new Label() { Text = item.Word, TextColor = Color.Black };
                 clickableWord.BackgroundColor = Color.Transparent;
                 var tapGestureRecognizer = new TapGestureRecognizer();
                 tapGestureRecognizer.Tapped += async (s, e) =>

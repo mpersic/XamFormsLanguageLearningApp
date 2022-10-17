@@ -1,0 +1,338 @@
+[
+  {
+    "question": "Wir fahren im Januar Ski.",
+    "answer": [ "U siječnju skijamo." ],
+    "wordExplanations": [
+      {
+        "explanation": "mi",
+        "word": "Wir"
+      },
+      {
+        "explanation": "Ski fahren: fährt Ski, fuhr Ski, ist Ski gefahren - skijati",
+        "word": "fahren"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Januar, der - siječanj",
+        "word": "Januar"
+      },
+      {
+        "explanation": "Ski fahren: fährt Ski, fuhr Ski, ist Ski gefahren - skijati",
+        "word": "Ski."
+      }
+    ]
+  },
+  {
+    "question": "Der Valentinstag wird im Februar gefeiert.",
+    "answer": [ "Valentinovo se slavi u veljači." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Valentinstag, der - Valentinovo",
+        "word": "Valentinstag"
+      },
+      {
+        "explanation": "wird gefeiert - feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "wird"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Februar, der - veljača",
+        "word": "Februar"
+      },
+      {
+        "explanation": "wird gefeiert - feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "gefeiert."
+      }
+    ]
+  },
+  {
+    "question": "Im März feiern wir den Frauentag.",
+    "answer": [ "U ožujku slavimo Dan žena." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "März, der - ožujak",
+        "word": "März"
+      },
+      {
+        "explanation": "feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "feiern"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Frauentag, der - Dan žena",
+        "word": "Frauentag."
+      }
+    ]
+  },
+  {
+    "question": "Mein Geburtstag ist im April.",
+    "answer": [ "Moj rođendan je u travnju." ],
+    "wordExplanations": [
+      {
+        "explanation": "mein - moj",
+        "word": "Mein"
+      },
+      {
+        "explanation": "Geburtstag, der - rođendan",
+        "word": "Geburtstag"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "ist"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "April, der - travanj",
+        "word": "April."
+      }
+    ]
+  },
+  {
+    "question": "Meine Mutter hat im Mai Geburtstag.",
+    "answer": [ "Rođendan moje majke je u svibnju." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Meine"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "hat"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Mai, der - svibanj",
+        "word": "Mai"
+      },
+      {
+        "explanation": "Geburtstag, der - rođendan",
+        "word": "Geburtstag."
+      }
+    ]
+  },
+  {
+    "question": "Der Sommer beginnt im Juni.",
+    "answer": [ "Ljeto započinje u lipnju." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Sommer, der - ljeto",
+        "word": "Sommer"
+      },
+      {
+        "explanation": "beginnen: beginnt, begann, hat begonnen - početi",
+        "word": "beginnt"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Juni, der - lipanj",
+        "word": "Juni."
+      }
+    ]
+  },
+  {
+    "question": "Im Juli fahren wir ans Meer.",
+    "answer": [ "U srpnju idemo na more." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "Juli, der - srpanj",
+        "word": "Juli"
+      },
+      {
+        "explanation": "fahren: fährt, fuhr, ist gefahren – voziti/ići",
+        "word": "fahren"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "ans = an + das - na",
+        "word": "ans"
+      },
+      {
+        "explanation": "Meer, das - more",
+        "word": "Meer."
+      }
+    ]
+  },
+  {
+    "question": "Im August haben die Kinder Schulferien.",
+    "answer": [ "U kolovozu djeca imaju školske praznike." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "August, der - kolovoz",
+        "word": "August"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "haben"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "Schulferien, die – školski praznici",
+        "word": "Schulferien."
+      }
+    ]
+  },
+  {
+    "question": "Das Schuljahr beginnt im September.",
+    "answer": [ "Školska godina počinje u rujnu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Das"
+      },
+      {
+        "explanation": "Schuljahr, das – školska godina",
+        "word": "Schuljahr"
+      },
+      {
+        "explanation": "beginnen: beginnt, begann, hat begonnen - početi",
+        "word": "beginnt"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "September, der - rujan",
+        "word": "September."
+      }
+    ]
+  },
+  {
+    "question": "Im Oktober feiern wir den Lehrertag.",
+    "answer": [ "U listopadu obilježavamo Dan učitelja." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "Oktober, der - listopad",
+        "word": "Oktober"
+      },
+      {
+        "explanation": "feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "feiern"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Lehrertag, der – Dan učitelja",
+        "word": "Lehrertag."
+      }
+    ]
+  },
+  {
+    "question": "Ich habe im November Geburtstag.",
+    "answer": [ "Imam rođendan u studenom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ich"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "habe"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "November, der - studeni",
+        "word": "November"
+      },
+      {
+        "explanation": "Geburtstag, der - rođendan",
+        "word": "Geburtstag."
+      }
+    ]
+  },
+  {
+    "question": "Weihnachten wird im Dezember gefeiert.",
+    "answer": [ "Božić se slavi u prosincu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Weihnachten, das - Božić",
+        "word": "Weihnachten"
+      },
+      {
+        "explanation": "wird gefeiert – feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "wird"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Dezember, der - prosinac",
+        "word": "Dezember"
+      },
+      {
+        "explanation": "wird gefeiert – feiern: feiert, feierte, hat gefeiert – slaviti/obilježavati",
+        "word": "gefeiert."
+      }
+    ]
+  }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "question": "Die Mutter wäscht das Obst.",
+    "answer": [ "Majka pere voće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "waschen: wäscht, wusch, hat/ist gewaschen - prati",
+        "word": "wäscht"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Obst, das - voće",
+        "word": "Obst."
+      }
+    ]
+  },
+  {
+    "question": "Die Mutter bereitet Obstsalat zu.",
+    "answer": [ "Majka priprema voćnu salatu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Mutter, die - majka",
+        "word": "Mutter"
+      },
+      {
+        "explanation": "bereitet zu – zubereiten: bereitet zu, bereitete zu, hat zubereitet - pripremati",
+        "word": "bereitet"
+      },
+      {
+        "explanation": "Obstsalat, der – voćna salata",
+        "word": "Obstsalat"
+      },
+      {
+        "explanation": "bereitet zu – zubereiten: bereitet zu, bereitete zu, hat zubereitet - pripremati",
+        "word": "zu."
+      }
+    ]
+  },
+  {
+    "question": "Kinder essen Obst als Zwischenmahlzeit.",
+    "answer": [ "Djeca za užinu jedu voće." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kind, das - dijete",
+        "word": "Kinder"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "Obst, das - voće",
+        "word": "Obst"
+      },
+      {
+        "explanation": "kao",
+        "word": "als"
+      },
+      {
+        "explanation": "Zwischenmahlzeit, die – užina",
+        "word": "Zwischenmahlzeit."
+      }
+    ]
+  },
+  {
+    "question": "Tomislav bevorzugt Aprikosen und Matko bevorzugt Pfirsiche.",
+    "answer": [ "Tomislav preferira marelice, a Matko breskve." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Tomislav"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugt"
+      },
+      {
+        "explanation": "Aprikose, die - marelica",
+        "word": "Aprikosen"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "",
+        "word": "Matko"
+      },
+      {
+        "explanation": "bevorzugen: bevorzugt, bevorzugte, hat bevorzugt - preferirati",
+        "word": "bevorzugt"
+      },
+      {
+        "explanation": "Pfirsich, der - breskva",
+        "word": "Pfirsiche."
+      }
+    ]
+  },
+  {
+    "question": "Andrea isst gerne Beeren.",
+    "answer": [ "Andrea rado jede bobičasto voće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Andrea"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Beere, die - bobica",
+        "word": "Beeren."
+      }
+    ]
+  },
+  {
+    "question": "Andrea isst gerne Erdbeeren, Himbeeren und Brombeeren.",
+    "answer": [ "Andrea voli jesti jagode, maline i kupine." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Andrea"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Erdbeere, die - jagoda",
+        "word": "Erdbeeren,"
+      },
+      {
+        "explanation": "Himbeere, die - malina",
+        "word": "Himbeeren"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Brombeere, die - kupina",
+        "word": "Brombeeren."
+      }
+    ]
+  },
+  {
+    "question": "Kirschen riechen gut.",
+    "answer": [ "Trešnje fino mirišu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Kirsche, die - trešnja",
+        "word": "Kirschen"
+      },
+      {
+        "explanation": "riechen: riecht, roch, hat gerochen - mirisati",
+        "word": "riechen"
+      },
+      {
+        "explanation": "gut - dobro, fino",
+        "word": "gut."
+      }
+    ]
+  },
+  {
+    "question": "Heidelbeeren sind mein Lieblingsobst.",
+    "answer": [ "Borovnice su moje nadraže voće." ],
+    "wordExplanations": [
+      {
+        "explanation": "Heidelbeere, die - borovnica",
+        "word": "Heidelbeeren"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "sind"
+      },
+      {
+        "explanation": "mein – moj",
+        "word": "mein"
+      },
+      {
+        "explanation": "Lieblingsobst, das – najdraže voće",
+        "word": "Lieblingsobst."
+      }
+    ]
+  },
+  {
+    "question": "Ich habe noch nie Stachelbeeren probiert.",
+    "answer": [ "Nikada nisam probala ogrozd." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "habe probiert – probieren: probieren: probiert, probierte, hat probiert – kušati/probati",
+        "word": "habe"
+      },
+      {
+        "explanation": "još",
+        "word": "noch"
+      },
+      {
+        "explanation": "nikada",
+        "word": "nie"
+      },
+      {
+        "explanation": "Stachelbeere, die - ogrozd",
+        "word": "Stachelbeeren"
+      },
+      {
+        "explanation": "habe probiert – probieren: probieren: probiert, probierte, hat probiert – kušati/probati",
+        "word": "probiert."
+      }
+    ]
+  },
+  {
+    "question": "In Slawonien werden vor allem Äpfel, Birnen und Pflaumen angebaut.",
+    "answer": [ "U Slavoniji se najviše uzgajaju jabuke, kruške i šljive." ],
+    "wordExplanations": [
+      {
+        "explanation": "u",
+        "word": "In"
+      },
+      {
+        "explanation": "Slawonien, das - Slavonija",
+        "word": "Slawonien"
+      },
+      {
+        "explanation": "werden angebaut – anbauen: baut an, baute an, hat angebaut - uzgajati",
+        "word": "werden"
+      },
+      {
+        "explanation": "vor allem – najviše",
+        "word": "vor"
+      },
+      {
+        "explanation": "vor allem – najviše",
+        "word": "allem"
+      },
+      {
+        "explanation": "Apfel, der - jabuka",
+        "word": "Äpfel,"
+      },
+      {
+        "explanation": "Birne, die - kruška",
+        "word": "Birnen"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Pflaume, die – šljiva",
+        "word": "Pflaumen"
+      },
+      {
+        "explanation": "werden angebaut – anbauen: baut an, baute an, hat angebaut - uzgajati",
+        "word": "angebaut."
+      }
+    ]
+  },
+  {
+    "question": "Im Sommer essen wir gerne Wassermelone und Melone.",
+    "answer": [ "U ljeto rado jedemo lubenicu i dinju." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "Sommer, der – ljeto",
+        "word": "Sommer"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen – jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "mi",
+        "word": "wir"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Wassermelone, die - lubenica",
+        "word": "Wassermelone"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Melone, die - dinja",
+        "word": "Melone."
+      }
+    ]
+  },
+  {
+    "question": "Im Herbst werden Trauben geerntet.",
+    "answer": [ "U jesen se bere grožđe." ],
+    "wordExplanations": [
+      {
+        "explanation": "im = in + dem - u",
+        "word": "Im"
+      },
+      {
+        "explanation": "Herbst, der - jesen",
+        "word": "Herbst"
+      },
+      {
+        "explanation": "werden geerntet – ernten: erntet, erntete, hat geerntet - brati",
+        "word": "werden"
+      },
+      {
+        "explanation": "Traube, die - grožđe",
+        "word": "Trauben"
+      },
+      {
+        "explanation": "werden geerntet – ernten: erntet, erntete, hat geerntet - brati",
+        "word": "geerntet."
+      }
+    ]
+  },
+  {
+    "question": "Ana isst gerne Südfrüchte.",
+    "answer": [ "Ana rado jede tropsko voće." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Anna"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Südfrucht, das – južno voće/ tropsko voće",
+        "word": "Südfrüchte."
+      }
+    ]
+  },
+  {
+    "question": "Ana isst sehr gerne Mango, Kiwi und Ananas.",
+    "answer": [ "Ana vrlo rado jede mango, kivi i ananas." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Anna"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen – jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "jako/vrlo",
+        "word": "sehr"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Mango, die - mango",
+        "word": "Mango,"
+      },
+      {
+        "explanation": "Kiwi, die - kivi",
+        "word": "Kiwi"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Ananas, die - ananas",
+        "word": "Ananas."
+      }
+    ]
+  },
+  {
+    "question": "Ich esse jeden Tag eine Banane.",
+    "answer": [ "Svaki dan pojedem jednu bananu." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen – jesti",
+        "word": "esse"
+      },
+      {
+        "explanation": "jede - svaki",
+        "word": "jeden"
+      },
+      {
+        "explanation": "Tag, der – dan",
+        "word": "Tag"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Banane, die - banana",
+        "word": "Banane."
+      }
+    ]
+  },
+  {
+    "question": "Hast du schon Papaya probiert?",
+    "answer": [ "Jesi li ikada probao papaju?" ],
+    "wordExplanations": [
+      {
+        "explanation": "hast probiert – probieren: probiert, probierte, hat probiert – kušati/probati",
+        "word": "Hast"
+      },
+      {
+        "explanation": "ti",
+        "word": "du"
+      },
+      {
+        "explanation": "već",
+        "word": "schon"
+      },
+      {
+        "explanation": "Papaya, die - papaja",
+        "word": "Papaya"
+      },
+      {
+        "explanation": "hast probiert – probieren: probiert, probierte, hat probiert – kušati/probati",
+        "word": "probiert?"
+      }
+    ]
+  },
+  {
+    "question": "Ich mag keine Grapefruit.",
+    "answer": [ "Ne volim grejp." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti/voljeti",
+        "word": "mag"
+      },
+      {
+        "explanation": "",
+        "word": "keine"
+      },
+      {
+        "explanation": "Grapefruit, die - grejp",
+        "word": "Grapefruit."
+      }
+    ]
+  },
+  {
+    "question": "Ich mag den Duft von Mandarine und Orange.",
+    "answer": [ "Volim miris mandarine i naranče." ],
+    "wordExplanations": [
+      {
+        "explanation": "ja",
+        "word": "Ich"
+      },
+      {
+        "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
+        "word": "mag"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Duft, der - miris",
+        "word": "Duft"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "Mandarine, die – mandarina",
+        "word": "Mandarine"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Orange, die - naranča",
+        "word": "Orange."
+      }
+    ]
+  }
+]

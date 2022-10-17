@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Die Studentin kauft in einer Bäckerei eine Brezel.",
+    "answer": [ "Studentica kupuje perec u pekari." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Studentin, die - studentica",
+        "word": "Studentin"
+      },
+      {
+        "explanation": "kaufen: kauft, kaufte, hat gekauft - kupiti",
+        "word": "kauft"
+      },
+      {
+        "explanation": "",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "einer"
+      },
+      {
+        "explanation": "Bäckerei, die - pekara",
+        "word": "Bäckerei"
+      },
+      {
+        "explanation": "",
+        "word": "eine"
+      },
+      {
+        "explanation": "Brezel, die - perec",
+        "word": "Brezel."
+      }
+    ]
+  },
+  {
+    "question": "Der Vater schneidet das Brot.",
+    "answer": [ "Otac reže kruh." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Vater, der - otac",
+        "word": "Vater"
+      },
+      {
+        "explanation": "schneiden: schneidet, schnitt, hat geschnitten - rezati",
+        "word": "schneidet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Brot, das - kruh",
+        "word": "Brot."
+      }
+    ]
+  },
+  {
+    "question": "Ana isst Müsli zum Frühstück.",
+    "answer": [ "Ana jede pahuljice za doručak." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ana"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Müsli, das - pahuljice",
+        "word": "Müsli"
+      },
+      {
+        "explanation": "zum = zu + dem - za",
+        "word": "zum"
+      },
+      {
+        "explanation": "Frühstück, das - doručak",
+        "word": "Frühstück."
+      }
+    ]
+  },
+  {
+    "question": "Luka isst jeden Morgen Rührei.",
+    "answer": [ "Luka jede kajganu svakog jutra." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Luka"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "jede - svaki",
+        "word": "jeden"
+      },
+      {
+        "explanation": "Morgen, der - jutro",
+        "word": "Morgen"
+      },
+      {
+        "explanation": "Rührei, das - kajgana",
+        "word": "Rührei."
+      }
+    ]
+  },
+  {
+    "question": "Marko hat Toast mit Marmelade zum Frühstück.",
+    "answer": [ "Marko doručkuje tost s marmeladom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "haben: hat, hatte, hat gehabt - imati",
+        "word": "hat"
+      },
+      {
+        "explanation": "Toast, der - tost",
+        "word": "Toast"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Marmelade, die - marmelada",
+        "word": "Marmelade"
+      },
+      {
+        "explanation": "zum = zu + dem - za",
+        "word": "zum"
+      },
+      {
+        "explanation": "Frühstück, das - doručak",
+        "word": "Frühstück."
+      }
+    ]
+  },
+  {
+    "question": "Anton isst Brot mit Butter und Honig.",
+    "answer": [ "Anton jede kruh s maslacem i medom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Anton"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Brot, das - kruh",
+        "word": "Brot"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Butter, der/die – maslac",
+        "word": "Butter"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Honig, der - med",
+        "word": "Honig."
+      }
+    ]
+  },
+  {
+    "question": "Marin isst ein Sandwich mit Schinken und Käse.",
+    "answer": [ "Marin jede sendvič sa šunkom i sirom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marin"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Sandwich, der/das - sendvič",
+        "word": "Sandwich"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Schinken, der - šunka",
+        "word": "Schinken"
+      },
+      {
+        "explanation": "und – i",
+        "word": "und"
+      },
+      {
+        "explanation": "Käse, der - sir",
+        "word": "Käse."
+      }
+    ]
+  },
+  {
+    "question": "Josip isst ein Gebäck mit Salami.",
+    "answer": [ "Josip jede pecivo sa salamom." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Josip"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Gebäck, das - pecivo",
+        "word": "Gebäck"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Salami, die - salama",
+        "word": "Salami."
+      }
+    ]
+  },
+  {
+    "question": "Matej isst Toast mit Erdnussbutter.",
+    "answer": [ "Matej jede tost s kikiriki maslacem." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Matej"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Toast, der - tost",
+        "word": "Toast"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Erdnussbutter, der/die – maslac od kikirikija/kikiriki maslac",
+        "word": "Erdnussbutter."
+      }
+    ]
+  },
+  {
+    "question": "Nikolina isst jeden Morgen Haferflocken.",
+    "answer": [ "Nikolina svako jutro jede zobene pahuljice." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Nikolina"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "jede - svaki",
+        "word": "jeden"
+      },
+      {
+        "explanation": "Morgen, der - jutro",
+        "word": "Morgen"
+      },
+      {
+        "explanation": "Haferflocken, die – zobene pahuljice",
+        "word": "Haferflocken."
+      }
+    ]
+  }
+]

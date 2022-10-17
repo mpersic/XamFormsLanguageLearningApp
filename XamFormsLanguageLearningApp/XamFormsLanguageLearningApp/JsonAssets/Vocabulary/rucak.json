@@ -1,0 +1,284 @@
+[
+  {
+    "question": "Marta isst Brokkolisuppe.",
+    "answer": [ "Marta jede juhu od brokule." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marta"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Brokkolisuppe, die – juha od brokule",
+        "word": "Brokkolisuppe."
+      }
+    ]
+  },
+  {
+    "question": "Mislav isst Hühnersuppe.",
+    "answer": [ "Mislav jede pileću juhu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Mislav"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Hühnersuppe, die – pileća juha",
+        "word": "Hühnersuppe."
+      }
+    ]
+  },
+  {
+    "question": "Tina isst Pilzsuppe.",
+    "answer": [ "Tina jede juhu od gljiva." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Tina"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Pilzsuppe, die – juha od gljiva",
+        "word": "Pilzsuppe."
+      }
+    ]
+  },
+  {
+    "question": "Jana isst Blumenkohlsuppe.",
+    "answer": [ "Jana jede juhu od cvjetače." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Jana"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen – jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Blumenkohlsuppe, die – juha od cvjetače",
+        "word": "Blumenkohlsuppe."
+      }
+    ]
+  },
+  {
+    "question": "Wir essen gerne Kartoffelsalat zum Mittagessen.",
+    "answer": [ "Rado jedemo krumpir salatu za ručak." ],
+    "wordExplanations": [
+      {
+        "explanation": "mi",
+        "word": "Wir"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Kartoffelsalat, der - salata",
+        "word": "Kartoffelsalat"
+      },
+      {
+        "explanation": "zum = zu + dem - za",
+        "word": "zum"
+      },
+      {
+        "explanation": "Mittagessen, das - ručak",
+        "word": "Mittagessen."
+      }
+    ]
+  },
+  {
+    "question": "Wir essen gerne Schnitzel und Kartoffelpüree.",
+    "answer": [ "Rado jedemo odrezak i krumpir pire." ],
+    "wordExplanations": [
+      {
+        "explanation": "mi",
+        "word": "Wir"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "essen"
+      },
+      {
+        "explanation": "gerne - rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Schnitzel, das – odrezak",
+        "word": "Schnitzel"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Kartoffelpüree, das - krumpir pire",
+        "word": "Kartoffelpüree."
+      }
+    ]
+  },
+  {
+    "question": "Martin isst gerne Schweinefleisch in Pilzsoße.",
+    "answer": [ "Martin voli jesti svinjetinu u umaku od gljiva." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Martin"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Schweinefleisch, das - svinjetina",
+        "word": "Schweinefleisch"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "Pilzsoße, die – umak od gljiva",
+        "word": "Pilzsoße."
+      }
+    ]
+  },
+  {
+    "question": "Sara isst gerne Hähnchen und Quinoa.",
+    "answer": [ "Sara rado jede piletinu i kvinoju." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Sara"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen – jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "rado",
+        "word": "gerne"
+      },
+      {
+        "explanation": "Hähnchen, das - piletina",
+        "word": "Hähnchen"
+      },
+      {
+        "explanation": "und – i",
+        "word": "und"
+      },
+      {
+        "explanation": "Quinoa, die - kvinoja",
+        "word": "Quinoa."
+      }
+    ]
+  },
+  {
+    "question": "Marko isst Trommelstöcke und Reis.",
+    "answer": [ "Marko jede batak i rižu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marko"
+      },
+      {
+        "explanation": "essen: isst, aß, hat gegessen - jesti",
+        "word": "isst"
+      },
+      {
+        "explanation": "Trommelstock, der - batak",
+        "word": "Trommelstöcke"
+      },
+      {
+        "explanation": "i",
+        "word": "und"
+      },
+      {
+        "explanation": "Reis, der - riža",
+        "word": "Reis."
+      }
+    ]
+  },
+  {
+    "question": "Marija bestreut die Nudeln mit geriebenem Käse.",
+    "answer": [ "Marija po tjestenini posipa ribani sir." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Marija"
+      },
+      {
+        "explanation": "bestreuen: bestreut, bestreute, hat bestreut - posipati",
+        "word": "bestreut"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Nudel, die - tjestenina",
+        "word": "Nudeln"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "gerieben - nariban",
+        "word": "geriebenem"
+      },
+      {
+        "explanation": "Käse, der - sir",
+        "word": "Käse."
+      }
+    ]
+  },
+  {
+    "question": "Ivana übergießt die Nudeln mit Tomatensoße.",
+    "answer": [ "Ivana tjesteninu prelijeva umakom od rajčice." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Ivana"
+      },
+      {
+        "explanation": "übergießen: übergießt, übergoss, hat übergossen - preliti",
+        "word": "übergießt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Nudel, die - tjestenina",
+        "word": "Nudeln"
+      },
+      {
+        "explanation": "mit - s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "Tomatensoße, die – umak od rajčice",
+        "word": "Tomatensoße."
+      }
+    ]
+  }
+]

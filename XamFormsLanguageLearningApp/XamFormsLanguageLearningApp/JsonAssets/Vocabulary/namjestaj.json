@@ -1,0 +1,926 @@
+[
+  {
+    "question": "Der Eigentümer renoviert das Haus innerhalb von sechs Monaten.",
+    "answer": [ "Vlasnik je renovirao kuću u roku od šest mjeseci." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Eigentümer, der - vlasnik",
+        "word": "Eigentümer"
+      },
+      {
+        "explanation": "renovieren: renoviert, renovierte, hat renoviert - renovirati",
+        "word": "renoviert"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "u roku od/unutar",
+        "word": "innerhalb"
+      },
+      {
+        "explanation": "od",
+        "word": "von"
+      },
+      {
+        "explanation": "šest",
+        "word": "sechs"
+      },
+      {
+        "explanation": "Monat, der - mjesec",
+        "word": "Monaten."
+      }
+    ]
+  },
+  {
+    "question": "Der Eigentümer stattet das Gebäude mit einer Zentralheizung aus.",
+    "answer": [ "Vlasnik oprema zgradu centralnim grijanjem." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Eigentümer, der - vlasnik",
+        "word": "Eigentümer"
+      },
+      {
+        "explanation": "stattet aus – ausstatten: stattet aus, stattete aus, hat ausgestattet - opremiti",
+        "word": "stattet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Gebäude, das - zgrada",
+        "word": "Gebäude"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "",
+        "word": "einer"
+      },
+      {
+        "explanation": "Zentralheizung, die – centralno grijanje",
+        "word": "Zentralheizung"
+      },
+      {
+        "explanation": "stattet aus – ausstatten: stattet aus, stattete aus, hat ausgestattet - opremiti",
+        "word": "aus."
+      }
+    ]
+  },
+  {
+    "question": "Der Besitzer richtet das Haus nach seinem Geschmack ein.",
+    "answer": [ "Vlasnik namješta kuću po svom ukusu." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Besitzer, der - vlasnik",
+        "word": "Besitzer"
+      },
+      {
+        "explanation": "richtet ein – einrichten: richtet ein, richtete ein, hat eingerichtet - namještati",
+        "word": "richtet"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Haus, das - kuća",
+        "word": "Haus"
+      },
+      {
+        "explanation": "po",
+        "word": "nach"
+      },
+      {
+        "explanation": "sein – njegov/svoj",
+        "word": "seinem"
+      },
+      {
+        "explanation": "Geschmack, der - ukus",
+        "word": "Geschmack"
+      },
+      {
+        "explanation": "richtet ein – einrichten: richtet ein, richtete ein, hat eingerichtet - namještati",
+        "word": "ein."
+      }
+    ]
+  },
+  {
+    "question": "Die Räume sind mit neuen Möbeln eingerichtet.",
+    "answer": [ "Sobe su opremljene novim namještajem." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Die"
+      },
+      {
+        "explanation": "Raum, der - prostorija",
+        "word": "Räume"
+      },
+      {
+        "explanation": "sein: ist, war, ist gewesen - biti",
+        "word": "sind"
+      },
+      {
+        "explanation": "mit – s/sa",
+        "word": "mit"
+      },
+      {
+        "explanation": "neu - novi",
+        "word": "neuen"
+      },
+      {
+        "explanation": "Möbel, das - namještaj",
+        "word": "Möbeln"
+      },
+      {
+        "explanation": "einrichten: richtet ein, richtete ein, hat eingerichtet - namještati",
+        "word": "eingerichtet."
+      }
+    ]
+  },
+  {
+    "question": "Der Besitzer trägt die neuen Möbel in die Wohnung.",
+    "answer": [ "Vlasnik unosi novi namještaj u stan." ],
+    "wordExplanations": [
+      {
+        "explanation": "",
+        "word": "Der"
+      },
+      {
+        "explanation": "Besitzer, der - vlasnik",
+        "word": "Besitzer"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "neu - novi",
+        "word": "neuen"
+      },
+      {
+        "explanation": "Möbel, das - namještaj",
+        "word": "Möbel"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Wohnung, die - stan",
+        "word": "Wohnung"
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer trägt den Kühlschrank in den zweiten Stock.",
+    "answer": [ "Gospodin Mayer nosi hladnjak na drugi kat." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr "
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Kühlschrank, der - hladnjak",
+        "word": "Kühlschrank"
+      },
+      {
+        "explanation": "in – u/na",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "zweite - drugi",
+        "word": "zweiten"
+      },
+      {
+        "explanation": "Stock, der - kat",
+        "word": "Stock."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer rückt die Truhe um einen Meter nach links.",
+    "answer": [ "Gospodin Mayer pomiče škrinju jedan metar ulijevo." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "rücken: rückt, rückte, hat/ist gerückt - pomaknuti",
+        "word": "rückt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Truhe, die - škrinja",
+        "word": "Truhe"
+      },
+      {
+        "explanation": "za",
+        "word": "um"
+      },
+      {
+        "explanation": "",
+        "word": "einen"
+      },
+      {
+        "explanation": "Meter, der/das - metar",
+        "word": "Meter"
+      },
+      {
+        "explanation": "prema",
+        "word": "nach"
+      },
+      {
+        "explanation": "lijevo",
+        "word": "links."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer schiebt die Truhe an die Wand.",
+    "answer": [ "Gospodin Mayer gura škrinju uza zid." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "schieben: schiebt, schob, hat/ist geschoben - gurnuti",
+        "word": "schiebt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Truhe, die - škrinja",
+        "word": "Truhe"
+      },
+      {
+        "explanation": "na",
+        "word": "an"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Wand, die - zid",
+        "word": "Wand."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer legt den Teppich vor das Bett.",
+    "answer": [ "Gospodin Mayer postavlja tepih ispred kreveta." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "legen: legt, legte, hat gelegt – poleći, postaviti",
+        "word": "legt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Teppich, der - tepih",
+        "word": "Teppich"
+      },
+      {
+        "explanation": "ispred",
+        "word": "vor"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Bett, das - krevet",
+        "word": "Bett."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer schiebt das Nachtkästchen an das Bett.",
+    "answer": [ "Gospodin Mayer gura noćni ormarić do kreveta." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "schieben: schiebt, schob, hat/ist geschoben - gurnuti",
+        "word": "schiebt"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Nachtkästchen, das - noćni ormarić",
+        "word": "Nachtkästchen"
+      },
+      {
+        "explanation": "an – do, na",
+        "word": "an"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Bett, das - krevet",
+        "word": "Bett"
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer trägt den Fernseher ins Wohnzimmer.",
+    "answer": [ "Gospodin Mayer nosi televizor u dnevnu sobu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "tragen: trägt, trug, hat getragen - nositi ",
+        "word": "trägt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Fernseher, der - televizor",
+        "word": "Fernseher"
+      },
+      {
+        "explanation": "ins = in + das - u",
+        "word": "ins"
+      },
+      {
+        "explanation": "Wohnzimmer, das – dnevna soba",
+        "word": "Wohnzimmer."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer hebt den Fernseher auf ein Tischchen.",
+    "answer": [ "Vlasnik podiže televizor na stolić." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "heben: hebt, hob, hat gehoben - podići",
+        "word": "hebt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Fernseher, der - televizor",
+        "word": "Fernseher"
+      },
+      {
+        "explanation": "na",
+        "word": "auf"
+      },
+      {
+        "explanation": "",
+        "word": "ein"
+      },
+      {
+        "explanation": "Tischchen, das - stolić",
+        "word": "Tischchen."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer dreht den Fernseher um 90 Grad.",
+    "answer": [ "Gospodin Mayer okreće televizor za 90 stupnjeva." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "drehen: dreht, drehte, hat gedreht - okrenuti",
+        "word": "dreht"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Fernseher, der - televizor",
+        "word": "Fernseher"
+      },
+      {
+        "explanation": "za",
+        "word": "um"
+      },
+      {
+        "explanation": "",
+        "word": "90"
+      },
+      {
+        "explanation": "Grad, der/das - stupanj",
+        "word": "Grad."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stellt den Fernseher in die Ecke.",
+    "answer": [
+      "Gospodin Mayer postavlja televizor u kut."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stellen: stellt, stellte, hat gestellt - staviti",
+        "word": "stellt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Fernseher, der - televizor",
+        "word": "Fernseher"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Ecke, die - kut",
+        "word": "Ecke."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stellt die Kommode in den Flur.",
+    "answer": [
+      "Gospodin Mayer stavlja komodu u hodnik."
+    ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stellen: stellt, stellte, hat gestellt - staviti",
+        "word": "stellt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Kommode, die - komoda",
+        "word": "Kommode"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Flur, der - hodnik",
+        "word": "Flur."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stellt die Bücher ins Regal.",
+    "answer": [ "Gospodin Mayer stavlja knjige na police." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stellen: stellt, stellte, hat gestellt - staviti",
+        "word": "stellt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Buch, das - knjiga",
+        "word": "Bücher"
+      },
+      {
+        "explanation": "ins = in + das - u",
+        "word": "ins"
+      },
+      {
+        "explanation": "Regal, das - regal",
+        "word": "Regal."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stapelt die Bücher in der Kammer.",
+    "answer": [ "Gospodin Mayer slaže knjige u ormar." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stapeln: stapelt, stapelte, hat gestapelt - slagati",
+        "word": "stapelt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Buch, das - knjiga",
+        "word": "Bücher"
+      },
+      {
+        "explanation": "u",
+        "word": "in"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Kammer, die - ormar",
+        "word": "Kammer."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stapelt die Zeitschriften im Korridor.",
+    "answer": [ "Gospodin Mayer slaže časopise u hodniku." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stapeln: stapelt, stapelte, hat gestapelt - slagati ",
+        "word": "stapelt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Zeitschrift, der - časopis",
+        "word": "Zeitschriften"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Korridor, der - hodnik",
+        "word": "Korridor."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer baut den Bücherschrank nach der Anleitung zusammen.",
+    "answer": [ "Gospodin Mayer sastavlja regal prema uputama." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "baut zusammen – zusammenbauen: baut zusammen, baute zusammen, hat zusammengebaut - sastaviti",
+        "word": "baut"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Bücherschrank, der – ormar za knjige",
+        "word": "Bücherschrank"
+      },
+      {
+        "explanation": "prema",
+        "word": "nach"
+      },
+      {
+        "explanation": "",
+        "word": "der"
+      },
+      {
+        "explanation": "Anleitung, die - upute",
+        "word": "Anleitung"
+      },
+      {
+        "explanation": "baut zusammen – zusammenbauen: baut zusammen, baute zusammen, hat zusammengebaut - sastaviti",
+        "word": "zusammen."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer rückt den Bücherschrank neben das Fenster.",
+    "answer": [ "Gospodin Mayer pomiče policu s knjigama pored prozora." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "rücken: rückt, rückte, hat/ist gerückt - pomaknuti",
+        "word": "rückt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Bücherschrank, der – ormar za knjige",
+        "word": "Bücherschrank"
+      },
+      {
+        "explanation": "pokraj",
+        "word": "neben"
+      },
+      {
+        "explanation": "",
+        "word": "das"
+      },
+      {
+        "explanation": "Fenster, das - prozor",
+        "word": "Fenster."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer stellt den Bücherschrank im Arbeitszimmer auf.",
+    "answer": [ "Gospodin Mayer postavlja policu za knjige u radnu sobu." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "stellt auf – aufstellen: stellt auf, stellte auf, hat aufgestellt - postaviti",
+        "word": "stellt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Bücherschrank, der – ormar za knjige",
+        "word": "Bücherschrank"
+      },
+      {
+        "explanation": "im = in + dem - u",
+        "word": "im"
+      },
+      {
+        "explanation": "Arbeitszimmer, das – radna soba",
+        "word": "Arbeitszimmer"
+      },
+      {
+        "explanation": "stellt auf – aufstellen: stellt auf, stellte auf, hat aufgestellt - postaviti",
+        "word": "auf."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer hängt den Kalender ins Arbeitszimmer.",
+    "answer": [ "Gospodin Mayer vješa kalendar u radnoj sobi." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "hängen: hängt, hing, hat gehangen – visiti, vješati",
+        "word": "hängt"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Kalender, der - kalendar",
+        "word": "Kalender"
+      },
+      {
+        "explanation": "ins = in + das – u/na",
+        "word": "ins"
+      },
+      {
+        "explanation": "Arbeitszimmer, das – radna soba",
+        "word": "Arbeitszimmer."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer legt die Zeitschriften auf den Arbeitstisch.",
+    "answer": [ "Gospodin Mayer stavlja časopise na radni stol." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "legen: legt, legte, hat gelegt – poleći, staviti",
+        "word": "legt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Zeitschrift, die - časopis",
+        "word": "Zeitschriften"
+      },
+      {
+        "explanation": "na",
+        "word": "auf"
+      },
+      {
+        "explanation": "",
+        "word": "den"
+      },
+      {
+        "explanation": "Arbeitstisch, der - radni stol",
+        "word": "Arbeitstisch."
+      }
+    ]
+  },
+  {
+    "question": "Herr Mayer hängt die Handtücher ins Bad.",
+    "answer": [ "Gospodin Mayer vješa ručnike u kupaonici." ],
+    "wordExplanations": [
+      {
+        "explanation": "Herr, der - gospodin",
+        "word": "Herr"
+      },
+      {
+        "explanation": "",
+        "word": "Mayer"
+      },
+      {
+        "explanation": "hängen: hängt, hing, hat gehangen – visiti, vješati",
+        "word": "hängt"
+      },
+      {
+        "explanation": "",
+        "word": "die"
+      },
+      {
+        "explanation": "Handtuch, das - ručnik",
+        "word": "Handtücher"
+      },
+      {
+        "explanation": "ins = in + das - u",
+        "word": "ins"
+      },
+      {
+        "explanation": "Bad, das - kupaonica",
+        "word": "Bad."
+      }
+    ]
+  }
+]
