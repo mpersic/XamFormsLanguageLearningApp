@@ -6,10 +6,11 @@ using Android.Runtime;
 using Android.OS;
 using Android.Gms.Ads;
 using Plugin.LocalNotification;
+using Android.Views;
 
 namespace XamFormsLanguageLearningApp.Droid
 {
-    [Activity(Label = "XamFormsLanguageLearningApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "Bruder", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         #region Methods
@@ -30,6 +31,11 @@ namespace XamFormsLanguageLearningApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             MobileAds.Initialize(ApplicationContext);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
+            //Window.SetBackgroundDrawableResource(Resource.Drawable.MyBackgroundPNG);
+            SetStatusBarColor(Android.Graphics.Color.Transparent);
+
             LoadApplication(new App());
         }
 

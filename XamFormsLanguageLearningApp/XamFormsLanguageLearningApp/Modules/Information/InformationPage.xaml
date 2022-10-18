@@ -8,6 +8,7 @@
     Title="Informacije">
 
     <StackLayout
+        Margin="10"
         x:Name="mainLayout">
         <Label
             FontSize="16"
