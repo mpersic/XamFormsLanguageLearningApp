@@ -26,9 +26,9 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         public VocabularyUnitSelectionViewModel()
         {
-            ItemTapped = new Command<GradedUnit>(OnItemSelected);
+            ItemTapped = new Command<VocabularyGradedUnit>(OnItemSelected);
 
-            GradedUnits = new ObservableCollection<GradedUnit>();
+            GradedUnits = new ObservableCollection<VocabularyGradedUnit>();
         }
 
         #endregion Constructors
@@ -43,10 +43,10 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _description, value);
         }
 
-        public ObservableCollection<GradedUnit> GradedUnits { get; }
+        public ObservableCollection<VocabularyGradedUnit> GradedUnits { get; }
         public string Id { get; set; }
 
-        public Command<GradedUnit> ItemTapped { get; }
+        public Command<VocabularyGradedUnit> ItemTapped { get; }
 
         public string Name
         {
@@ -81,8 +81,8 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 GradedUnits.Clear();
                 var assembly = typeof(VocabularyUnitSelectionPage).GetTypeInfo().Assembly;
                 var grammarUnits = VocabularyService.GetSelectedUnits(assembly, name);
-                var gradedUnits = new List<GradedUnit>(
-                    grammarUnits.Select(unit => new GradedUnit(unit)).ToList());
+                var gradedUnits = new List<VocabularyGradedUnit>(
+                    grammarUnits.Select(unit => new VocabularyGradedUnit(unit)).ToList());
                 var substringAfterNumber = name.Split('.').Last();
                 Title = substringAfterNumber.Split('-').First();
                 foreach (var gradedUnit in gradedUnits)
@@ -98,7 +98,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        private async void OnItemSelected(GradedUnit item)
+        private async void OnItemSelected(VocabularyGradedUnit item)
         {
             if (item == null)
                 return;

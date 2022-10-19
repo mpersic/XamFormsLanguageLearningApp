@@ -49,12 +49,15 @@ namespace XamFormsLanguageLearningApp
         public List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName)
         {
             var processedName = selectedUnitName.ToLower();
-            if (processedName.Contains("č"))
+            if (processedName.Contains("č") || processedName.Contains("ć"))
             {
-                processedName = processedName.Replace("č", "c");
+                processedName = processedName.Replace("č", "c").Replace("ć", "c");
             }
             var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits-{processedName.FirstOrDefault()}.json");
+            var processName = processedName.Split('-').Last();
+            processName = processName.Replace(" ", string.Empty);
+            //processName = processName.Split(' ').First();
+            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits-{processName}.json");
 
             using (var reader = new System.IO.StreamReader(stream))
             {
