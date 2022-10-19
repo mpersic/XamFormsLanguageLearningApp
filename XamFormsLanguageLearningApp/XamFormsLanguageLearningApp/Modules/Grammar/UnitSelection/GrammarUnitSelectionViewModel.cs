@@ -26,9 +26,9 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         public GrammarUnitSelectionViewModel()
         {
-            ItemTapped = new Command<GradedUnit>(OnItemSelected);
+            ItemTapped = new Command<GrammarGradedUnit>(OnItemSelected);
 
-            GradedUnits = new ObservableCollection<GradedUnit>();
+            GradedUnits = new ObservableCollection<GrammarGradedUnit>();
         }
 
         #endregion Constructors
@@ -43,10 +43,10 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _description, value);
         }
 
-        public ObservableCollection<GradedUnit> GradedUnits { get; }
+        public ObservableCollection<GrammarGradedUnit> GradedUnits { get; }
         public string Id { get; set; }
 
-        public Command<GradedUnit> ItemTapped { get; }
+        public Command<GrammarGradedUnit> ItemTapped { get; }
 
         public string Name
         {
@@ -73,7 +73,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
 
         #region Methods
 
-        public async void LoadName(string name)
+        public void LoadName(string name)
         {
             try
             {
@@ -81,15 +81,14 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 GradedUnits.Clear();
                 var assembly = typeof(GrammarUnitSelectionPage).GetTypeInfo().Assembly;
                 var grammarUnits = GrammarService.GetSelectedUnits(assembly, name);
-                var gradedUnits = new List<GradedUnit>(
-                    grammarUnits.Select(unit => new GradedUnit(unit)).ToList());
+                var gradedUnits = new List<GrammarGradedUnit>(
+                    grammarUnits.Select(unit => new GrammarGradedUnit(unit)).ToList());
                 var substringAfterNumber = name.Split('.').Last();
                 Title = substringAfterNumber.Split('-').First();
                 foreach (var gradedUnit in gradedUnits)
                 {
                     GradedUnits.Add(gradedUnit);
                 }
-                //GrammarUnits = gradedUnits;
                 IsBusy = false;
             }
             catch (Exception)
@@ -98,7 +97,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        private async void OnItemSelected(GradedUnit item)
+        private async void OnItemSelected(GrammarGradedUnit item)
         {
             if (item == null)
                 return;

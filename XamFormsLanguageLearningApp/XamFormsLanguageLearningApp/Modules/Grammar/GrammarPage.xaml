@@ -14,24 +14,36 @@
     -->
     <CollectionView
         x:Name="ItemsListView"
+        Margin="10"
         ItemsSource="{Binding Items}"
         SelectionMode="None">
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <StackLayout Padding="10">
-                    <Label
-                        FontSize="16"
-                        LineBreakMode="NoWrap"
-                        Style="{DynamicResource ListItemTextStyle}"
-                        Text="{Binding Name}"
-                        TextColor="Black" />
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:GrammarViewModel}}, Path=ItemTapped}"
-                            CommandParameter="{Binding .}"
-                            NumberOfTapsRequired="1" />
-                    </StackLayout.GestureRecognizers>
-                </StackLayout>
+                <ContentView>
+                    <Frame
+                        CornerRadius="10"
+                        Margin="0, 5"
+                        Padding="10"
+                        IsClippedToBounds="True"
+                        BackgroundColor="#8EE2BF">
+                        <StackLayout
+                            VerticalOptions="Center">
+                            <Label
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                LineBreakMode="NoWrap"
+                                Style="{DynamicResource ListItemTextStyle}"
+                                Text="{Binding Name}"
+                                TextColor="White" />
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:GrammarViewModel}}, Path=ItemTapped}"
+                                    CommandParameter="{Binding .}"
+                                    NumberOfTapsRequired="1" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Frame>
+                </ContentView>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
