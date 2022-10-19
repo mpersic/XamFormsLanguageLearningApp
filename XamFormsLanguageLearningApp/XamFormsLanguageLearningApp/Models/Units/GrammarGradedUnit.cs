@@ -6,7 +6,7 @@ using XamFormsLanguageLearningApp.ViewModels;
 
 namespace XamFormsLanguageLearningApp.Models.Units
 {
-    public class GradedUnit : BaseViewModel
+    public class GrammarGradedUnit : BaseViewModel
     {
         #region Fields
 
@@ -19,15 +19,16 @@ namespace XamFormsLanguageLearningApp.Models.Units
 
         #region Constructors
 
-        public GradedUnit(Unit baseUnit)
+        public GrammarGradedUnit(Unit baseUnit)
         {
             Name = baseUnit.Name;
             Lesson = baseUnit.Lesson;
-            HighScore = Preferences.Get($"{baseUnit.Name.Split(' ')[1]}", "");
-            if (HighScore.Length > 0)
-            {
-                ScoreIsVisible = true;
-            }
+            //var splitter = baseUnit.Lesson.Split(' ')[3];
+            //HighScore = Preferences.Get($"{splitter}", "");
+            //if (HighScore.Length > 0)
+            //{
+            //    ScoreIsVisible = true;
+            //}
         }
 
         #endregion Constructors
