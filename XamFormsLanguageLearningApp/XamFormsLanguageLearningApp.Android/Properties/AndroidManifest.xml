@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.perscomp.germanlearningapp" android:installLocation="preferExternal">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-	<application android:label="Bruder" android:theme="@style/MainTheme">
+	<application android:label="Bruder" android:theme="@style/MainTheme" android:icon="@mipmap/app_icon">
 		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-9059808668630923~4607815184" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
