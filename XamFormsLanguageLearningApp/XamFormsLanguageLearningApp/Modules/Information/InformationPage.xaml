@@ -7,23 +7,33 @@
     xmlns:local="clr-namespace:XamFormsLanguageLearningApp.ViewModels"
     Title="Informacije">
 
-    <StackLayout
-        Margin="10"
-        x:Name="mainLayout">
+    <StackLayout x:Name="mainLayout" Margin="10">
+        <StackLayout Orientation="Horizontal">
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="FillAndExpand"
+                Opacity="0.5"
+                Style="{DynamicResource ListItemTextStyle}"
+                Text="Uključi obavijesti"
+                TextColor="Black" />
+            <Switch
+                HorizontalOptions="End"
+                IsToggled="{Binding NotificationsToggled}"
+                Toggled="Switch_Toggled" />
+        </StackLayout>
         <Label
-            FontSize="16"
-            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            Opacity="0.5"
             Style="{DynamicResource ListItemTextStyle}"
-            Text="Coming soon ;)"
+            Text="Imate prijedlog ili pitanje? Kontaktirajte nas na nekimail@gmail.com."
             TextColor="Black"
-            VerticalOptions="Center" />
-        <Button Clicked="Button_Clicked" Text="Schedule notification" />
-        <Button Clicked="Button_Clicked_1"
+            VerticalOptions="EndAndExpand" />
+        <!--<Button Clicked="Button_Clicked_1"
                 effects:TooltipEffect.Position="Bottom"
                 effects:TooltipEffect.BackgroundColor="Silver"
                 effects:TooltipEffect.TextColor="Teal"
                 effects:TooltipEffect.Text="Here is a sample text for this tool tip that can help us later, here is more text to showcase the tooltip bottom"
                 effects:TooltipEffect.HasTooltip="True"
-                Text="Tooltip" />
+                Text="Tooltip" />-->
     </StackLayout>
 </ContentPage>

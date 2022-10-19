@@ -37,22 +37,6 @@ namespace XamFormsLanguageLearningApp.Views
             _viewModel.OnAppearing();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            var notification = new NotificationRequest
-            {
-                Description = "Practice!",
-                Title = "Practice notification!",
-                NotificationId = 1337,
-                Schedule = new NotificationRequestSchedule
-                {
-                    NotifyTime = DateTime.Now.AddSeconds(5),
-                    NotifyRepeatInterval = TimeSpan.FromDays(1)
-                }
-            };
-            LocalNotificationCenter.Current.Show(notification);
-        }
-
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             foreach (var c in mainLayout.Children)
@@ -62,6 +46,29 @@ namespace XamFormsLanguageLearningApp.Views
                     TooltipEffect.SetHasTooltip(c, false);
                     TooltipEffect.SetHasTooltip(c, true);
                 }
+            }
+        }
+
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+            if (_viewModel.NotificationsToggled)
+            {
+                var notification = new NotificationRequest
+                {
+                    Description = "Practice!",
+                    Title = "Practice notification!",
+                    NotificationId = 1337,
+                    Schedule = new NotificationRequestSchedule
+                    {
+                        NotifyTime = DateTime.Now.AddSeconds(5),
+                        NotifyRepeatInterval = TimeSpan.FromDays(1)
+                    }
+                };
+                LocalNotificationCenter.Current.Show(notification);
+            }
+            else
+            {
+                LocalNotificationCenter.Current.Cancel(1337);
             }
         }
 

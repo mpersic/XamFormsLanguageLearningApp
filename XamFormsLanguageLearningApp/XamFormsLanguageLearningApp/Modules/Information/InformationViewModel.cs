@@ -13,22 +13,38 @@ namespace XamFormsLanguageLearningApp.ViewModels
 {
     public class InformationViewModel : BaseViewModel
     {
+        #region Fields
+
+        private bool _notificationsToggled;
+
+        private Unit _selectedItem;
+
+        #endregion Fields
+
+        #region Constructors
+
         public InformationViewModel()
         {
             Items = new ObservableCollection<Unit>();
             ItemTapped = new Command<Unit>(OnItemSelected);
         }
 
-        public void OnAppearing()
-        {
-            IsBusy = true;
-            ExecuteLoadItemsCommand();
-            SelectedItem = null;
-        }
+        #endregion Constructors
+
+
+
+        #region Properties
 
         public ObservableCollection<Unit> Items { get; }
 
         public Command<Unit> ItemTapped { get; }
+
+        public bool NotificationsToggled
+        {
+            get => _notificationsToggled;
+            set => SetProperty(ref _notificationsToggled, value);
+        }
+
         public Unit SelectedItem
         {
             get => _selectedItem;
@@ -39,17 +55,18 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
-        private Unit _selectedItem;
+        #endregion Properties
 
-        private async void OnItemSelected(Unit item)
+
+
+        #region Methods
+
+        public void OnAppearing()
         {
-            if (item == null)
-                return;
-
-            // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(VocabularyUnitSelectionPage)}?{nameof(VocabularyUnitSelectionViewModel.Name)}={item.Name}");
+            IsBusy = true;
+            ExecuteLoadItemsCommand();
+            SelectedItem = null;
         }
-
 
         private void ExecuteLoadItemsCommand()
         {
@@ -75,5 +92,15 @@ namespace XamFormsLanguageLearningApp.ViewModels
             }
         }
 
+        private async void OnItemSelected(Unit item)
+        {
+            if (item == null)
+                return;
+
+            // This will push the ItemDetailPage onto the navigation stack
+            await Shell.Current.GoToAsync($"{nameof(VocabularyUnitSelectionPage)}?{nameof(VocabularyUnitSelectionViewModel.Name)}={item.Name}");
+        }
+
+        #endregion Methods
     }
 }
