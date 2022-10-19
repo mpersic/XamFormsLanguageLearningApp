@@ -33,12 +33,12 @@
     <None Remove="JsonAssets\Vocabulary\slastice.json" />
     <None Remove="JsonAssets\Vocabulary\stanovanje.json" />
     <None Remove="JsonAssets\Vocabulary\tjedan.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-1.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-2.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-3.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-4.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-5.json" />
-    <None Remove="JsonAssets\Vocabulary\vocabularyunits-6.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-jeloipice.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-obitelj.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-odjecaiboje.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-prvisusret.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-svakodnevica.json" />
+    <None Remove="JsonAssets\Vocabulary\vocabularyunits-vrijeme.json" />
     <None Remove="JsonAssets\Vocabulary\vocabularyunits.json" />
     <None Remove="JsonAssets\Vocabulary\voce.json" />
     <None Remove="prezent-aktiv.json" />
@@ -74,12 +74,12 @@
     <EmbeddedResource Include="JsonAssets\Vocabulary\stanovanje.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\tjedan.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\voce.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-6.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-5.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-4.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-3.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-2.json" />
-    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-1.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-jeloipice.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-odjecaiboje.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-svakodnevica.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-vrijeme.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-obitelj.json" />
+    <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-prvisusret.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits.json" />
     <EmbeddedResource Include="prezent-aktiv.json" />
   </ItemGroup>
