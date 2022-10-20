@@ -153,7 +153,7 @@
             <StackLayout Spacing="10">
                 <Label
                     HorizontalOptions="Center"
-                    Text="Test je završen!"
+                    Text="{Binding FinishedStateMessage}"
                     TextColor="Black" />
                 <Label
                     HorizontalOptions="Center"
@@ -163,7 +163,7 @@
                 <Button
                     Command="{Binding GoToHomePageCommand}"
                     HorizontalOptions="Start"
-                    Text="Povratak na početnu stranicu" />
+                    Text="Povratak na izbornik" />
             </StackLayout>
         </Frame>
     </Grid>

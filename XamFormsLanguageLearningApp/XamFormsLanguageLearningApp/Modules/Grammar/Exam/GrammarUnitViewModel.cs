@@ -27,6 +27,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
         private bool _examIsVisible;
         private string _examName;
         private ExamState _examState;
+        private string _finishedStateMessage;
         private string _name;
         private bool _promptForExamIsVisible;
         private bool _questionPart1Visible;
@@ -117,6 +118,12 @@ namespace XamFormsLanguageLearningApp.ViewModels
         {
             get => _examState;
             set => SetProperty(ref _examState, value);
+        }
+
+        public string FinishedStateMessage
+        {
+            get => _finishedStateMessage;
+            set => SetProperty(ref _finishedStateMessage, value);
         }
 
         public Command FinishRevisionCommand { get; }
@@ -227,18 +234,19 @@ namespace XamFormsLanguageLearningApp.ViewModels
             switch (ExamState)
             {
                 case ExamState.Prompt:
-                    PromptForExamIsVisible = true;
                     ExamIsVisible = false;
                     RevisionIsVisible = false;
                     ExamIsCompleted = false;
+                    PromptForExamIsVisible = true;
                     break;
 
                 case ExamState.Enter:
-                    ShowFinalScore = true;
+                    ShowFinalScore = false;
                     PromptForExamIsVisible = false;
-                    ExamIsVisible = true;
                     RevisionIsVisible = false;
                     ExamIsCompleted = false;
+                    ExamIsVisible = true;
+                    FinishedStateMessage = "Test je završen.";
                     LoadAndInitializeExam();
                     break;
 
@@ -248,6 +256,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                     ExamIsVisible = false;
                     RevisionIsVisible = true;
                     ExamIsCompleted = false;
+                    FinishedStateMessage = "Lekcija je završena.";
                     LoadAndInitializeRevision();
                     break;
 

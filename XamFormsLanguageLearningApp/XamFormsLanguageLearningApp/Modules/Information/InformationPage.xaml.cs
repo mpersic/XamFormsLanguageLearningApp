@@ -55,8 +55,8 @@ namespace XamFormsLanguageLearningApp.Views
             {
                 var notification = new NotificationRequest
                 {
-                    Description = "Practice!",
-                    Title = "Practice notification!",
+                    Title = "Hej, uživaj u svom danu.",
+                    Description = "Ali ne zaboravi učiti Njemački!",
                     NotificationId = 1337,
                     Schedule = new NotificationRequestSchedule
                     {
