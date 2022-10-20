@@ -12,7 +12,7 @@
             <Label
                 FontAttributes="Bold"
                 HorizontalOptions="FillAndExpand"
-                Opacity="0.5"
+                Opacity="0.7"
                 Style="{DynamicResource ListItemTextStyle}"
                 Text="Uključi obavijesti"
                 TextColor="Black" />
