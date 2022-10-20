@@ -14,7 +14,8 @@
     <None Remove="grammarunits-prilozi.json" />
     <None Remove="grammarunits-recenice.json" />
     <None Remove="grammarunits-zamjenice.json" />
-    <None Remove="JsonAssets\Grammar\exam-prezent-aktiv.json" />
+    <None Remove="JsonAssets\Grammar\exam-prezent(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\glagolskioblici.json" />
     <None Remove="JsonAssets\Vocabulary\brak.json" />
     <None Remove="JsonAssets\Vocabulary\djetinjstvo.json" />
     <None Remove="JsonAssets\Vocabulary\dorucak.json" />
@@ -45,16 +46,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="grammarunits-brojevi.json" />
-    <EmbeddedResource Include="grammarunits-glagoli.json" />
-    <EmbeddedResource Include="grammarunits-imenice.json" />
-    <EmbeddedResource Include="grammarunits-pridjevi.json" />
-    <EmbeddedResource Include="grammarunits-prijedlozi.json" />
-    <EmbeddedResource Include="grammarunits-prilozi.json" />
-    <EmbeddedResource Include="grammarunits-recenice.json" />
-    <EmbeddedResource Include="grammarunits-zamjenice.json" />
-    <EmbeddedResource Include="grammarunits.json" />
-    <EmbeddedResource Include="JsonAssets\Grammar\exam-prezent-aktiv.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-brojevi.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-glagoli.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-imenice.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-pridjevi.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-prijedlozi.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-prilozi.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-recenice.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-zamjenice.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\grammarunits.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-prezent%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\glagolskioblici.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\brak.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\djetinjstvo.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\dorucak.json" />
@@ -81,7 +83,7 @@
     <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-obitelj.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits-prvisusret.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\vocabularyunits.json" />
-    <EmbeddedResource Include="prezent-aktiv.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\prezent%28aktiv%29.json" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,37 @@
+[
+  {
+    "Intro": "Razlikujemo određene i neodređene glagolske oblike.",
+    "GlagolPoLicima": [
+
+    ],
+    "Deklinacija": []
+  },
+  {
+    "Intro": "Određeni glagolski oblici uvijek označavaju jedno od:",
+    "GlagolPoLicima": [
+      "tri lica: 1., 2. ili 3. lice jednine ili množine (ja, ti, on/ona/ono, mi, vi, oni/one)",
+      "dva broja: jednina i množina",
+      "šest glagolskih vremena: prezent, preterit, perfekt, pluskvamperfekt, futur I. i futur II.",
+      "dva stanja: aktiv i pasiv",
+      "tri načina: indikativ, konjunktiv i imperativ"
+    ],
+    "Deklinacija": [
+    ]
+  },
+  {
+    "Intro": "Neodređeni glagolski oblici su oblici glagola koji se ne konjugiraju, odnosno ne izražavaju kategorije lica, broja i načina.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+    ]
+  },
+  {
+    "Intro": "Razlikujemo dvije vrste neodređenih glagolskih oblika: ",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "infinitive: gehen, kommen, haben...",
+      "participe: gegangen, gekommen, gehabt"
+    ]
+  }
+]
