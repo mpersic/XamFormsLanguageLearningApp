@@ -88,7 +88,6 @@ namespace XamFormsLanguageLearningApp
                 {
                     GradedUnits.Add(gradedUnit);
                 }
-                //GrammarUnits = gradedUnits;
                 IsBusy = false;
             }
             catch (Exception)

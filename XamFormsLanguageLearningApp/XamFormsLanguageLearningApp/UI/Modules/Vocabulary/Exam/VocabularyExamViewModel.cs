@@ -235,7 +235,7 @@ namespace XamFormsLanguageLearningApp
                     RevisionIsVisible = false;
                     ExamIsCompleted = false;
                     ExamIsVisible = true;
-                    FinishedStateMessage = "Test je završen.";
+                    FinishedStateMessage = Strings.TestComplete;
                     LoadAndInitializeExam();
                     break;
 
@@ -245,7 +245,7 @@ namespace XamFormsLanguageLearningApp
                     ExamIsVisible = false;
                     ExamIsCompleted = false;
                     RevisionIsVisible = true;
-                    FinishedStateMessage = "Lekcija je završena.";
+                    FinishedStateMessage = Strings.LessonComplete;
                     LoadAndInitializeExam();
                     break;
 
@@ -316,12 +316,12 @@ namespace XamFormsLanguageLearningApp
             if (CheckIfAnswerIsValid())
             {
                 CorrectAnswers++;
-                CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
-                await Shell.Current.DisplayAlert("Bravo", "Točan odgovor!", "OK");
+                CurrentScore = $"{Strings.Score}: {CorrectAnswers}/{Questions.Count}";
+                await Shell.Current.DisplayAlert(Strings.Bravo, Strings.CorrectAnswer, Strings.OK);
             }
             else
             {
-                await Shell.Current.DisplayAlert("Ups", "Netočan odgovor.", "OK");
+                await Shell.Current.DisplayAlert(Strings.Oops, Strings.IncorrectAnswer, Strings.OK);
             }
             UserAnswer = string.Empty;
             NextQuestion();
@@ -369,7 +369,7 @@ namespace XamFormsLanguageLearningApp
                 {
                     UserAnswer = string.Empty;
                     CorrectAnswers = 0;
-                    CurrentScore = $"Score: {CorrectAnswers}/{Questions.Count}";
+                    CurrentScore = $"{Strings.Score}: {CorrectAnswers}/{Questions.Count}";
                 }
 
                 CurrentQuestion = 0;
@@ -379,7 +379,6 @@ namespace XamFormsLanguageLearningApp
                 {
                     WordExplanations.Add(wordExplanation);
                 }
-                //WordExplanatios = Questions[CurrentQuestion].WordExplanations;
                 InitializeQuestionEvent?.Invoke();
                 CorrectAnswer = Questions[CurrentQuestion].Answer.First();
             }

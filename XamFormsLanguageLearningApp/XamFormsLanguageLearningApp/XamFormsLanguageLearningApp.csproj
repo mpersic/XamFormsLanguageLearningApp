@@ -95,31 +95,31 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Modules\Grammar\GrammarPage.xaml.cs">
+    <Compile Update="UI\Modules\Grammar\GrammarPage.xaml.cs">
       <DependentUpon>GrammarPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Grammar\Exam\GrammarUnitPage.xaml.cs">
+    <Compile Update="UI\Modules\Grammar\Exam\GrammarUnitPage.xaml.cs">
       <DependentUpon>GrammarUnitPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Grammar\UnitSelection\GrammarUnitSelectionPage.xaml.cs">
+    <Compile Update="UI\Modules\Grammar\UnitSelection\GrammarUnitSelectionPage.xaml.cs">
       <DependentUpon>GrammarUnitSelectionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Information\InformationPage.xaml.cs">
+    <Compile Update="UI\Modules\Information\InformationPage.xaml.cs">
       <DependentUpon>InformationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Vocabulary\Exam\VocabularyExamPage.xaml.cs">
+    <Compile Update="UI\Modules\Vocabulary\Exam\VocabularyExamPage.xaml.cs">
       <DependentUpon>VocabularyExamPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Vocabulary\UnitSelection\VocabularyUnitSelectionPage.xaml.cs">
+    <Compile Update="UI\Modules\Vocabulary\UnitSelection\VocabularyUnitSelectionPage.xaml.cs">
       <DependentUpon>VocabularyUnitSelectionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Modules\Vocabulary\VocabularyPage.xaml.cs">
+    <Compile Update="UI\Modules\Vocabulary\VocabularyPage.xaml.cs">
       <DependentUpon>VocabularyPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Modules\Vocabulary\Exam\VocabularyExamPage.xaml">
+    <EmbeddedResource Update="UI\Modules\Vocabulary\Exam\VocabularyExamPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>

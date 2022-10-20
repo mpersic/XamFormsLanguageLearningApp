@@ -246,7 +246,7 @@ namespace XamFormsLanguageLearningApp
                     RevisionIsVisible = false;
                     ExamIsCompleted = false;
                     ExamIsVisible = true;
-                    FinishedStateMessage = "Test je završen.";
+                    FinishedStateMessage = Strings.TestComplete;
                     LoadAndInitializeExam();
                     break;
 
@@ -256,7 +256,7 @@ namespace XamFormsLanguageLearningApp
                     ExamIsVisible = false;
                     RevisionIsVisible = true;
                     ExamIsCompleted = false;
-                    FinishedStateMessage = "Lekcija je završena.";
+                    FinishedStateMessage = Strings.LessonComplete;
                     LoadAndInitializeRevision();
                     break;
 
@@ -290,12 +290,12 @@ namespace XamFormsLanguageLearningApp
             if (CheckIfAnswerIsValid())
             {
                 CorrectAnswers++;
-                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
-                await Shell.Current.DisplayAlert("Bravo", "Točan odgovor!", "OK");
+                CurrentScore = $"{Strings.Score}: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
+                await Shell.Current.DisplayAlert(Strings.Bravo, Strings.CorrectAnswer, Strings.OK);
             }
             else
             {
-                await Shell.Current.DisplayAlert("Ups", "Netočan odgovor.", "OK");
+                await Shell.Current.DisplayAlert(Strings.Oops, Strings.IncorrectAnswer, Strings.OK);
             }
             CleanUserInputs();
             NextQuestion();
@@ -351,7 +351,7 @@ namespace XamFormsLanguageLearningApp
 
                 CurrentQuestion = 0;
                 CorrectAnswers = 0;
-                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
+                CurrentScore = $"{Strings.Score}: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
 
                 SetupQuestionAndAnswer();
             }
@@ -415,7 +415,7 @@ namespace XamFormsLanguageLearningApp
                 CleanUserInputs();
 
                 CurrentQuestion++;
-                CurrentScore = $"Score: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
+                CurrentScore = $"{Strings.Score}: {CorrectAnswers}/{BindableGrammarExamQuestions.Count}";
 
                 SetupQuestionAndAnswer();
             }
