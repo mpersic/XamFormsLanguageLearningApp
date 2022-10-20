@@ -68,7 +68,7 @@
         "word": "Obst"
       },
       {
-        "explanation": "kao",
+        "explanation": "als - kao",
         "word": "als"
       },
       {
@@ -94,7 +94,7 @@
         "word": "Aprikosen"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -124,7 +124,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -146,7 +146,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -158,7 +158,7 @@
         "word": "Himbeeren"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -212,7 +212,7 @@
     "answer": [ "Nikada nisam probala ogrozd." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -220,11 +220,11 @@
         "word": "habe"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
-        "explanation": "nikada",
+        "explanation": "nie - nikada",
         "word": "nie"
       },
       {
@@ -242,7 +242,7 @@
     "answer": [ "U Slavoniji se najviše uzgajaju jabuke, kruške i šljive." ],
     "wordExplanations": [
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "In"
       },
       {
@@ -270,7 +270,7 @@
         "word": "Birnen"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -300,11 +300,11 @@
         "word": "essen"
       },
       {
-        "explanation": "mi",
+        "explanation": "wir - mi",
         "word": "wir"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -312,7 +312,7 @@
         "word": "Wassermelone"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -360,7 +360,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -382,11 +382,11 @@
         "word": "isst"
       },
       {
-        "explanation": "jako/vrlo",
+        "explanation": "sehr - jako/vrlo",
         "word": "sehr"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -398,7 +398,7 @@
         "word": "Kiwi"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -412,7 +412,7 @@
     "answer": [ "Svaki dan pojedem jednu bananu." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -446,11 +446,11 @@
         "word": "Hast"
       },
       {
-        "explanation": "ti",
+        "explanation": "du - ti",
         "word": "du"
       },
       {
-        "explanation": "već",
+        "explanation": "schon - već",
         "word": "schon"
       },
       {
@@ -468,7 +468,7 @@
     "answer": [ "Ne volim grejp." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -490,7 +490,7 @@
     "answer": [ "Volim miris mandarine i naranče." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -506,7 +506,7 @@
         "word": "Duft"
       },
       {
-        "explanation": "od",
+        "explanation": "von - od",
         "word": "von"
       },
       {
@@ -514,7 +514,7 @@
         "word": "Mandarine"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {

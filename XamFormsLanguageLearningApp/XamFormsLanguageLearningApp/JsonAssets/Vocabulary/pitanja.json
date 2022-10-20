@@ -4,7 +4,7 @@
     "Answer": [ "Tko je ovaj čovjek?" ],
     "WordExplanations": [
       {
-        "Explanation": "tko",
+        "Explanation": "wer - tko",
         "Word": "Wer "
       },
       {
@@ -26,7 +26,7 @@
     "Answer": [ "Što je to?" ],
     "WordExplanations": [
       {
-        "Explanation": "što",
+        "Explanation": "was - što",
         "Word": "Was "
       },
       {
@@ -44,7 +44,7 @@
     "Answer": [ "Što radiš?" ],
     "WordExplanations": [
       {
-        "Explanation": "što",
+        "Explanation": "was - što",
         "Word": "Was "
       },
       {
@@ -52,8 +52,30 @@
         "Word": "machst "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
+      }
+    ]
+  },
+  {
+    "Question": "Was ist deine Staatsbürgerschaft?",
+    "Answer": [ "Koje je tvoje državljanstvo?" ],
+    "WordExplanations": [
+      {
+        "Explanation": "was - što",
+        "Word": "Was "
+      },
+      {
+        "Explanation": "sein: ist, war, ist gewesen - biti",
+        "Word": "ist "
+      },
+      {
+        "Explanation": "dein – tvoj",
+        "Word": "deine "
+      },
+      {
+        "Explanation": "Staatsbürgerschaft, die - državljanstvo",
+        "Word": "Staatsbürgerschaft?"
       }
     ]
   },
@@ -62,7 +84,7 @@
     "Answer": [ "Čije je ovo dijete?" ],
     "WordExplanations": [
       {
-        "Explanation": "čiji",
+        "Explanation": "wessen - čiji",
         "Word": "Wessen "
       },
       {
@@ -74,7 +96,7 @@
         "Word": "ist "
       },
       {
-        "Explanation": "to",
+        "Explanation": "das - to",
         "Word": "das?"
       }
     ]
@@ -84,7 +106,7 @@
     "Answer": [ "Gdje živiš?" ],
     "WordExplanations": [
       {
-        "Explanation": "gdje",
+        "Explanation": "wo - gdje",
         "Word": "Wo "
       },
       {
@@ -92,13 +114,10 @@
         "Word": "wohnst "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
-      },
-      {
-        "Explanation": "to",
-        "Word": "das?"
       }
+
     ]
   },
   {
@@ -106,7 +125,7 @@
     "Answer": [ "Gdje si sada?" ],
     "WordExplanations": [
       {
-        "Explanation": "gdje",
+        "Explanation": "wo - gdje",
         "Word": "Wo "
       },
       {
@@ -114,11 +133,11 @@
         "Word": "bist "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du "
       },
       {
-        "Explanation": "sada",
+        "Explanation": "jetzt - sada",
         "Word": "jetzt?"
       }
     ]
@@ -128,7 +147,7 @@
     "Answer": [ "Komu pripada ova jakna?" ],
     "WordExplanations": [
       {
-        "Explanation": "komu",
+        "Explanation": "wem - komu",
         "Word": "Wem "
       },
       {
@@ -150,7 +169,7 @@
     "Answer": [ "Koga voliš najviše?" ],
     "WordExplanations": [
       {
-        "Explanation": "koga",
+        "Explanation": "wen - koga",
         "Word": "Wen "
       },
       {
@@ -158,7 +177,7 @@
         "Word": "liebst "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du "
       },
       {
@@ -172,7 +191,7 @@
     "Answer": [ "Kamo ideš?" ],
     "WordExplanations": [
       {
-        "Explanation": "kamo",
+        "Explanation": "wohin - kamo",
         "Word": "Wohin "
       },
       {
@@ -180,7 +199,7 @@
         "Word": "gehst "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
       }
     ]
@@ -190,7 +209,7 @@
     "Answer": [ "Odakle si?" ],
     "WordExplanations": [
       {
-        "Explanation": "odakle",
+        "Explanation": "woher - odakle",
         "Word": "Woher "
       },
       {
@@ -198,7 +217,7 @@
         "Word": "kommst "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
       }
     ]
@@ -208,7 +227,7 @@
     "Answer": [ "Kako se zoveš?" ],
     "WordExplanations": [
       {
-        "Explanation": "kako",
+        "Explanation": "wie - kako",
         "Word": "Wie "
       },
       {
@@ -216,7 +235,7 @@
         "Word": "heißt "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
       }
     ]
@@ -226,7 +245,7 @@
     "Answer": [ "Koliko imaš godina?" ],
     "WordExplanations": [
       {
-        "Explanation": "kako",
+        "Explanation": "wie - kako",
         "Word": "Wie "
       },
       {
@@ -238,7 +257,7 @@
         "Word": "bist "
       },
       {
-        "Explanation": "ti",
+        "Explanation": "du - ti",
         "Word": "du?"
       }
     ]
@@ -248,7 +267,7 @@
     "Answer": [ "Kako si?" ],
     "WordExplanations": [
       {
-        "Explanation": "kako",
+        "Explanation": "wie - kako",
         "Word": "Wie "
       },
       {
@@ -256,7 +275,7 @@
         "Word": "geht "
       },
       {
-        "Explanation": "to",
+        "Explanation": "es - to",
         "Word": "es "
       },
       {

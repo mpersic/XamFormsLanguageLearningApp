@@ -20,7 +20,7 @@
         "word": "Kaffee"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -50,8 +50,8 @@
         "word": "bestellt"
       },
       {
-        "explanation": "u – s/sa",
-        "word": "zu – s/s"
+        "explanation": "zu – s/sa",
+        "word": "zu"
       },
       {
         "explanation": "sein – njegov/svoj",
@@ -152,11 +152,11 @@
         "word": "Kaffee"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
-        "explanation": "dva",
+        "explanation": "zwei - dva",
         "word": "zwei"
       },
       {
@@ -170,19 +170,19 @@
     "answer": [ "Mogu li molim Vas dobiti još jednu kocku šećera?" ],
     "wordExplanations": [
       {
-        "explanation": "können - moći",
+        "explanation": "können: kann, konnte, hat gekonnt - moći",
         "word": "Könnte"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
-        "explanation": "molim",
+        "explanation": "bitte - molim",
         "word": "bitte"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
@@ -216,7 +216,7 @@
         "word": "Tee"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
@@ -242,7 +242,7 @@
         "word": "Tee"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
@@ -316,15 +316,15 @@
         "word": "Könnte"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
-        "explanation": "molim",
+        "explanation": "bitte - molim",
         "word": "bitte"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
@@ -388,7 +388,7 @@
         "word": "Getränk"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -510,7 +510,7 @@
         "word": "trinkt"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -540,7 +540,7 @@
         "word": "Zitronen"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -570,7 +570,7 @@
         "word": "trinken"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -584,7 +584,7 @@
     "answer": [ "Htjela bih mineralnu vodu." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -592,7 +592,7 @@
         "word": "hätte"
       },
       {
-        "explanation": "rado",
+        "explanation": "gern - rado",
         "word": "gern"
       },
       {

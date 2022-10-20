@@ -1,7 +1,7 @@
 [
   {
     "question": "Kinder essen gerne Süßigkeiten.",
-    "answer": [ "Djeca vole jesti slatkiše." ],
+    "answer": [ "Djeca rado jedu slatkiše." ],
     "wordExplanations": [
       {
         "explanation": "Kind, das - dijete",
@@ -12,7 +12,7 @@
         "word": "essen"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -34,11 +34,11 @@
         "word": "essen"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
-        "explanation": "Gummibonbon, der/das",
+        "explanation": "Gummibonbon, der/das - gumeni bombon",
         "word": "Gummibonbons."
       }
     ]
@@ -60,7 +60,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -86,7 +86,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -104,7 +104,7 @@
         "word": "Schokolade"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -116,11 +116,11 @@
         "word": "sind"
       },
       {
-        "explanation": "jako",
+        "explanation": "sehr - jako",
         "word": "sehr"
       },
       {
-        "explanation": "ukusan",
+        "explanation": "lecker - ukusan",
         "word": "lecker."
       }
     ]
@@ -172,7 +172,7 @@
         "word": "isst"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -194,7 +194,7 @@
         "word": "essen"
       },
       {
-        "explanation": "rado",
+        "explanation": "gerne - rado",
         "word": "gerne"
       },
       {
@@ -228,7 +228,7 @@
         "word": "Torte"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
@@ -254,11 +254,11 @@
         "word": "schmeckt"
       },
       {
-        "explanation": "po",
+        "explanation": "nach - po",
         "word": "nach"
       },
       {
-        "explanation": "vanilija",
+        "explanation": "Vanille, die - vanilija",
         "word": "Vanille."
       }
     ]
@@ -314,7 +314,7 @@
         "word": "Erdbeermarmelade"
       },
       {
-        "explanation": "na",
+        "explanation": "auf - na",
         "word": "auf"
       },
       {
@@ -344,7 +344,7 @@
         "word": "backt"
       },
       {
-        "explanation": "često",
+        "explanation": "oft - često",
         "word": "oft"
       },
       {

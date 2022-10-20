@@ -72,7 +72,7 @@
         "Word": "stammen "
       },
       {
-        "Explanation": "iz",
+        "Explanation": "aus - iz",
         "Word": "aus "
       },
       {
@@ -90,11 +90,11 @@
         "Word": "Ivana "
       },
       {
-        "Explanation": "werden – postati",
+        "Explanation": "werden - wird, wurde, ist geworden – postati",
         "Word": "wurde "
       },
       {
-        "Explanation": "u",
+        "Explanation": "in - u",
         "Word": "in "
       },
       {
@@ -116,7 +116,7 @@
         "Word": "Ivana "
       },
       {
-        "Explanation": "werden – postati",
+        "Explanation": "werden – wird, wurde, ist geworden - postati",
         "Word": "wurde "
       },
       {
@@ -146,11 +146,11 @@
         "Word": "wuchs  "
       },
       {
-        "Explanation": "u",
+        "Explanation": "in - u",
         "Word": "in  "
       },
       {
-        "Explanation": "Großfamilie, die",
+        "Explanation": "Großfamilie, die - velika/mnogočlana obitelj",
         "Word": "einer Großfamilie "
       },
       {
@@ -172,7 +172,7 @@
         "Word": "hat "
       },
       {
-        "Explanation": "tri",
+        "Explanation": "drei - tri",
         "Word": "drei "
       },
       {
@@ -216,7 +216,7 @@
         "Word": "wurde "
       },
       {
-        "Explanation": "u",
+        "Explanation": "in - u",
         "Word": "in "
       },
       {
@@ -238,11 +238,11 @@
         "Word": "Marko "
       },
       {
-        "Explanation": "wurde geboren - gebären → pasiv - geboren werden – biti rođen",
+        "Explanation": "wuchs auf – aufwachsen: wächst auf, wuchs auf, ist aufgewachsen - odrastati",
         "Word": "wuchs "
       },
       {
-        "Explanation": "u",
+        "Explanation": "in - u",
         "Word": "in "
       },
       {
@@ -285,7 +285,7 @@
         "Word": "Land "
       },
       {
-        "Explanation": "u",
+        "Explanation": "in - u",
         "Word": "in "
       },
       {
@@ -320,7 +320,7 @@
         "Word": "zogen "
       },
       {
-        "Explanation": "iz",
+        "Explanation": "von - iz",
         "Word": "von "
       },
       {
@@ -328,7 +328,7 @@
         "Word": "Tenja "
       },
       {
-        "Explanation": "u",
+        "Explanation": "nach - u",
         "Word": "nach "
       },
       {
@@ -380,7 +380,7 @@
         "Word": "hat "
       },
       {
-        "Explanation": "tri",
+        "Explanation": "drei - tri",
         "Word": "drei "
       },
       {
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "Question": "Ivana hat zwei Schwester.",
+    "Question": "Ivana hat zwei Schwestern.",
     "Answer": [ "Ivana ima dvije sestru." ],
     "WordExplanations": [
       {
@@ -402,34 +402,12 @@
         "Word": "hat "
       },
       {
-        "Explanation": "dva",
+        "Explanation": "zwei - dva",
         "Word": "zwei "
       },
       {
         "Explanation": "Schwester, die - sestra",
-        "Word": "Schwester."
-      }
-    ]
-  },
-  {
-    "Question": "Kristina hat drei Schwestern.",
-    "Answer": [ "Kristina ima tri sestre." ],
-    "WordExplanations": [
-      {
-        "Explanation": "",
-        "Word": "Ivana "
-      },
-      {
-        "Explanation": "haben: hat, hatte, hat gehabt - imati",
-        "Word": "hat "
-      },
-      {
-        "Explanation": "tri",
-        "Word": "drei "
-      },
-      {
-        "Explanation": "Schwester, die - sestra",
-        "Word": "Schwester."
+        "Word": "Schwestern."
       }
     ]
   },
@@ -450,7 +428,7 @@
         "Word": "stammen "
       },
       {
-        "Explanation": "iz",
+        "Explanation": "aus - iz",
         "Word": "aus "
       },
       {
@@ -465,19 +443,19 @@
     "WordExplanations": [
       {
         "Explanation": "",
-        "Word": "Ivana "
+        "Word": "Kristina "
       },
       {
         "Explanation": "haben: hat, hatte, hat gehabt - imati",
         "Word": "hat "
       },
       {
-        "Explanation": "četiri",
+        "Explanation": "vier - četiri",
         "Word": "vier "
       },
       {
         "Explanation": "Schwester, die - sestra",
-        "Word": "Schwester."
+        "Word": "Schwestern."
       }
     ]
   },
@@ -497,7 +475,7 @@
         "Word": "wuchs "
       },
       {
-        "Explanation": "kod/s/pri",
+        "Explanation": "bei - kod/s/pri",
         "Word": "bei "
       },
       {
@@ -527,11 +505,11 @@
         "Word": "versteht sich "
       },
       {
-        "Explanation": "dobro",
+        "Explanation": "gut - dobro",
         "Word": "gut "
       },
       {
-        "Explanation": "s/sa",
+        "Explanation": "mit - s/sa",
         "Word": "mit "
       },
       {
@@ -557,11 +535,11 @@
         "Word": "Kristina "
       },
       {
-        "Explanation": "hat - haben: hat, hatte, hat gehabt - imati",
+        "Explanation": "haben: hat, hatte, hat gehabt - imati",
         "Word": "hat "
       },
       {
-        "Explanation": "dva",
+        "Explanation": "zwei - dva",
         "Word": "zwei "
       },
       {
@@ -569,11 +547,11 @@
         "Word": "Tanten "
       },
       {
-        "Explanation": "i",
+        "Explanation": "und - i",
         "Word": "und "
       },
       {
-        "Explanation": "tri",
+        "Explanation": "drei - tri",
         "Word": "drei "
       },
       {

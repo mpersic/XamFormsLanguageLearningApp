@@ -4,7 +4,7 @@
     "answer": [ "Gdje možemo jesti?" ],
     "wordExplanations": [
       {
-        "explanation": "gdje",
+        "explanation": "wo - gdje",
         "word": "Wo"
       },
       {
@@ -12,7 +12,7 @@
         "word": "können"
       },
       {
-        "explanation": "mi",
+        "explanation": "wir - mi",
         "word": "wir"
       },
       {
@@ -26,7 +26,7 @@
     "answer": [ "Gdje možemo ručati?" ],
     "wordExplanations": [
       {
-        "explanation": "gdje",
+        "explanation": "wo - gdje",
         "word": "Wo"
       },
       {
@@ -34,7 +34,7 @@
         "word": "können"
       },
       {
-        "explanation": "mi",
+        "explanation": "wir - mi",
         "word": "wir"
       },
       {
@@ -48,7 +48,7 @@
     "answer": [ "Gdje mogu naći dobar restoran?" ],
     "wordExplanations": [
       {
-        "explanation": "gdje",
+        "explanation": "wo - gdje",
         "word": "Wo"
       },
       {
@@ -56,7 +56,7 @@
         "word": "finde"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
@@ -78,7 +78,7 @@
     "answer": [ "Želio bih rezervirati stol." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -94,7 +94,7 @@
         "word": "Tisch"
       },
       {
-        "explanation": "reserviert, reservierte, hat reserviert - rezervirati",
+        "explanation": "reservieren: reserviert, reservierte, hat reserviert - rezervirati",
         "word": "reservieren."
       }
     ]
@@ -104,7 +104,7 @@
     "answer": [ "Htio bih stol za dvoje." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -120,11 +120,11 @@
         "word": "Tisch"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
-        "explanation": "dva",
+        "explanation": "zwei - dva",
         "word": "zwei."
       }
     ]
@@ -138,7 +138,7 @@
         "word": "Können"
       },
       {
-        "explanation": "mi",
+        "explanation": "wir - mi",
         "word": "wir"
       },
       {
@@ -190,7 +190,7 @@
         "word": "Haben"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
@@ -220,7 +220,7 @@
         "word": "isst"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -232,7 +232,7 @@
         "word": "Restaurant"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "zu"
       },
       {
@@ -250,11 +250,11 @@
         "word": "Kann"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
-        "explanation": "molim",
+        "explanation": "bitte - molim",
         "word": "bitte"
       },
       {
@@ -276,7 +276,7 @@
     "answer": [ "Ovdje je jelovnik." ],
     "wordExplanations": [
       {
-        "explanation": "ovdje",
+        "explanation": "hier - ovdje",
         "word": "Hier"
       },
       {
@@ -302,11 +302,11 @@
         "word": "Gibt"
       },
       {
-        "explanation": "to",
+        "explanation": "es - to",
         "word": "es"
       },
       {
-        "explanation": "ovdje",
+        "explanation": "hier - ovdje",
         "word": "hier"
       },
       {
@@ -324,7 +324,7 @@
     "answer": [ "Što mi možete preporučiti?" ],
     "wordExplanations": [
       {
-        "explanation": "što",
+        "explanation": "was - što",
         "word": "Was"
       },
       {
@@ -332,11 +332,11 @@
         "word": "können"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "meni",
+        "explanation": "mir - meni",
         "word": "mir"
       },
       {
@@ -350,7 +350,7 @@
     "answer": [ "Alergičan sam na određene namirnice." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -358,7 +358,7 @@
         "word": "bin"
       },
       {
-        "explanation": "protiv/nasuprot",
+        "explanation": "gegenüber - protiv/nasuprot",
         "word": "gegenüber"
       },
       {
@@ -410,7 +410,7 @@
         "word": "Magst"
       },
       {
-        "explanation": "ti",
+        "explanation": "du - ti",
         "word": "du"
       },
       {
@@ -424,7 +424,7 @@
     "answer": [ "Želim nešto bez mesa." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -432,11 +432,11 @@
         "word": "möchte"
       },
       {
-        "explanation": "nešto",
+        "explanation": "etwas - nešto",
         "word": "etwas"
       },
       {
-        "explanation": "bez",
+        "explanation": "ohne - bez",
         "word": "ohne"
       },
       {
@@ -454,11 +454,11 @@
         "word": "Haben"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "također",
+        "explanation": "auch - također",
         "word": "auch"
       },
       {
@@ -480,11 +480,11 @@
         "word": "Möchten"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "već",
+        "explanation": "schon - već",
         "word": "schon"
       },
       {
@@ -498,11 +498,11 @@
     "answer": [ "Ne, nismo se još odlučili." ],
     "wordExplanations": [
       {
-        "explanation": "ne",
+        "explanation": "nein - ne",
         "word": "Nein,"
       },
       {
-        "explanation": "mi",
+        "explanation": "wir - mi",
         "word": "wir"
       },
       {
@@ -514,11 +514,11 @@
         "word": "uns"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
-        "explanation": "ne",
+        "explanation": "nicht - ne",
         "word": "nicht"
       },
       {
@@ -536,11 +536,11 @@
         "word": "Möchten"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "prvo",
+        "explanation": "zuerst - prvo",
         "word": "zuerst"
       },
       {
@@ -562,7 +562,7 @@
     "answer": [ "Želim predjelo." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -570,7 +570,7 @@
         "word": "möchte"
       },
       {
-        "explanation": "ine ",
+        "explanation": "",
         "word": "eine"
       },
       {
@@ -581,18 +581,18 @@
   },
   {
     "question": "Möchten Sie noch Suppe?",
-    "answer": [ "Želite li još malo juhe?" ],
+    "answer": [ "Želite li još juhu?" ],
     "wordExplanations": [
       {
         "explanation": "mögen: mag, mochte, hat gemocht – htjeti/željeti",
         "word": "Möchten"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
@@ -606,7 +606,7 @@
     "answer": [ "Što više voliš jesti, meso ili ribu" ],
     "wordExplanations": [
       {
-        "explanation": "što",
+        "explanation": "was - što",
         "word": "Was"
       },
       {
@@ -614,7 +614,7 @@
         "word": "ißt"
       },
       {
-        "explanation": "ti",
+        "explanation": "du - ti",
         "word": "du"
       },
       {
@@ -626,7 +626,7 @@
         "word": "Fleisch"
       },
       {
-        "explanation": "ili",
+        "explanation": "oder - ili",
         "word": "oder"
       },
       {
@@ -640,7 +640,7 @@
     "answer": [ "Uzet ću ribu." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -666,15 +666,15 @@
         "word": "Möchten"
       },
       {
-        "explanation": "Vi",
+        "explanation": "Sie - Vi",
         "word": "Sie"
       },
       {
-        "explanation": "to",
+        "explanation": "das - to",
         "word": "das"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
@@ -696,7 +696,7 @@
         "word": "Familie"
       },
       {
-        "explanation": "probieren: probiert, probierte, hat probiert - kušati ",
+        "explanation": "probieren: probiert, probierte, hat probiert - kušati",
         "word": "probiert"
       },
       {
@@ -718,11 +718,11 @@
         "word": "Könnte"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
-        "explanation": "molim",
+        "explanation": "bitte - molim",
         "word": "bitte"
       },
       {
@@ -744,11 +744,11 @@
     "answer": [ "Da, odmah ću vam ga donijeti." ],
     "wordExplanations": [
       {
-        "explanation": "da",
+        "explanation": "ja - da",
         "word": "Ja,"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
@@ -756,15 +756,15 @@
         "word": "bringe"
       },
       {
-        "explanation": "to",
+        "explanation": "es - to",
         "word": "es"
       },
       {
-        "explanation": "Vama",
+        "explanation": "Ihnen - Vama",
         "word": "Ihnen"
       },
       {
-        "explanation": "odmah",
+        "explanation": "sofort - odmah",
         "word": "sofort."
       }
     ]
@@ -774,7 +774,7 @@
     "answer": [ "Gdje su sol i papar?" ],
     "wordExplanations": [
       {
-        "explanation": "gdje",
+        "explanation": "wo - gdje",
         "word": "Wo"
       },
       {
@@ -786,7 +786,7 @@
         "word": "Salz"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -800,11 +800,11 @@
     "answer": [ "Molim Vas još soli i papra." ],
     "wordExplanations": [
       {
-        "explanation": "molim",
+        "explanation": "bitte - molim",
         "word": "Bitte"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
@@ -812,7 +812,7 @@
         "word": "Salz"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -826,7 +826,7 @@
     "answer": [ "Htjela bih još kruha." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -834,15 +834,15 @@
         "word": "hätte"
       },
       {
-        "explanation": "rado",
+        "explanation": "gern - rado",
         "word": "gern"
       },
       {
-        "explanation": "još",
+        "explanation": "noch - još",
         "word": "noch"
       },
       {
-        "explanation": "nešto",
+        "explanation": "etwas - nešto",
         "word": "etwas"
       },
       {
@@ -856,7 +856,7 @@
     "answer": [ "Nisam to naručio." ],
     "wordExplanations": [
       {
-        "explanation": "to",
+        "explanation": "das - to",
         "word": "Das"
       },
       {
@@ -864,11 +864,11 @@
         "word": "habe"
       },
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "ich"
       },
       {
-        "explanation": "ne",
+        "explanation": "nicht - ne",
         "word": "nicht"
       },
       {
@@ -882,7 +882,7 @@
     "answer": [ "Ovo je moje najdraže jelo." ],
     "wordExplanations": [
       {
-        "explanation": "to",
+        "explanation": "das - to",
         "word": "Das"
       },
       {
@@ -904,7 +904,7 @@
     "answer": [ "Želim desert." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -912,7 +912,7 @@
         "word": "möchte"
       },
       {
-        "explanation": " ",
+        "explanation": "",
         "word": "einen"
       },
       {
@@ -926,7 +926,7 @@
     "answer": [ "Sit sam." ],
     "wordExplanations": [
       {
-        "explanation": "ja",
+        "explanation": "ich - ja",
         "word": "Ich"
       },
       {
@@ -944,15 +944,15 @@
     "answer": [ "Jeste li Vam bilo ukusno?" ],
     "wordExplanations": [
       {
-        "explanation": "hat geschmeckt – schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati ",
+        "explanation": "hat geschmeckt – schmecken: schmeckt, schmeckte, hat geschmeckt – imati okus/prijati",
         "word": "Hat"
       },
       {
-        "explanation": "to",
+        "explanation": "es - to",
         "word": "es"
       },
       {
-        "explanation": "Vama",
+        "explanation": "Ihnen - Vama",
         "word": "Ihnen"
       },
       {
@@ -988,7 +988,7 @@
     "answer": [ "Ovo nema dobar okus." ],
     "wordExplanations": [
       {
-        "explanation": "to",
+        "explanation": "das - to",
         "word": "Das"
       },
       {
@@ -996,11 +996,11 @@
         "word": "schmeckt"
       },
       {
-        "explanation": "meni",
+        "explanation": "mir - meni",
         "word": "mir"
       },
       {
-        "explanation": "ne",
+        "explanation": "nicht - ne",
         "word": "nicht."
       }
     ]
@@ -1010,7 +1010,7 @@
     "answer": [ "Jako je ukusno." ],
     "wordExplanations": [
       {
-        "explanation": "to",
+        "explanation": "es - to",
         "word": "Es"
       },
       {
@@ -1018,7 +1018,7 @@
         "word": "ist"
       },
       {
-        "explanation": "jako",
+        "explanation": "sehr - jako",
         "word": "sehr"
       },
       {

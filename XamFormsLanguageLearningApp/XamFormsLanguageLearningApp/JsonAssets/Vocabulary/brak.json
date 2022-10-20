@@ -16,7 +16,7 @@
         "word": "sich"
       },
       {
-        "explanation": "s/sa",
+        "explanation": "mit - s/sa",
         "word": "mit"
       },
       {
@@ -38,7 +38,7 @@
         "word": "Jungvermählten"
       },
       {
-        "explanation": "machen: macht, machte, hat gemacht - raditi",
+        "explanation": "machen: macht, machte, hat gemacht - raditi/praviti/činiti",
         "word": "machen"
       },
       {
@@ -46,7 +46,7 @@
         "word": "Pläne"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
@@ -133,7 +133,7 @@
         "word": "Ivana"
       },
       {
-        "explanation": "erwarten: erwartet, erwartete, hat erwartet - očekivat",
+        "explanation": "erwarten: erwartet, erwartete, hat erwartet - očekivati/iščekivati",
         "word": "erwartet"
       },
       {
@@ -163,11 +163,11 @@
         "word": "ist"
       },
       {
-        "explanation": "od",
+        "explanation": "seit - od",
         "word": "seit"
       },
       {
-        "explanation": "šest",
+        "explanation": "sechs - šest",
         "word": "sechs"
       },
       {
@@ -175,7 +175,7 @@
         "word": "Monaten"
       },
       {
-        "explanation": "trudna",
+        "explanation": "schwanger - trudna",
         "word": "schwanger."
       }
     ]
@@ -197,7 +197,7 @@
         "word": "sich"
       },
       {
-        "explanation": "na",
+        "explanation": "auf - na",
         "word": "auf"
       },
       {
@@ -226,7 +226,7 @@
         "word": "Ehepaar"
       },
       {
-        "explanation": "erwarten: erwartet, erwartete, hat erwartet - očekivati",
+        "explanation": "erwarten: erwartet, erwartete, hat erwartet - čekati/očekivati/iščekivati",
         "word": "erwartet"
       },
       {
@@ -273,7 +273,7 @@
         "word": "Eltern"
       },
       {
-        "explanation": "entschieden – sich entscheiden: entscheidet, entschied, hat entschieden – odlučiti se",
+        "explanation": "sich entscheiden: entscheidet, entschied, hat entschieden – odlučiti se",
         "word": "entschieden"
       },
       {
@@ -281,7 +281,7 @@
         "word": "sich"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
@@ -315,7 +315,7 @@
         "word": "haben"
       },
       {
-        "explanation": "dva",
+        "explanation": "zwei - dva",
         "word": "zwei"
       },
       {
@@ -323,11 +323,11 @@
         "word": "Söhne"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
-        "explanation": "tri",
+        "explanation": "drei - tri",
         "word": "drei"
       },
       {
@@ -357,7 +357,7 @@
         "word": "sich"
       },
       {
-        "explanation": "o",
+        "explanation": "über - o",
         "word": "über"
       },
       {
@@ -392,7 +392,7 @@
         "word": "passen"
       },
       {
-        "explanation": "na",
+        "explanation": "auf - na",
         "word": "auf"
       },
       {
@@ -404,7 +404,7 @@
         "word": "Enkel"
       },
       {
-        "explanation": "",
+        "explanation": "aufpassen: passt auf, passte auf, hat aufgepasst – čuvati/paziti",
         "word": "auf."
       }
     ]
@@ -449,7 +449,10 @@
   },
   {
     "question": "Die Oma liest dem Enkel Märchen vor.",
-    "answer": [ "Baka unuku čita bajke.", "Baka svojem unuku čita bajke." ],
+    "answer": [ 
+      "Baka unuku čita bajke.", 
+      "Baka svojem unuku čita bajke."
+     ],
     "wordExplanations": [
       {
         "explanation": "",
@@ -477,7 +480,7 @@
         "word": "Märchen"
       },
       {
-        "explanation": "",
+        "explanation": "liest vor – vorlesen: liest vor, las vor, hat vorgelesen – čitati naglas",
         "word": "vor."
       }
     ]

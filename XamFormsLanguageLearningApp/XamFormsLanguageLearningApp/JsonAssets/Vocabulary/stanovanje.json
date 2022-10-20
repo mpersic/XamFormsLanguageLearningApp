@@ -24,7 +24,7 @@
         "word": "Einfamilienhaus"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -62,7 +62,7 @@
         "word": "Wohnung"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -104,7 +104,7 @@
         "word": "Wohnung"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -130,7 +130,7 @@
         "word": "Makler"
       },
       {
-        "explanation": "vermitteln - pronalaziti ",
+        "explanation": "vermitteln: vermittelt, vermittelte, hat vermittelt - posredovati ",
         "word": "vermittelt"
       },
       {
@@ -164,11 +164,11 @@
         "word": "Makler"
       },
       {
-        "explanation": "fordern - tražiti ",
+        "explanation": "fordern: fordert, forderte, hat gefordert - zahtjevati ",
         "word": "fordert"
       },
       {
-        "explanation": "od",
+        "explanation": "von - od",
         "word": "von"
       },
       {
@@ -202,11 +202,11 @@
         "word": "Vermieter"
       },
       {
-        "explanation": "verlangen - tražiti ",
+        "explanation": "verlangen: verlangt, verlangte, hat verlangt - tražiti ",
         "word": "verlangt"
       },
       {
-        "explanation": "od",
+        "explanation": "von - od",
         "word": "von"
       },
       {
@@ -240,7 +240,7 @@
         "word": "Mieter"
       },
       {
-        "explanation": "schließt ab – abschließen: potpisati",
+        "explanation": "schließt ab – abschließen: schließt ab, schloss ab, hat abgeschlossen - potpisati",
         "word": "schließt"
       },
       {
@@ -264,11 +264,11 @@
         "word": "neuen"
       },
       {
-        "explanation": "ugovor o najmu",
-        "word": "Mietvertrag – Mietvertrag, der"
+        "explanation": "Mietvertrag, der - ugovor o najmu",
+        "word": "Mietvertrag"
       },
       {
-        "explanation": "schließt ab – abschließen: potpisati",
+        "explanation": "schließt ab – abschließen: schließt ab, schloss ab, hat abgeschlossen - potpisati",
         "word": "ab."
       }
     ]
@@ -366,7 +366,7 @@
         "word": "sich"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
@@ -378,7 +378,7 @@
         "word": "Reihenhaus"
       },
       {
-        "explanation": "u",
+        "explanation": "im Grünen - u prirodi",
         "word": "im"
       },
       {
@@ -404,7 +404,7 @@
         "word": "zieht"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -416,7 +416,7 @@
         "word": "Reihenhaus"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -446,7 +446,7 @@
         "word": "liegt"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -458,11 +458,11 @@
         "word": "ruhigen"
       },
       {
-        "explanation": "područje",
-        "word": "Gegend – Gegend, die"
+        "explanation": "Gegend, die - područje",
+        "word": "Gegend"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -474,7 +474,7 @@
         "word": "Nähe"
       },
       {
-        "explanation": "od",
+        "explanation": "von - od",
         "word": "von"
       },
       {
@@ -504,7 +504,7 @@
         "word": "aus"
       },
       {
-        "explanation": "šest",
+        "explanation": "sechs - šest",
         "word": "sechs"
       },
       {
@@ -516,7 +516,7 @@
         "word": "Keller"
       },
       {
-        "explanation": "i",
+        "explanation": "und - i",
         "word": "und"
       },
       {
@@ -576,7 +576,7 @@
         "word": "sich"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
@@ -588,7 +588,7 @@
         "word": "Appartement"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -626,7 +626,7 @@
         "word": "Unterkunft"
       },
       {
-        "explanation": "za",
+        "explanation": "zu - po/za",
         "word": "zu"
       },
       {
@@ -668,7 +668,7 @@
         "word": "Zimmer"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -698,7 +698,7 @@
         "word": "zieht"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -731,7 +731,7 @@
         "word": "wohnt"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -769,7 +769,7 @@
         "word": "wohnt"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -815,7 +815,7 @@
         "word": "Zimmer"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -921,7 +921,7 @@
         "word": "sich"
       },
       {
-        "explanation": "za",
+        "explanation": "für - za",
         "word": "für"
       },
       {
@@ -933,7 +933,7 @@
         "word": "Haus"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {

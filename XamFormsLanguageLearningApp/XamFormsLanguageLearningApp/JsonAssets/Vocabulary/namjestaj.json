@@ -1,7 +1,7 @@
 [
   {
     "question": "Der Eigentümer renoviert das Haus innerhalb von sechs Monaten.",
-    "answer": [ "Vlasnik je renovirao kuću u roku od šest mjeseci." ],
+    "answer": [ "Vlasnik renovira kuću u roku od šest mjeseci." ],
     "wordExplanations": [
       {
         "explanation": "",
@@ -24,15 +24,15 @@
         "word": "Haus"
       },
       {
-        "explanation": "u roku od/unutar",
+        "explanation": "innerhalb - u roku od/unutar",
         "word": "innerhalb"
       },
       {
-        "explanation": "od",
+        "explanation": "von - od",
         "word": "von"
       },
       {
-        "explanation": "šest",
+        "explanation": "sechs - šest",
         "word": "sechs"
       },
       {
@@ -108,7 +108,7 @@
         "word": "Haus"
       },
       {
-        "explanation": "po",
+        "explanation": "nach - po",
         "word": "nach"
       },
       {
@@ -188,7 +188,7 @@
         "word": "Möbel"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -268,7 +268,7 @@
         "word": "Truhe"
       },
       {
-        "explanation": "za",
+        "explanation": "um - za",
         "word": "um"
       },
       {
@@ -280,11 +280,11 @@
         "word": "Meter"
       },
       {
-        "explanation": "prema",
+        "explanation": "nach - prema",
         "word": "nach"
       },
       {
-        "explanation": "lijevo",
+        "explanation": "links - lijevo",
         "word": "links."
       }
     ]
@@ -314,7 +314,7 @@
         "word": "Truhe"
       },
       {
-        "explanation": "na",
+        "explanation": "an - na",
         "word": "an"
       },
       {
@@ -352,7 +352,7 @@
         "word": "Teppich"
       },
       {
-        "explanation": "ispred",
+        "explanation": "vor - ispred",
         "word": "vor"
       },
       {
@@ -462,7 +462,7 @@
         "word": "Fernseher"
       },
       {
-        "explanation": "na",
+        "explanation": "auf - na",
         "word": "auf"
       },
       {
@@ -500,7 +500,7 @@
         "word": "Fernseher"
       },
       {
-        "explanation": "za",
+        "explanation": "um - za",
         "word": "um"
       },
       {
@@ -540,7 +540,7 @@
         "word": "Fernseher"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -580,7 +580,7 @@
         "word": "Kommode"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -652,7 +652,7 @@
         "word": "Bücher"
       },
       {
-        "explanation": "u",
+        "explanation": "in - u",
         "word": "in"
       },
       {
@@ -724,7 +724,7 @@
         "word": "Bücherschrank"
       },
       {
-        "explanation": "prema",
+        "explanation": "nach - prema",
         "word": "nach"
       },
       {
@@ -766,7 +766,7 @@
         "word": "Bücherschrank"
       },
       {
-        "explanation": "pokraj",
+        "explanation": "neben - pokraj",
         "word": "neben"
       },
       {
@@ -876,7 +876,7 @@
         "word": "Zeitschriften"
       },
       {
-        "explanation": "na",
+        "explanation": "auf - na",
         "word": "auf"
       },
       {
