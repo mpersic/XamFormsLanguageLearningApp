@@ -47,33 +47,9 @@ namespace XamFormsLanguageLearningApp.Views
                         return;
                     await Shell.Current.DisplayAlert("Značenje", item.Explanation, "OK");
                 };
-                //TooltipEffect.SetHasTooltip(clickableWord, false);
-                //TooltipEffect.SetBackgroundColor(clickableWord, Color.Blue);
-                //if (item.Explanation.Length == 0)
-                //{
-                //    TooltipEffect.SetHasTooltip(clickableWord, false);
-                //}
-                //else
-                //{
-                //    TooltipEffect.SetHasTooltip(clickableWord, true);
-                //}
-                //TooltipEffect.SetText(clickableWord, item.Explanation);
-                //TooltipEffect.SetPosition(clickableWord, TooltipPosition.Bottom);
                 clickableWord.GestureRecognizers.Add(tapGestureRecognizer);
                 MyWarappicek.Children.Add(clickableWord);
             }
-        }
-
-        private void TapGestureRecognizer_Tapped(object sender, System.EventArgs e)
-        {
-            //foreach (var c in mainLayout.Children)
-            //{
-            //    if (TooltipEffect.GetHasTooltip(c))
-            //    {
-            //        TooltipEffect.SetHasTooltip(c, false);
-            //        TooltipEffect.SetHasTooltip(c, true);
-            //    }
-            //}
         }
 
         #endregion Methods

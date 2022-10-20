@@ -88,9 +88,6 @@
                 HorizontalOptions="Start"
                 Orientation="Horizontal"
                 VerticalOptions="Start">
-                <!--<effect:AwesomeWrappanel.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                </effect:AwesomeWrappanel.GestureRecognizers>-->
                 <Label
                     x:Name="clickableLabel1"
                     FontAttributes="Bold"
@@ -98,33 +95,6 @@
                     HorizontalOptions="Start"
                     VerticalOptions="Start" />
             </effect:AwesomeWrappanel>
-
-            <!--<FlexLayout
-                AlignContent="Start"
-                AutomationId="WordExplanationFlexLayout"
-                BackgroundColor="Yellow"
-                BindableLayout.ItemsSource="{Binding WordExplanations}"
-                Direction="Row"
-                HorizontalOptions="FillAndExpand"
-                JustifyContent="Start"
-                VerticalOptions="Start"
-                Wrap="NoWrap">
-                <BindableLayout.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Label
-                                BackgroundColor="Red"
-                                FontAttributes="Bold"
-                                FontSize="16"
-                                HorizontalOptions="Start"
-                                LineBreakMode="WordWrap"
-                                Text="{Binding Word}"
-                                TextColor="Black"
-                                VerticalOptions="Start" />
-                        </Grid>
-                    </DataTemplate>
-                </BindableLayout.ItemTemplate>
-            </FlexLayout>-->
 
             <Button
                 Command="{Binding ReadTextCommand}"

@@ -61,9 +61,6 @@
     <PackageReference Include="IKVM">
       <Version>8.2.1</Version>
     </PackageReference>
-    <PackageReference Include="Karamunting.Android.Florent37.ViewTooltip">
-      <Version>1.2.2</Version>
-    </PackageReference>
     <PackageReference Include="MarcTron.Admob">
       <Version>1.6.1</Version>
     </PackageReference>
@@ -83,7 +80,6 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Effects\DroidTooltipEffect.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

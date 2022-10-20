@@ -37,18 +37,6 @@ namespace XamFormsLanguageLearningApp.Views
             _viewModel.OnAppearing();
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-            foreach (var c in mainLayout.Children)
-            {
-                if (TooltipEffect.GetHasTooltip(c))
-                {
-                    TooltipEffect.SetHasTooltip(c, false);
-                    TooltipEffect.SetHasTooltip(c, true);
-                }
-            }
-        }
-
         private void Switch_Toggled(object sender, ToggledEventArgs e)
         {
             if (_viewModel.NotificationsToggled)

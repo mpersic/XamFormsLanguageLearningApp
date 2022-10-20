@@ -28,12 +28,5 @@
             Text="Imate prijedlog ili pitanje? Kontaktirajte nas na nekimail@gmail.com."
             TextColor="Black"
             VerticalOptions="EndAndExpand" />
-        <!--<Button Clicked="Button_Clicked_1"
-                effects:TooltipEffect.Position="Bottom"
-                effects:TooltipEffect.BackgroundColor="Silver"
-                effects:TooltipEffect.TextColor="Teal"
-                effects:TooltipEffect.Text="Here is a sample text for this tool tip that can help us later, here is more text to showcase the tooltip bottom"
-                effects:TooltipEffect.HasTooltip="True"
-                Text="Tooltip" />-->
     </StackLayout>
 </ContentPage>

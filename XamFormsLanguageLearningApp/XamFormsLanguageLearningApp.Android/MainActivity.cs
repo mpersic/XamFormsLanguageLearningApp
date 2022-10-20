@@ -33,7 +33,6 @@ namespace XamFormsLanguageLearningApp.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
             Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
-            //Window.SetBackgroundDrawableResource(Resource.Drawable.MyBackgroundPNG);
             SetStatusBarColor(Android.Graphics.Color.Transparent);
 
             LoadApplication(new App());
