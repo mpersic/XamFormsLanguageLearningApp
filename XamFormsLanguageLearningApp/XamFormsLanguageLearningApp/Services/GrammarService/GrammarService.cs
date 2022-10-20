@@ -18,13 +18,9 @@ namespace XamFormsLanguageLearningApp.Services
 
         public List<GrammarExample> GetGrammarExamples(Assembly assembly, string name)
         {
-            //var processedName = selectedUnitName.ToLower();
-            //if (processedName.Contains("č"))
-            //{
-            //    processedName = processedName.Replace("č", "c");
-            //}
+            var processedName = ProcessName(name);
             var list = new List<GrammarExample>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.prezent-aktiv.json");
+            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.{processedName}.json");
 
             using (var reader = new System.IO.StreamReader(stream))
             {
@@ -36,13 +32,9 @@ namespace XamFormsLanguageLearningApp.Services
 
         public List<GrammarExamQuestion> GetGrammarExamQuestions(Assembly assembly, string name)
         {
-            //var processedName = selectedUnitName.ToLower();
-            //if (processedName.Contains("č"))
-            //{
-            //    processedName = processedName.Replace("č", "c");
-            //}
+            var processedName = ProcessName(name);
             var list = new List<GrammarExamQuestion>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.exam-prezent-aktiv.json");
+            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.exam-{processedName}.json");
 
             using (var reader = new System.IO.StreamReader(stream))
             {
@@ -61,12 +53,12 @@ namespace XamFormsLanguageLearningApp.Services
         public List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName)
         {
             var processedName = selectedUnitName.ToLower();
-            if (processedName.Contains("č"))
+            if (processedName.Contains("č") || processedName.Contains("ć"))
             {
-                processedName = processedName.Replace("č", "c");
+                processedName = processedName.Replace("č", "c").Replace("ć", "c");
             }
             var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.grammarunits-{processedName}.json");
+            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits-{processedName}.json");
 
             using (var reader = new System.IO.StreamReader(stream))
             {
@@ -79,7 +71,7 @@ namespace XamFormsLanguageLearningApp.Services
         public List<Unit> GetUnits(Assembly assembly)
         {
             var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.grammarunits.json");
+            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits.json");
 
             using (var reader = new System.IO.StreamReader(stream))
             {
@@ -87,6 +79,17 @@ namespace XamFormsLanguageLearningApp.Services
                 list = JsonConvert.DeserializeObject<List<Unit>>(json);
             }
             return list;
+        }
+
+        private string ProcessName(string name)
+        {
+            var processedName = name.ToLower();
+            if (processedName.Contains("č") || processedName.Contains("ć"))
+            {
+                processedName = processedName.Replace("č", "c").Replace("ć", "c");
+            }
+            processedName = processedName.Replace(" ", string.Empty);
+            return processedName;
         }
 
         #endregion Methods

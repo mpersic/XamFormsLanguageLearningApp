@@ -33,6 +33,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
         private bool _questionPart2Visible;
         private bool _revisionIsVisible;
         private bool _showFinalScore;
+        private string _unprocessedName;
         private string _userAnswer1;
         private string _userAnswer2;
         private bool _userInput1Visible;
@@ -118,10 +119,8 @@ namespace XamFormsLanguageLearningApp.ViewModels
             set => SetProperty(ref _examState, value);
         }
 
-        public Command GoToHomePageCommand { get; }
-
         public Command FinishRevisionCommand { get; }
-
+        public Command GoToHomePageCommand { get; }
         public Command GoToRevisionCommand { get; }
 
         public Command GoToTestCommand { get; }
@@ -206,6 +205,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
             try
             {
                 IsBusy = true;
+                _unprocessedName = name;
                 BindableGrammarExamQuestions.Clear();
                 GrammarExamples.Clear();
                 var substringAfterNumber = name.Split('.').Last();
@@ -303,15 +303,15 @@ namespace XamFormsLanguageLearningApp.ViewModels
             UserAnswer2 = string.Empty;
         }
 
-        private async void GoToHomePage()
-        {
-            await Shell.Current.GoToAsync("..");
-        }
-
         private void FinishRevision()
         {
             ExamState = ExamState.Final;
             ProcessExamState();
+        }
+
+        private async void GoToHomePage()
+        {
+            await Shell.Current.GoToAsync("..");
         }
 
         private void GoToRevision()
@@ -330,10 +330,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
         {
             try
             {
-                if (ExamState.Equals(ExamState.Revise))
-                {
-                    ExamName = $"revise-{ExamName}";
-                }
+                ExamName = $"{_unprocessedName}";
                 var assembly = typeof(GrammarUnitPage).GetTypeInfo().Assembly;
                 var grammarExamQuestions = GrammarService.GetGrammarExamQuestions(assembly, ExamName);
                 foreach (var examQuestion in grammarExamQuestions)
@@ -362,7 +359,7 @@ namespace XamFormsLanguageLearningApp.ViewModels
                 IsBusy = true;
                 GrammarExamples.Clear();
                 var assembly = typeof(GrammarUnitPage).GetTypeInfo().Assembly;
-                var grammarExamples = GrammarService.GetGrammarExamples(assembly, ExamName);
+                var grammarExamples = GrammarService.GetGrammarExamples(assembly, _unprocessedName);
                 foreach (var grammarExample in grammarExamples)
                 {
                     GrammarExamples.Add(new BindableGrammarExample(grammarExample));
