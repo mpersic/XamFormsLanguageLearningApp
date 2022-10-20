@@ -3,7 +3,7 @@
     x:Class="XamFormsLanguageLearningApp.AppShell"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:XamFormsLanguageLearningApp.Views"
+    xmlns:local="clr-namespace:XamFormsLanguageLearningApp"
     Title="XamFormsLanguageLearningApp">
 
     <!--
@@ -32,15 +32,15 @@
 
     <TabBar>
         <ShellContent
-            Title="Vokabular"
+            Title="{x:Static local:Strings.Vocabulary}"
             ContentTemplate="{DataTemplate local:VocabularyPage}"
             Icon="vocabulary.png" />
         <ShellContent
-            Title="Gramatika"
+            Title="{x:Static local:Strings.Grammar}"
             ContentTemplate="{DataTemplate local:GrammarPage}"
             Icon="grammar.png" />
         <ShellContent
-            Title="Informacije"
+            Title="{x:Static local:Strings.Information}"
             ContentTemplate="{DataTemplate local:InformationPage}"
             Icon="information.png" />
     </TabBar>

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
-using XamFormsLanguageLearningApp.ViewModels;
-using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp
 {

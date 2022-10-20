@@ -2,7 +2,6 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamFormsLanguageLearningApp.Services;
-using XamFormsLanguageLearningApp.Views;
 
 namespace XamFormsLanguageLearningApp
 {

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamFormsLanguageLearningApp.InformationPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effects="clr-namespace:XamFormsLanguageLearningApp.Effects"
+    xmlns:local="clr-namespace:XamFormsLanguageLearningApp"
+    Title="{x:Static local:Strings.Information}">
+
+    <StackLayout x:Name="mainLayout" Margin="10">
+        <StackLayout Orientation="Horizontal">
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="FillAndExpand"
+                Opacity="0.7"
+                Style="{DynamicResource ListItemTextStyle}"
+                Text="Uključi obavijesti"
+                TextColor="Black" />
+            <Switch
+                HorizontalOptions="End"
+                IsToggled="{Binding NotificationsToggled}"
+                Toggled="Switch_Toggled" />
+        </StackLayout>
+        <Label
+            HorizontalTextAlignment="Center"
+            Opacity="0.5"
+            Style="{DynamicResource ListItemTextStyle}"
+            Text="Imate prijedlog ili pitanje? Kontaktirajte nas na nekimail@gmail.com."
+            TextColor="Black"
+            VerticalOptions="EndAndExpand" />
+    </StackLayout>
+</ContentPage>
