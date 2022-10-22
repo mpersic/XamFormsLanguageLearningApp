@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -18,78 +19,117 @@ namespace XamFormsLanguageLearningApp.Services
 
         public List<GrammarExample> GetGrammarExamples(Assembly assembly, string name)
         {
-            var processedName = ProcessName(name);
-            var list = new List<GrammarExample>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.{processedName}.json");
-
-            using (var reader = new System.IO.StreamReader(stream))
+            try
             {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<GrammarExample>>(json);
+                var processedName = ToLowerAndNonEnglishCharacters(name);
+                processedName = RemoveWhitespace(processedName);
+
+                var grammarExamples = new List<GrammarExample>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.{processedName}.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    grammarExamples = JsonConvert.DeserializeObject<List<GrammarExample>>(json);
+                }
+                return grammarExamples;
             }
-            return list;
+            catch
+            {
+                return new List<GrammarExample>();
+            }
+            
         }
 
         public List<GrammarExamQuestion> GetGrammarExamQuestions(Assembly assembly, string name)
         {
-            var processedName = ProcessName(name);
-            var list = new List<GrammarExamQuestion>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.exam-{processedName}.json");
+            try
+            {
+                var processedName = ToLowerAndNonEnglishCharacters(name);
+                processedName = RemoveWhitespace(processedName);
 
-            using (var reader = new System.IO.StreamReader(stream))
-            {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<GrammarExamQuestion>>(json);
+                var grammarExamQuestions = new List<GrammarExamQuestion>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.exam-{processedName}.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    grammarExamQuestions = JsonConvert.DeserializeObject<List<GrammarExamQuestion>>(json);
+                }
+                grammarExamQuestions.Shuffle();
+                if (grammarExamQuestions.Count < 10)
+                {
+                    throw new Exception("Not enough items in this unit!");
+                }
+                var tenExams = grammarExamQuestions.Take(10).ToList();
+                return tenExams;
             }
-            list.Shuffle();
-            if (list.Count < 10)
+            catch
             {
-                throw new Exception("Not enough items in this unit!");
+                return new List<GrammarExamQuestion>();
             }
-            var tenExams = list.Take(10).ToList();
-            return tenExams;
+            
         }
 
         public List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName)
         {
-            var processedName = selectedUnitName.ToLower();
-            if (processedName.Contains("č") || processedName.Contains("ć"))
+            try
             {
-                processedName = processedName.Replace("č", "c").Replace("ć", "c");
-            }
-            var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits-{processedName}.json");
+                var processedName = ToLowerAndNonEnglishCharacters(selectedUnitName);
 
-            using (var reader = new System.IO.StreamReader(stream))
-            {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                var units = new List<Unit>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits-{processedName}.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    units = JsonConvert.DeserializeObject<List<Unit>>(json);
+                }
+                return units;
             }
-            return list;
+            catch 
+            {
+                return new List<Unit>();
+            }
+           
         }
 
         public List<Unit> GetUnits(Assembly assembly)
         {
-            var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits.json");
-
-            using (var reader = new System.IO.StreamReader(stream))
+            try
             {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                var units = new List<Unit>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Grammar.grammarunits.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    units = JsonConvert.DeserializeObject<List<Unit>>(json);
+                }
+                return units;
             }
-            return list;
+            catch 
+            {
+                return new List<Unit>();
+            }
+     
         }
 
-        private string ProcessName(string name)
+        private string ToLowerAndNonEnglishCharacters(string name)
         {
             var processedName = name.ToLower();
-            if (processedName.Contains("č") || processedName.Contains("ć"))
-            {
-                processedName = processedName.Replace("č", "c").Replace("ć", "c");
-            }
-            processedName = processedName.Replace(" ", string.Empty);
+            processedName = ProcessNonEnglishCharacters(processedName);
             return processedName;
+        }
+
+        private string ProcessNonEnglishCharacters(string name)
+        {
+            return name.Replace("č", "c").Replace("ć", "c").Replace("š", "s");
+        }
+
+        private string RemoveWhitespace(string name)
+        {
+            return name.Replace(" ", string.Empty);
         }
 
         #endregion Methods

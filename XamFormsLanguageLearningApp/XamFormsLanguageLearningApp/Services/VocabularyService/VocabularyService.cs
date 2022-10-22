@@ -21,68 +21,90 @@ namespace XamFormsLanguageLearningApp
 
         public List<VocabularyQuestionAnswerObj> GetQuestions(Assembly assembly, string name)
         {
-            var processedName = ProcessNonEnglishCharacterRevision(name);
-            if (processedName.Contains("revise"))
+            try
             {
-                processedName = processedName.Split('-').Last();
-            }
-            var list = new List<VocabularyQuestionAnswerObj>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.{processedName}.json");
+                var processedName = ProcessNonEnglishCharacterRevision(name);
+                processedName = processedName.Replace(" ", string.Empty);
+                if (processedName.Contains("revise"))
+                {
+                    processedName = processedName.Split('-').Last();
+                }
+                var list = new List<VocabularyQuestionAnswerObj>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.{processedName}.json");
 
-            using (var reader = new System.IO.StreamReader(stream))
-            {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<VocabularyQuestionAnswerObj>>(json);
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    list = JsonConvert.DeserializeObject<List<VocabularyQuestionAnswerObj>>(json);
+                }
+                if (list.Count < 10)
+                {
+                    throw new Exception("Not enough items in this unit!");
+                }
+                if (!name.Contains("revise"))
+                {
+                    list.Shuffle();
+                    var tenExams = list.Take(10).ToList();
+                    return tenExams;
+                }
+                return list;
             }
-            if (!name.Contains("revise"))
+            catch
             {
-                list.Shuffle();
+                return new List<VocabularyQuestionAnswerObj>();
             }
-            if (list.Count < 10)
-            {
-                throw new Exception("Not enough items in this unit!");
-            }
-            var tenExams = list.Take(10).ToList();
-            return tenExams;
+
         }
 
-        public List<Unit> GetSelectedUnits(Assembly assembly, string selectedUnitName)
+        public List<Unit> GetSelectedUnits(Assembly assembly, string name)
         {
-            var processedName = selectedUnitName.ToLower();
-            if (processedName.Contains("č") || processedName.Contains("ć"))
+            try
             {
-                processedName = processedName.Replace("č", "c").Replace("ć", "c");
-            }
-            var list = new List<Unit>();
-            var processName = processedName.Split('-').Last();
-            processName = processName.Replace(" ", string.Empty);
-            //processName = processName.Split(' ').First();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits-{processName}.json");
+                name = name.ToLower();
+                var processedName = ProcessNonEnglishCharacterRevision(name);
+                processedName = processedName.Split('-').Last();
+                processedName = processedName.Replace(" ", string.Empty);
 
-            using (var reader = new System.IO.StreamReader(stream))
-            {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                var list = new List<Unit>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits-{processedName}.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                }
+                return list;
             }
-            return list;
+            catch
+            {
+                return new List<Unit>();
+            }
+
         }
 
         public List<Unit> GetUnits(Assembly assembly)
         {
-            var list = new List<Unit>();
-            var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits.json");
-
-            using (var reader = new StreamReader(stream))
+            try
             {
-                var json = reader.ReadToEnd();
-                list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                var list = new List<Unit>();
+                var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.JsonAssets.Vocabulary.vocabularyunits.json");
+
+                using (var reader = new StreamReader(stream))
+                {
+                    var json = reader.ReadToEnd();
+                    list = JsonConvert.DeserializeObject<List<Unit>>(json);
+                }
+                return list;
             }
-            return list;
+            catch
+            {
+                return new List<Unit>();
+            }
         }
 
         private string ProcessNonEnglishCharacterRevision(string name)
         {
-            return name.Replace("č", "c").Replace("ć", "c").Replace("š", "s").Replace(" ", "");
+            return name.Replace("č", "c").Replace("ć", "c").Replace("š", "s");
         }
 
         #endregion Methods
