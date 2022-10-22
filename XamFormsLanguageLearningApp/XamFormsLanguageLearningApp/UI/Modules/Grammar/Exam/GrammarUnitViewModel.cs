@@ -428,7 +428,7 @@ namespace XamFormsLanguageLearningApp
 
         private void SaveFinalScore()
         {
-            Preferences.Set(ExamName, $"{CorrectAnswers}/{BindableGrammarExamQuestions.Count}");
+            Preferences.Set(ExamName.ToLower().Replace(" ",""), $"{CorrectAnswers}/{BindableGrammarExamQuestions.Count}");
         }
 
         private void SetQuestionVisibility()

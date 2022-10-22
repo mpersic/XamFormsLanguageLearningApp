@@ -22,9 +22,10 @@ namespace XamFormsLanguageLearningApp.Models.Units
         {
             Name = baseUnit.Name;
             Lesson = baseUnit.Lesson;
-            var splitter = baseUnit.Lesson.Split(' ')[3];
-            HighScore = Preferences.Get($"{splitter}", "");
-            if (HighScore.Length > 0)
+            var formattedName = baseUnit.Lesson.Split(' ')[3];
+            var scoreIsToggled = Preferences.Get("score_toggled", true);
+            HighScore = Preferences.Get($"{formattedName}", "");
+            if (HighScore.Length > 0 && scoreIsToggled)
             {
                 ScoreIsVisible = true;
             }

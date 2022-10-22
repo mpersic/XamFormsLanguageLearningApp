@@ -15,8 +15,7 @@ namespace XamFormsLanguageLearningApp
         #region Fields
 
         private bool _notificationsToggled;
-
-        private Unit _selectedItem;
+        private bool _scoreToggled;
 
         #endregion Fields
 
@@ -24,8 +23,7 @@ namespace XamFormsLanguageLearningApp
 
         public InformationViewModel()
         {
-            Items = new ObservableCollection<Unit>();
-            ItemTapped = new Command<Unit>(OnItemSelected);
+
         }
 
         #endregion Constructors
@@ -34,72 +32,32 @@ namespace XamFormsLanguageLearningApp
 
         #region Properties
 
-        public ObservableCollection<Unit> Items { get; }
-
-        public Command<Unit> ItemTapped { get; }
-
         public bool NotificationsToggled
         {
             get => _notificationsToggled;
             set => SetProperty(ref _notificationsToggled, value);
         }
 
-        public Unit SelectedItem
+        public bool ScoreToggled
         {
-            get => _selectedItem;
-            set
-            {
-                SetProperty(ref _selectedItem, value);
-                OnItemSelected(value);
-            }
+            get => _scoreToggled;
+            set => SetProperty(ref _scoreToggled, value);
         }
 
         #endregion Properties
-
-
 
         #region Methods
 
         public void OnAppearing()
         {
             IsBusy = true;
-            ExecuteLoadItemsCommand();
-            SelectedItem = null;
+            NotificationsToggled = Preferences.Get("notifications_toggled", false);
+            ScoreToggled = Preferences.Get("score_toggled", true);
+            IsBusy = false;
+
         }
 
-        private void ExecuteLoadItemsCommand()
-        {
-            IsBusy = true;
+        #endregion
 
-            try
-            {
-                Items.Clear();
-                var assembly = typeof(VocabularyPage).GetTypeInfo().Assembly;
-                var items = VocabularyService.GetUnits(assembly);
-                foreach (var item in items)
-                {
-                    Items.Add(item);
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex);
-            }
-            finally
-            {
-                IsBusy = false;
-            }
-        }
-
-        private async void OnItemSelected(Unit item)
-        {
-            if (item == null)
-                return;
-
-            // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(VocabularyUnitSelectionPage)}?{nameof(VocabularyUnitSelectionViewModel.Name)}={item.Name}");
-        }
-
-        #endregion Methods
     }
 }

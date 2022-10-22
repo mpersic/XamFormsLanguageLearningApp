@@ -24,13 +24,24 @@
                             BackgroundColor="#8EE2BF"
                             CornerRadius="10"
                             IsClippedToBounds="True">
-                            <StackLayout VerticalOptions="Center">
+                            <StackLayout
+                                Orientation="Horizontal"
+                                Spacing="10"
+                                VerticalOptions="Center">
                                 <Label
                                     FontAttributes="Bold"
                                     FontSize="16"
-                                    LineBreakMode="NoWrap"
+                                    HorizontalOptions="FillAndExpand"
+                                    LineBreakMode="TailTruncation"
                                     Style="{DynamicResource ListItemTextStyle}"
                                     Text="{Binding Lesson}"
+                                    TextColor="White"
+                                    VerticalOptions="FillAndExpand" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="End"
+                                    IsVisible="{Binding ScoreIsVisible}"
+                                    Text="{Binding HighScore}"
                                     TextColor="White" />
                                 <StackLayout.GestureRecognizers>
                                     <TapGestureRecognizer

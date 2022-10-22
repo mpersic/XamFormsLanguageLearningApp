@@ -22,12 +22,13 @@ namespace XamFormsLanguageLearningApp.Models.Units
         {
             Name = baseUnit.Name;
             Lesson = baseUnit.Lesson;
-            //var splitter = baseUnit.Lesson.Split(' ')[3];
-            //HighScore = Preferences.Get($"{splitter}", "");
-            //if (HighScore.Length > 0)
-            //{
-            //    ScoreIsVisible = true;
-            //}
+            var formattedName = baseUnit.Lesson.ToLower().Replace(" ","");
+            HighScore = Preferences.Get($"{formattedName}", "");
+            var scoreIsToggled = Preferences.Get("score_toggled", true);
+            if (HighScore.Length > 0 && scoreIsToggled)
+            {
+                ScoreIsVisible = true;
+            }
         }
 
         #endregion Constructors

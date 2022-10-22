@@ -7,7 +7,8 @@
     xmlns:local="clr-namespace:XamFormsLanguageLearningApp"
     Title="{x:Static local:Strings.Information}">
 
-    <StackLayout x:Name="mainLayout" Margin="10">
+    <StackLayout x:Name="mainLayout" Margin="10"
+                 Spacing="20">
         <StackLayout Orientation="Horizontal">
             <Label
                 FontAttributes="Bold"
@@ -19,8 +20,28 @@
             <Switch
                 HorizontalOptions="End"
                 IsToggled="{Binding NotificationsToggled}"
-                Toggled="Switch_Toggled" />
+                Toggled="Notifications_Toggled" />
         </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="FillAndExpand"
+                Opacity="0.7"
+                Style="{DynamicResource ListItemTextStyle}"
+                Text="Uključi rezultate"
+                TextColor="Black" />
+            <Switch
+                HorizontalOptions="End"
+                IsToggled="{Binding ScoreToggled}"
+                Toggled="Score_Toggled" />
+        </StackLayout>
+        <Label
+                FontAttributes="Bold"
+                HorizontalOptions="FillAndExpand"
+                Opacity="0.7"
+                Style="{DynamicResource ListItemTextStyle}"
+                Text="Ne sviđaju Vam se reklame? Nabavite PRO verziju!"
+                TextColor="Black" />
         <Label
             HorizontalTextAlignment="Center"
             Opacity="0.5"
