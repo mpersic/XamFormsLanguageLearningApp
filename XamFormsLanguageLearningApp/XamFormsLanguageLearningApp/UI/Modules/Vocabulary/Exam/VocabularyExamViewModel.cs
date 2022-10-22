@@ -47,7 +47,7 @@ namespace XamFormsLanguageLearningApp
             CheckAnswerCommand = new Command(CheckAnwser);
             GoToTestCommand = new Command(GoToTest);
             GoToRevisionCommand = new Command(GoToRevision);
-            GoToHomePageCommand = new Command(GoToHomePage);
+            ResetExamStateCommand = new Command(ResetExamState);
             ReadTextCommand = new Command(async () => await ReadTextAsync());
 
             ActiveQuestion = new ObservableCollection<WordExplanation>();
@@ -134,7 +134,7 @@ namespace XamFormsLanguageLearningApp
             set => SetProperty(ref _finishedStateMessage, value);
         }
 
-        public Command GoToHomePageCommand { get; }
+        public Command ResetExamStateCommand { get; }
 
         public Command GoToRevisionCommand { get; }
 
@@ -332,9 +332,10 @@ namespace XamFormsLanguageLearningApp
             return _correctAnswersCollection.Contains(UserAnswer);
         }
 
-        private async void GoToHomePage()
+        private void ResetExamState()
         {
-            await Shell.Current.GoToAsync("..");
+            ExamState = ExamState.Prompt;
+            ProcessExamState();
         }
 
         private void GoToRevision()
@@ -384,7 +385,7 @@ namespace XamFormsLanguageLearningApp
             }
             catch (Exception ex)
             {
-                GoToHomePage();
+                ResetExamState();
             }
         }
 

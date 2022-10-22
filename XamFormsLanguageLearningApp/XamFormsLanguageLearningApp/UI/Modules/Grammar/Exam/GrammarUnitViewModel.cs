@@ -49,7 +49,7 @@ namespace XamFormsLanguageLearningApp
             GoToTestCommand = new Command(GoToTest);
             CheckAnswerCommand = new Command(CheckAnwser);
             GoToRevisionCommand = new Command(GoToRevision);
-            GoToHomePageCommand = new Command(GoToHomePage);
+            ResetExamStateCommand = new Command(ResetExamState);
             FinishRevisionCommand = new Command(FinishRevision);
 
             BindableGrammarExamQuestions = new ObservableCollection<BindableGrammarExamQuestion>();
@@ -127,7 +127,7 @@ namespace XamFormsLanguageLearningApp
         }
 
         public Command FinishRevisionCommand { get; }
-        public Command GoToHomePageCommand { get; }
+        public Command ResetExamStateCommand { get; }
         public Command GoToRevisionCommand { get; }
 
         public Command GoToTestCommand { get; }
@@ -318,9 +318,10 @@ namespace XamFormsLanguageLearningApp
             ProcessExamState();
         }
 
-        private async void GoToHomePage()
+        private void ResetExamState()
         {
-            await Shell.Current.GoToAsync("..");
+            ExamState = ExamState.Prompt;
+            ProcessExamState();
         }
 
         private void GoToRevision()
@@ -357,7 +358,7 @@ namespace XamFormsLanguageLearningApp
             }
             catch (Exception ex)
             {
-                GoToHomePage();
+                ResetExamState();
             }
         }
 

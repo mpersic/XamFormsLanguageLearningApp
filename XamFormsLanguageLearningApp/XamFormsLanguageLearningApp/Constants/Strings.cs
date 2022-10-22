@@ -37,6 +37,8 @@ namespace XamFormsLanguageLearningApp
 
         public const string Vocabulary = "Vokabular";
 
+        public const string Finish = "Dovrši";
+
         #endregion Fields
     }
 }

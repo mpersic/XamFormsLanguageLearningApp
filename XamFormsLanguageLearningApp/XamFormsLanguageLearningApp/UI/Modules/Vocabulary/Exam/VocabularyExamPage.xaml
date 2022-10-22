@@ -130,7 +130,7 @@
                     Text="{Binding CurrentScore}"
                     TextColor="Black" />
                 <Button
-                    Command="{Binding GoToHomePageCommand}"
+                    Command="{Binding ResetExamStateCommand}"
                     HorizontalOptions="Start"
                     Text="Povratak na izbornik" />
             </StackLayout>

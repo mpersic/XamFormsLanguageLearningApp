@@ -160,18 +160,17 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             <CollectionView.Footer>
-                <Grid>
-                    <Button
-                        Margin="0,10"
-                        Padding="0"
-                        Command="{Binding FinishRevisionCommand}"
-                        HorizontalOptions="Center"
-                        IsVisible="{Binding RevisionIsVisible}"
-                        Text="Dovrši"
-                        VerticalOptions="Center" />
-                </Grid>
+                <Frame BackgroundColor="Transparent" HeightRequest="20" />
             </CollectionView.Footer>
         </CollectionView>
+        <Button
+            Margin="10"
+            Padding="0"
+            Command="{Binding FinishRevisionCommand}"
+            HorizontalOptions="End"
+            IsVisible="{Binding RevisionIsVisible}"
+            Text="{x:Static local:Strings.Finish}"
+            VerticalOptions="End" />
 
         <!--  Exam finished  -->
         <Frame
@@ -189,7 +188,7 @@
                     Text="{Binding CurrentScore}"
                     TextColor="Black" />
                 <Button
-                    Command="{Binding GoToHomePageCommand}"
+                    Command="{Binding ResetExamStateCommand}"
                     HorizontalOptions="Start"
                     Text="{x:Static local:Strings.BackToMenu}" />
             </StackLayout>
