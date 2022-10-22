@@ -10,8 +10,10 @@ namespace XamFormsLanguageLearningApp.Models
 
         public string AnswerPart1 { get; set; }
         public string AnswerPart2 { get; set; }
+        public string AnswerPart3 { get; set; }
         public string QuestionPart1 { get; set; }
         public string QuestionPart2 { get; set; }
+        public string QuestionPart3 { get; set; }
 
         #endregion Properties
     }

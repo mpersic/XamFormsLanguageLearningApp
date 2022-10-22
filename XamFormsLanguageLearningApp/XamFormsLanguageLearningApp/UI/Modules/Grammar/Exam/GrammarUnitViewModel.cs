@@ -18,8 +18,10 @@ namespace XamFormsLanguageLearningApp
 
         private string _activeQuestionPart1;
         private string _activeQuestionPart2;
+        private string _activeQuestionPart3;
         private string _correctAnswer1;
         private string _correctAnswer2;
+        private string _correctAnswer3;
         private int _correctAnswers;
         private int _currentQuestion;
         private string _currentScore;
@@ -32,13 +34,16 @@ namespace XamFormsLanguageLearningApp
         private bool _promptForExamIsVisible;
         private bool _questionPart1Visible;
         private bool _questionPart2Visible;
+        private bool _questionPart3Visible;
         private bool _revisionIsVisible;
         private bool _showFinalScore;
         private string _unprocessedName;
         private string _userAnswer1;
         private string _userAnswer2;
+        private string _userAnswer3;
         private bool _userInput1Visible;
         private bool _userInput2Visible;
+        private bool _userInput3Visible;
 
         #endregion Fields
 
@@ -72,6 +77,12 @@ namespace XamFormsLanguageLearningApp
         {
             get => _activeQuestionPart2;
             set => SetProperty(ref _activeQuestionPart2, value);
+        }
+
+        public string ActiveQuestionPart3
+        {
+            get => _activeQuestionPart3;
+            set => SetProperty(ref _activeQuestionPart3, value);
         }
 
         public ObservableCollection<BindableGrammarExamQuestion> BindableGrammarExamQuestions { get; }
@@ -165,6 +176,12 @@ namespace XamFormsLanguageLearningApp
             set => SetProperty(ref _questionPart2Visible, value);
         }
 
+        public bool QuestionPart3Visible
+        {
+            get => _questionPart3Visible;
+            set => SetProperty(ref _questionPart3Visible, value);
+        }
+
         public bool RevisionIsVisible
         {
             get => _revisionIsVisible;
@@ -189,6 +206,12 @@ namespace XamFormsLanguageLearningApp
             set => SetProperty(ref _userAnswer2, value);
         }
 
+        public string UserAnswer3
+        {
+            get => _userAnswer3;
+            set => SetProperty(ref _userAnswer3, value);
+        }
+
         public bool UserInput1Visible
         {
             get => _userInput1Visible;
@@ -199,6 +222,12 @@ namespace XamFormsLanguageLearningApp
         {
             get => _userInput2Visible;
             set => SetProperty(ref _userInput2Visible, value);
+        }
+
+        public bool UserInput3Visible
+        {
+            get => _userInput3Visible;
+            set => SetProperty(ref _userInput3Visible, value);
         }
 
         #endregion Properties
@@ -283,7 +312,7 @@ namespace XamFormsLanguageLearningApp
 
         private async void CheckAnwser()
         {
-            if (UserAnswer1.Length == 0 && UserAnswer2.Length == 0)
+            if (UserAnswer1.Length == 0 && UserAnswer2.Length == 0 && UserAnswer3.Length == 0)
             {
                 return;
             }
@@ -303,13 +332,14 @@ namespace XamFormsLanguageLearningApp
 
         private bool CheckIfAnswerIsValid()
         {
-            return _correctAnswer1.Equals(UserAnswer1) && _correctAnswer2.Equals(UserAnswer2);
+            return _correctAnswer1.Equals(UserAnswer1) && _correctAnswer2.Equals(UserAnswer2) && _correctAnswer3.Equals(UserAnswer3);
         }
 
         private void CleanUserInputs()
         {
             UserAnswer1 = string.Empty;
             UserAnswer2 = string.Empty;
+            UserAnswer3 = string.Empty;
         }
 
         private void FinishRevision()
@@ -405,8 +435,10 @@ namespace XamFormsLanguageLearningApp
         {
             QuestionPart1Visible = ActiveQuestionPart1 != string.Empty ? true : false;
             QuestionPart2Visible = ActiveQuestionPart2 != string.Empty ? true : false;
+            QuestionPart3Visible = ActiveQuestionPart3 != string.Empty ? true : false;
             UserInput1Visible = _correctAnswer1 != string.Empty ? true : false;
             UserInput2Visible = _correctAnswer2 != string.Empty ? true : false;
+            UserInput3Visible = _correctAnswer3 != string.Empty ? true : false;
         }
 
         private void SetUpQuestion()
@@ -430,8 +462,10 @@ namespace XamFormsLanguageLearningApp
         {
             ActiveQuestionPart1 = BindableGrammarExamQuestions[CurrentQuestion].QuestionPart1;
             ActiveQuestionPart2 = BindableGrammarExamQuestions[CurrentQuestion].QuestionPart2;
+            ActiveQuestionPart3 = BindableGrammarExamQuestions[CurrentQuestion].QuestionPart3;
             _correctAnswer1 = BindableGrammarExamQuestions[CurrentQuestion].AnswerPart1;
             _correctAnswer2 = BindableGrammarExamQuestions[CurrentQuestion].AnswerPart2;
+            _correctAnswer3 = BindableGrammarExamQuestions[CurrentQuestion].AnswerPart3;
             SetQuestionVisibility();
         }
 

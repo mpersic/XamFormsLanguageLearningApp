@@ -14,6 +14,8 @@
     <None Remove="grammarunits-prilozi.json" />
     <None Remove="grammarunits-recenice.json" />
     <None Remove="grammarunits-zamjenice.json" />
+    <None Remove="JsonAssets\Grammar\exam-deklinacijaimenica.json" />
+    <None Remove="JsonAssets\Grammar\exam-preterit(aktiv).json" />
     <None Remove="JsonAssets\Grammar\exam-prezent(aktiv).json" />
     <None Remove="JsonAssets\Grammar\glagolskioblici.json" />
     <None Remove="JsonAssets\Vocabulary\brak.json" />
@@ -46,6 +48,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-preterit%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-deklinacijaimenica.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-brojevi.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-glagoli.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-imenice.json" />

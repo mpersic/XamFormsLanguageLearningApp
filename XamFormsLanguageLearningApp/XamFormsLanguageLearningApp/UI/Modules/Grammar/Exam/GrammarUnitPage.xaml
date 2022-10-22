@@ -83,6 +83,25 @@
                     Text="{Binding UserAnswer2}" />
             </Frame>
 
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                IsVisible="{Binding QuestionPart3Visible}"
+                Text="{Binding ActiveQuestionPart3}"
+                TextColor="Black" />
+            <Frame
+                Margin="0,10"
+                Padding="5,0,0,0"
+                BackgroundColor="LightGray"
+                CornerRadius="9"
+                IsVisible="{Binding UserInput3Visible}">
+                <Entry
+                    Margin="5,0,0,0"
+                    Placeholder="{x:Static local:Strings.FillIn}"
+                    PlaceholderColor="Black"
+                    Text="{Binding UserAnswer3}" />
+            </Frame>
+
             <StackLayout Spacing="10" VerticalOptions="EndAndExpand">
                 <Label
                     HorizontalOptions="Center"
