@@ -1,0 +1,67 @@
+[
+  {
+    "Intro": "Samostalni glagoli sami tvore predikat: ",
+    "GlagolPoLicima": [
+      "Sie nimmt ein Buch. (Ona uzima knjigu.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pomoćni glagoli tvore predikat rečenice zajedno sa samostalnim glagolima, npr. participom perfekta ili infinitivom:",
+    "GlagolPoLicima": [ "Sie hat ein Buch genommen. (Uzela je knjigu.)" ],
+    "Deklinacija": [ "gehen → geh-", "kochen → koch-" ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "sein (biti)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "prezent",
+          "Stupac3": "preterit",
+          "Stupac4": "perfekt"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "bin",
+          "Stupac3": "war",
+          "Stupac4": "bin gewesen"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "bist",
+          "Stupac3": "warst",
+          "Stupac4": "bist gewesen"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "ist",
+          "Stupac3": "war",
+          "Stupac4": "ist gewesen"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "sind",
+          "Stupac3": "waren",
+          "Stupac4": "sind gewesen"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "seid",
+          "Stupac3": "wart",
+          "Stupac4": "seid gewesen"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "sind",
+          "Stupac3": "waren",
+          "Stupac4": "seid gewesen"
+        }
+      ]
+    }
+
+  }
+]

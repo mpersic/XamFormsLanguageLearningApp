@@ -9,9 +9,9 @@ namespace XamFormsLanguageLearningApp.Models
     {
         #region Fields
 
-        private int deklinacijaCount;
-
-        private int glagolPoLicimaCount;
+        private int _tableHeight;
+        private string _tableTitle;
+        private bool _showTable;
 
         #endregion Fields
 
@@ -22,8 +22,13 @@ namespace XamFormsLanguageLearningApp.Models
             Intro = domain.Intro;
             Deklinacija = domain.Deklinacija;
             GlagolPoLicima = domain.GlagolPoLicima;
-            DeklinacijaCount = Deklinacija.Count * 50;
-            GlagolPoLicimaCount = GlagolPoLicima.Count * 50;
+            TableTitle = domain.TablicaNepravilnihGlagola.Ime;
+            TableRows = domain.TablicaNepravilnihGlagola.Redovi;
+            if(TableRows.Count > 0)
+            {
+                ShowTable = true;
+                TableHeight = (TableRows.Count + 1) * 30;
+            }
         }
 
         #endregion Constructors
@@ -32,21 +37,29 @@ namespace XamFormsLanguageLearningApp.Models
 
         #region Properties
 
+        public bool ShowTable
+        {
+            get => _showTable;
+            set => SetProperty(ref _showTable, value);
+        }
+
+        public string TableTitle
+        {
+            get => _tableTitle;
+            set => SetProperty(ref _tableTitle, value);
+        }
+
+        public int TableHeight
+        {
+            get => _tableHeight;
+            set => SetProperty(ref _tableHeight, value);
+        }
+
         public ObservableCollection<string> Deklinacija { get; set; }
 
-        public int DeklinacijaCount
-        {
-            get => deklinacijaCount;
-            set => SetProperty(ref deklinacijaCount, value);
-        }
+        public ObservableCollection<Redovi> TableRows { get; set; }
 
         public ObservableCollection<string> GlagolPoLicima { get; set; }
-
-        public int GlagolPoLicimaCount
-        {
-            get => glagolPoLicimaCount;
-            set => SetProperty(ref glagolPoLicimaCount, value);
-        }
 
         public string Intro { get; set; }
 

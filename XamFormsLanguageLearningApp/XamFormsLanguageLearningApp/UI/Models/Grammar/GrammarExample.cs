@@ -12,6 +12,8 @@ namespace XamFormsLanguageLearningApp.Models
         public ObservableCollection<string> Deklinacija { get; set; }
         public ObservableCollection<string> GlagolPoLicima { get; set; }
         public string Intro { get; set; }
+        public TablicaNepravilnihGlagola TablicaNepravilnihGlagola { get; set; }
+
 
         #endregion Properties
     }

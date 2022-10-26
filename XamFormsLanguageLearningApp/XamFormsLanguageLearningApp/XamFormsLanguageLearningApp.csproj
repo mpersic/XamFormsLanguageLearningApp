@@ -18,6 +18,7 @@
     <None Remove="JsonAssets\Grammar\exam-preterit(aktiv).json" />
     <None Remove="JsonAssets\Grammar\exam-prezent(aktiv).json" />
     <None Remove="JsonAssets\Grammar\glagolskioblici.json" />
+    <None Remove="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
     <None Remove="JsonAssets\Vocabulary\brak.json" />
     <None Remove="JsonAssets\Vocabulary\djetinjstvo.json" />
     <None Remove="JsonAssets\Vocabulary\dorucak.json" />
@@ -61,6 +62,7 @@
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\exam-prezent%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\glagolskioblici.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\brak.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\djetinjstvo.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\dorucak.json" />

@@ -169,6 +169,93 @@
                                 </DataTemplate>
                             </BindableLayout.ItemTemplate>
                         </FlexLayout>
+
+                        <ListView
+                            HeightRequest="{Binding TableHeight}"
+                            InputTransparent="True"
+                            IsVisible="{Binding ShowTable}"
+                            ItemsSource="{Binding TableRows}"
+                            RowHeight="30">
+                            <ListView.Header>
+                                <Frame
+                                    Padding="0"
+                                    HeightRequest="30"
+                                    BorderColor="DarkSlateGray"
+                                    HorizontalOptions="FillAndExpand">
+                                    <Label
+                                        FontSize="13"
+                                        HorizontalOptions="Center"
+                                        Text="{Binding TableTitle}"
+                                        VerticalOptions="Center" />
+                                </Frame>
+                            </ListView.Header>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Frame Padding="0" BorderColor="DarkSlateBlue">
+                                            <Grid Padding="0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2.5*" />
+                                                    <ColumnDefinition Width="2.5*" />
+                                                    <ColumnDefinition Width="2.5*" />
+                                                    <ColumnDefinition Width="2.5*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Label
+                                                    Margin="3,0,0,0"
+                                                    Grid.Column="0"
+                                                    FontSize="13"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac1}"
+                                                    HorizontalTextAlignment="Start" />
+                                                <Label
+                                                    Grid.Column="1"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac2}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="2"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac3}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="3"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac4}"
+                                                    VerticalOptions="Center" />
+                                                <BoxView
+                                                    Grid.Column="0"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="1"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="2"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="3"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                            </Grid>
+                                        </Frame>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type local:GrammarViewModel}}, Path=ItemTapped}"
