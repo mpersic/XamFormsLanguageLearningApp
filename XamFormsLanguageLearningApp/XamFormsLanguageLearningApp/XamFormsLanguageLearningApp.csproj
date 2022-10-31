@@ -26,6 +26,7 @@
     <None Remove="JsonAssets\Grammar\glagolskioblici.json" />
     <None Remove="JsonAssets\Grammar\perfekt(aktiv).json" />
     <None Remove="JsonAssets\Grammar\pluskvamperfekt(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\pravilniinepravilniglagoli.json" />
     <None Remove="JsonAssets\Grammar\preterit(aktiv).json" />
     <None Remove="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
     <None Remove="JsonAssets\Vocabulary\brak.json" />
@@ -78,6 +79,7 @@
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\exam-prezent%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\glagolskioblici.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\pravilniinepravilniglagoli.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\preterit%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\perfekt%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
