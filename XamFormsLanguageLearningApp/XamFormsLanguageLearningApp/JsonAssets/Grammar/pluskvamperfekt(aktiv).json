@@ -1,0 +1,75 @@
+[
+  {
+    "Intro": "Pluskvamperfekt se pretežno upotrebljava zajedno s preteritom za označavanje prošle radnje koja se dogodila prije druge prošle radnje. Ta se druga prošla radnja izražava preteritom. ",
+    "GlagolPoLicima": [
+      "Peter aß sehr viel. Er hatte zwei Tage nichts gegessen. (Peter je jeo vrlo mnogo. Ne bijaše jeo dva dana.)",
+      "Als er kam, hatten sie die Arbeit schon beendet. (Kada je on došao, bijahu već završili posao.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pluskvamperfekt pravilnih glagola se tvori pomoću preterita glagola haben ili sein i participa II. punoznačnog glagola. ",
+    "GlagolPoLicima": [
+      "kochen",
+      "ich hatte gekocht",
+      "du hattest gekocht",
+      "er/sie/es hatte gekocht",
+      "wir hatten gekocht",
+      "ihr hattet gekocht",
+      "sie hatten gekocht"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pluskvamperfekt nepravilnih glagola se, kao i kod pravilnih glagola, tvori od preterita pomoćnoga glagola haben ili sein i participa II.",
+    "GlagolPoLicima": [
+      "kommen",
+      "ich war gekommen",
+      "du warst gekommen",
+      "er/sie/es war gekommen",
+      "wir waren gekommen",
+      "ihr wart gekommen",
+      "sie waren gekommen"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Kao i kod perfekta, pomoćni glagol stoji na drugom mjestu, a particip II. na kraju rečenice.",
+    "GlagolPoLicima": [
+      "Marko hatte den ganzen Tag gelernt. (Marko je bio učio cijeli dan.)",
+      "Sie war in die Schule gegangen. (Bila je otišla u školu.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pri odabiru pomoćnog glagola za tvorbu pluskvamperfekta pravilnih i nepravilnih glagola vrijede ista pravila koja su navedena u lekciji za tvorbu perfekta.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  }
+
+]

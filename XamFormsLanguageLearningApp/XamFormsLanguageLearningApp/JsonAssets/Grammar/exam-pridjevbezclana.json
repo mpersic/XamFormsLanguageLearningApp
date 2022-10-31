@@ -1,0 +1,58 @@
+[
+  {
+    "QuestionPart1": "Ich trinke gerne",
+    "QuestionPart2": "(schwarz) Kaffee.",
+    "QuestionPart3": "",
+    "AnswerPart1": "schwarzen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "Maria trinkt",
+    "QuestionPart2": "(grün) Tee.",
+    "QuestionPart3": "",
+    "AnswerPart1": "grünen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "Max trinkt",
+    "QuestionPart2": "(weiß) Kaffee.",
+    "QuestionPart3": "",
+    "AnswerPart1": "weißen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+{
+    "QuestionPart1": "Auf dem Spielplatz spielen zwei",
+    "QuestionPart2": "(klein) Kinder.",
+    "QuestionPart3": "",
+    "AnswerPart1": "kleine",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+{
+    "QuestionPart1": "Ich habe drei",
+    "QuestionPart2": "(klein) Kinder.",
+    "QuestionPart3": "",
+    "AnswerPart1": "kleine",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+{
+    "QuestionPart1": "Sie fährt mit vier",
+    "QuestionPart2": "(klein) Kindern in Urlaub.",
+    "QuestionPart3": "",
+    "AnswerPart1": "kleinen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+{
+    "QuestionPart1": "Du trinkst",
+    "QuestionPart2": "(schwarz) Tee.",
+    "QuestionPart3": "",
+    "AnswerPart1": "schwarzen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  }
+ ]

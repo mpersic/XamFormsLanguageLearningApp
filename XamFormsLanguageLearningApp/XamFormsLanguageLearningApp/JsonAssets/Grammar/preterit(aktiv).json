@@ -1,0 +1,132 @@
+[
+  {
+    "Intro": "Preterit označava radnju ili zbivanje u prošlosti.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Koristi se za izvještavanje o nečemu u čemu se neposredno ne sudjeluje, npr. u novinama.",
+    "GlagolPoLicima": [
+      "Herr Müller verbrachte auch dieses Wochenende an den Plitvicer Seen. (Gospodin Müller proveo je i ovaj vikend na Plitvičkim jezerima.)",
+      "Da es kalt war, badete er nicht, aber er machte täglich Spaziergänge und trieb viel Sport. (Budući da je bilo hladno, nije se kupao, ali je svakodnevno šetao i mnogo se bavio sportom.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Glagoli sein i haben upotrebljavaju se i u direktnom govoru najčešće u preteritu.",
+    "GlagolPoLicima": [
+      "Wo waren Sie vorigen Sonntag? (Gdje ste bili prošle nedjelje?)",
+      "Ich war bei meinen Eltern. (Bila.sam kod svojih roditelja.)",
+      "Hatten Sie schönes Wetter? (Jeste li imali lijepo vrijeme?)",
+      "Ja, es war sonnig und warm. (Da, bilo je sunčano i toplo.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Modalni glagoli upotrebljavaju se pretežno u preteritu.",
+    "GlagolPoLicima": [
+      "Warum wollten Sie Herrn Mayer besuchen? (Zašto ste htjeli posjetiti gospodina Mayera?) ",
+      "Ich mußte mit ihm sprechen. (Morao/la sam s njim razgovarati.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Preterit pravilnih glagola se tvori tako da se na osnovu i dodaju nastavci za preterit:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+      "1. lice jednine: - (e)te ich machte",
+      "2. lice jednine: -(e)test du machtest",
+      "3. lice jednine: -(e)te er/sie/es machte",
+      "1. lice množine: -(e)ten wir machten",
+      "2. lice množine: -(e)tet ihr machtet",
+      "3. lice množine: -(e)ten sie machten"
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Kod glagola kojima osnova završava na -d ili -t –e se umeće između osnove i –t:",
+    "GlagolPoLicima": [
+      "reden: ich redete, du redetest (govoriti)",
+      "antworten: ich antwortete, du antwortetest (odgovoriti)"
+    ],
+    "Deklinacija": [
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Jednako se ponašaju i glagoli kojih osnova završava na -m ili -n iza suglasnika (osim –r i -l):",
+    "GlagolPoLicima": [
+      "atmen: ich atmete, du atmetest (disati)",
+      "rechnen: ich rechnete, du rechnetest (računati)"
+    ],
+    "Deklinacija": [
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Preterit nepravilnih glagola se tvori tako da se na promjenjenu osnovu i dodaju nastavci za preterit:",
+    "GlagolPoLicima": [
+      "kommen → kam"
+    ],
+    "Deklinacija": [
+      "1. lice jednine: - ich kam",
+      "2. lice jednine: -st du kamst",
+      "3. lice jednine: - er/sie/es kam",
+      "1. lice množine: -en wir kamen",
+      "2. lice množine: - ihr kamt",
+      "3. lice množine: -en sie kamen"
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Za preterit nepravilnih glagola karakteristično je to što 1. i 3. lice jednine nemaju nastavka:",
+    "GlagolPoLicima": [
+      "ich sah (vidjeh)",
+      "er sah (vidje)"
+    ],
+    "Deklinacija": [
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  }
+]

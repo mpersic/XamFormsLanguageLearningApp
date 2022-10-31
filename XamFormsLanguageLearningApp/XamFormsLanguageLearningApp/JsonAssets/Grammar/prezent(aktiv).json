@@ -1,5 +1,38 @@
 [
   {
+    "Intro": "Prezent pretežno izražava zbivanja u sadašnjosti.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Osim toga, prezent se upotrebljava za izražavanje budućnosti umjesto futura I., jednako kao što i u hrvatskom jeziku prezent može stajati umjesto futura.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Kada prezent stoji umjesto futura, rečenica često sadrži oznaku vremena za budućnost, npr. bald (uskoro), morgen (sutra) i dr. ",
+    "GlagolPoLicima": [
+      "Wir kommen bald zurück. (Vraćamo se uskoro.) ",
+      "Morgen fahre ich nach Wien. (Sutra putujem u Beč.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
     "Intro": "Prezent se tvori tako da se glagolskoj osnovi dodaju sljedeći nastavci:",
     "GlagolPoLicima": [
       "1. lice jednine: -e",
@@ -9,12 +42,22 @@
       "2. lice množine: -(e)t",
       "3. lice množine: -en"
     ],
-    "Deklinacija": []
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Glagolska osnova dobije se ako se od infinitiva odbije nastavak –en:",
     "GlagolPoLicima": [],
-    "Deklinacija": [ "gehen → geh-", "kochen → koch-" ]
+    "Deklinacija": [ "gehen → geh-", "kochen → koch-" ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Kod glagola kojih osnova završava na -d ili -t u 2. i 3. licu jednine i u 2. licu množine -e- se umeće između osnove i nastavka:",
@@ -23,7 +66,12 @@
     "Deklinacija": [
       "reden: du redest, er redet, ihr redet (govoriti)",
       "antworten: du antwortest, er antwortet, ihr antwortet (odgovoriti)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Isto se tako ponašaju i glagoli kojih osnova završava na -m ili -n.",
@@ -32,7 +80,12 @@
     "Deklinacija": [
       "atmen: du atmest, er atmet, ihr atmet (disati)",
       "rechnen: du rechnest, er rechnet, ihr rechnet (računati)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Ako ispred -n stoji r ili I, –e- se ne umeće između osnove i nastavka.",
@@ -40,7 +93,12 @@
     ],
     "Deklinacija": [
       "leren: du lernst, er lernt, ihr lernt (učiti)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "U 2. licu jednine gubi se -s iz nastavka ako glagolska osnova završava na -s, -ß ili –z:",
@@ -50,7 +108,12 @@
       "reisen: du reist (putovati)",
       "grüßen: du grüßt (pozdraviti)",
       "heizen: du heizt (ložiti)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Ako infinitiv glagola završava na -eln, u 1. licu jednine se gubi osnovno e. ",
@@ -58,7 +121,12 @@
     ],
     "Deklinacija": [
       "handeln: handeln → ich handle (djelovati, trgovati)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Ako infinitiv glagola završava na -eln ili -ern, 1. i 3. lice množine gube -e iz svog nastavka za prezent:",
@@ -67,7 +135,12 @@
     "Deklinacija": [
       "handeln: wir handeln, sie handeln (trgovati, djelovati)",
       "rudern: wir rudern, sie rudern (veslati)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Neki nepravilni glagoli imaju u 2. i 3. licu jednine promjenu osnovnog vokala:",
@@ -77,6 +150,191 @@
       "a > ä \t\ttragen - du trägst, er trägt (nositi)",
       "au > äu \t\tlaufen - du läufst, er läuft (trčati)",
       "e > i (ie) \thelfen - du hilfst, er hilft (pomoći)"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "Glagoli s promjenom a > ä",
+      "Redovi": [
+        {
+          "Stupac1": "Infinitiv",
+          "Stupac2": "2. lice jednine",
+          "Stupac3": "3. lice jednine",
+          "Stupac4": "Prijevod"
+        },
+        {
+          "Stupac1": "backen",
+          "Stupac2": "du bäckst",
+          "Stupac3": "er bäckt",
+          "Stupac4": "peći"
+        },
+        {
+          "Stupac1": "braten",
+          "Stupac2": "du brätst",
+          "Stupac3": "er brät",
+          "Stupac4": "pržiti"
+        },
+        {
+          "Stupac1": "empfangen",
+          "Stupac2": "du empfängst",
+          "Stupac3": "er empfängt",
+          "Stupac4": "primiti"
+        },
+        {
+          "Stupac1": "fahren",
+          "Stupac2": "du fährst",
+          "Stupac3": "er fährt",
+          "Stupac4": "voziti (se)"
+        },
+        {
+          "Stupac1": "fallen",
+          "Stupac2": "du fällst",
+          "Stupac3": "er fällt",
+          "Stupac4": "pasti"
+        },
+        {
+          "Stupac1": "fangen",
+          "Stupac2": "du fängst",
+          "Stupac3": "er fängt",
+          "Stupac4": "loviti"
+        },
+        {
+          "Stupac1": "graben",
+          "Stupac2": "du gräbst",
+          "Stupac3": "er gräbt",
+          "Stupac4": "kopati"
+        },
+        {
+          "Stupac1": "halten",
+          "Stupac2": "du hältst",
+          "Stupac3": "er hält",
+          "Stupac4": "držati, zaustavit"
+        },
+        {
+          "Stupac1": "lassen",
+          "Stupac2": "du läßt",
+          "Stupac3": "er läßt",
+          "Stupac4": "pustiti"
+        },
+        {
+          "Stupac1": "schlafen",
+          "Stupac2": "du schläfst",
+          "Stupac3": "er schläft",
+          "Stupac4": "spavati"
+        },
+        {
+          "Stupac1": "schlagen",
+          "Stupac2": "du schlägst",
+          "Stupac3": "er schlägt",
+          "Stupac4": "udariti"
+        },
+        {
+          "Stupac1": "wachsen",
+          "Stupac2": "du wächst",
+          "Stupac3": "er wächst",
+          "Stupac4": "rasti"
+        },
+        {
+          "Stupac1": "waschen",
+          "Stupac2": "du wäscht",
+          "Stupac3": "er wäscht",
+          "Stupac4": "prati"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "Glagoli s promjenom e > i (ie )",
+      "Redovi": [
+        {
+          "Stupac1": "Infinitiv",
+          "Stupac2": "2. lice jednine",
+          "Stupac3": "3. lice jednine",
+          "Stupac4": "Prijevod"
+        },
+        {
+          "Stupac1": "essen",
+          "Stupac2": "du ißt",
+          "Stupac3": "er ißt",
+          "Stupac4": "jesti"
+        },
+        {
+          "Stupac1": "geben",
+          "Stupac2": "du gibst",
+          "Stupac3": "er gibt",
+          "Stupac4": "dati"
+        },
+        {
+          "Stupac1": "gelten",
+          "Stupac2": "du giltst",
+          "Stupac3": "er gilt",
+          "Stupac4": "vrijediti"
+        },
+        {
+          "Stupac1": "geschehen",
+          "Stupac2": "-",
+          "Stupac3": "es geschieht",
+          "Stupac4": "dogoditi se"
+        },
+        {
+          "Stupac1": "helfen",
+          "Stupac2": "du hilfst",
+          "Stupac3": "er hilft",
+          "Stupac4": "pomoći"
+        },
+        {
+          "Stupac1": "lesen",
+          "Stupac2": "du liest",
+          "Stupac3": "er liest",
+          "Stupac4": "čitati"
+        },
+        {
+          "Stupac1": "nehmen",
+          "Stupac2": "du nimmst",
+          "Stupac3": "er nimmt",
+          "Stupac4": "uzeti"
+        },
+        {
+          "Stupac1": "sehen",
+          "Stupac2": "du siehst",
+          "Stupac3": "er sieht",
+          "Stupac4": "vidjeti"
+        },
+        {
+          "Stupac1": "sprechen",
+          "Stupac2": "du sprichst",
+          "Stupac3": "er spricht",
+          "Stupac4": "govoriti"
+        },
+        {
+          "Stupac1": "treffen",
+          "Stupac2": "du triffst",
+          "Stupac3": "er trifft",
+          "Stupac4": "sresti"
+        },
+        {
+          "Stupac1": "treten",
+          "Stupac2": "du trittst",
+          "Stupac3": "er tritt",
+          "Stupac4": "stupiti"
+        },
+        {
+          "Stupac1": "vergessen",
+          "Stupac2": "du vergißt",
+          "Stupac3": "er vergißt",
+          "Stupac4": "zaboraviti"
+        },
+        {
+          "Stupac1": "werfen",
+          "Stupac2": "du wirfst",
+          "Stupac3": "er wirft",
+          "Stupac4": "baciti"
+        }
+      ]
+    }
   }
 ]

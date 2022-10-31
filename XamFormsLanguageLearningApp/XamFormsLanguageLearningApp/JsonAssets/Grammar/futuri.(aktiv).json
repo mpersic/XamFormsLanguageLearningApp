@@ -1,0 +1,50 @@
+[
+  {
+    "Intro": "Futur I. označava događanje u budućnosti.",
+    "GlagolPoLicima": [ "Morgen werde ich dich besuchen. (Sutra ću te posjetiti.)" ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Za izražavanje budućnosti ipak se češće upotrebljava prezent, dok futur I većinom izražava namjeru.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Osim toga futur I., slično kao u hrvatskom, označava nagađanje o zbivanju u sadašnjosti.",
+    "GlagolPoLicima": [ "Er wird krank sein. (Bit će da je bolestan.)" ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Futur I. tvori se od prezenta glagola werden i i infinitiva glagola.",
+    "GlagolPoLicima": [
+      "kochen",
+      "ich werde kochen",
+      "du wirst kochen",
+      "er/sie/es wird kochen",
+      "wir werden kochen",
+      "ihr werdet kochen",
+      "sie werden kochen"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  }
+]

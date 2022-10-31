@@ -26,6 +26,8 @@ namespace XamFormsLanguageLearningApp.Models
             GlagolPoLicima = domain.GlagolPoLicima;
             TableTitle = domain.TablicaNepravilnihGlagola.Ime;
             TableRows = domain.TablicaNepravilnihGlagola.Redovi;
+            ShowTableTitle = TableTitle.Length > 0;
+            if (TableRows.Count > 0)
             foreach(var row in TableRows)
             {
                 if(row.Stupac4.Length > 0)
@@ -37,6 +39,7 @@ namespace XamFormsLanguageLearningApp.Models
             {
                 ShowTableTitle = TableTitle.Length > 0;
                 ShowTable = true;
+                TableHeight = ShowTableTitle ? (TableRows.Count + 1) * 40 : (TableRows.Count) * 40;
                 TableHeight = ShowTableTitle ? (TableRows.Count + 1) * 30 : TableRows.Count * 30;
             }
         }
@@ -46,6 +49,12 @@ namespace XamFormsLanguageLearningApp.Models
 
 
         #region Properties
+
+        public ObservableCollection<string> Deklinacija { get; set; }
+
+        public ObservableCollection<string> GlagolPoLicima { get; set; }
+
+        public string Intro { get; set; }
 
         public bool ShowTable
         {
@@ -65,11 +74,6 @@ namespace XamFormsLanguageLearningApp.Models
             set => SetProperty(ref _hasFourColumns, value);
         }
 
-        public string TableTitle
-        {
-            get => _tableTitle;
-            set => SetProperty(ref _tableTitle, value);
-        }
 
         public int TableHeight
         {
@@ -77,13 +81,14 @@ namespace XamFormsLanguageLearningApp.Models
             set => SetProperty(ref _tableHeight, value);
         }
 
-        public ObservableCollection<string> Deklinacija { get; set; }
+        public string TableTitle
+        {
+            get => _tableTitle;
+            set => SetProperty(ref _tableTitle, value);
+        }
 
         public ObservableCollection<Redovi> TableRows { get; set; }
 
-        public ObservableCollection<string> GlagolPoLicima { get; set; }
-
-        public string Intro { get; set; }
 
         #endregion Properties
     }

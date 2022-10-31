@@ -376,6 +376,7 @@
 
                         <!--<ListView
                             InputTransparent="True"
+                            RowHeight="40"
                             IsVisible="{Binding ShowTable}"
                             ItemsSource="{Binding TableRows}">
                             <ListView.Header>
@@ -396,7 +397,8 @@
                                 <DataTemplate>
                                     <ViewCell>
                                         <Frame Padding="0" BorderColor="DarkSlateBlue">
-                                            <Grid Padding="0">
+                                            <Grid
+                                                Padding="0">
                                                 <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="2.5*" />
                                                     <ColumnDefinition Width="2.5*" />

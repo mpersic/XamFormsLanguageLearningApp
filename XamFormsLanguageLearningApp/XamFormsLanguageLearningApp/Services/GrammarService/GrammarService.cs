@@ -34,7 +34,7 @@ namespace XamFormsLanguageLearningApp.Services
                 }
                 return grammarExamples;
             }
-            catch
+            catch(Exception ex)
             {
                 return new List<GrammarExample>();
             }

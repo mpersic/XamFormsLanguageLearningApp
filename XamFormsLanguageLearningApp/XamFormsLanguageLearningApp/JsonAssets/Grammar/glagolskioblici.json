@@ -4,7 +4,12 @@
     "GlagolPoLicima": [
 
     ],
-    "Deklinacija": []
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Određeni glagolski oblici uvijek označavaju jedno od:",
@@ -16,14 +21,24 @@
       "tri načina: indikativ, konjunktiv i imperativ"
     ],
     "Deklinacija": [
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Neodređeni glagolski oblici su oblici glagola koji se ne konjugiraju, odnosno ne izražavaju kategorije lica, broja i načina.",
     "GlagolPoLicima": [
     ],
     "Deklinacija": [
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   },
   {
     "Intro": "Razlikujemo dvije vrste neodređenih glagolskih oblika: ",
@@ -32,6 +47,11 @@
     "Deklinacija": [
       "infinitive: gehen, kommen, haben...",
       "participe: gegangen, gekommen, gehabt"
-    ]
+    ],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   }
 ]

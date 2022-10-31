@@ -1,0 +1,62 @@
+[
+  {
+    "Intro": "Futur II. najčešće se upotrebljava za izricanje pretpostavke ili radnje koja će biti izvršena do trenutka izgovaranja rečenice ili nekada u budućnosti.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Često se koristi uz riječi: wohl (vjerojatno), sicher/bestimmt (sigurno).",
+    "GlagolPoLicima": [
+      "Er wird krank gewesen sein. (Bit će da je bio bolestan.)",
+      "Sie werden das nicht gehört haben, sie sind erst später gekommen. (Bit će da to niste čuli, došli ste tek kasnije.)",
+      "Bis Dienstag werde ich das Buch gelesen haben. (Do utorka ću pročitati knjigu.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Futur II. tvori se od indikativa prezenta glagola werden i infinitiva II. glagola.",
+    "GlagolPoLicima": [
+      "kochen",
+      "ich werde gekocht haben",
+      "du wirst gekocht haben",
+      "er/sie/es wird gekocht haben",
+      "wir werden gekocht haben",
+      "ihr werdet gekocht haben",
+      "sie werden gekocht haben"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "kommen",
+      "ich werde gekommen sein",
+      "du wirst gekommen sein",
+      "er/sie/es wird gekommen sein",
+      "wir werden gekommen sein",
+      "ihr werdet gekommen sein",
+      "sie werden gekommen sein"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  }
+]

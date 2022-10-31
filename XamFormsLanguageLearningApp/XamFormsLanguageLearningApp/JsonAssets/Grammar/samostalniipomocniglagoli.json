@@ -14,7 +14,7 @@
   {
     "Intro": "Pomoćni glagoli tvore predikat rečenice zajedno sa samostalnim glagolima, npr. participom perfekta ili infinitivom:",
     "GlagolPoLicima": [ "Sie hat ein Buch genommen. (Uzela je knjigu.)" ],
-    "Deklinacija": [ "gehen → geh-", "kochen → koch-" ],
+    "Deklinacija": [],
     "TablicaNepravilnihGlagola": {
       "Ime": "sein (biti)",
       "Redovi": [
@@ -62,6 +62,288 @@
         }
       ]
     }
-
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "sein (biti)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "pluskvamperfekt",
+          "Stupac3": "futur I",
+          "Stupac4": "futur II"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "war gewesen",
+          "Stupac3": "werde sein",
+          "Stupac4": "werde gewesen sein"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "warst gewesen",
+          "Stupac3": "wirst sein",
+          "Stupac4": "wirst gewesen sein"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "war gewesen",
+          "Stupac3": "wird sein",
+          "Stupac4": "wird gewesen sein"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "waren gewesen",
+          "Stupac3": "werden sein",
+          "Stupac4": "werden gewesen sein"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "wart gewesen",
+          "Stupac3": "werdet sein",
+          "Stupac4": "werdet gewesen sein"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "waren gewesen",
+          "Stupac3": "werden sein",
+          "Stupac4": "werden gewesen sein"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "haben (imati)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "prezent",
+          "Stupac3": "preterit",
+          "Stupac4": "perfekt"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "habe",
+          "Stupac3": "hatte",
+          "Stupac4": "habe gehabt"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "hast",
+          "Stupac3": "hattest",
+          "Stupac4": "hast gehabt"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "hat",
+          "Stupac3": "hatte",
+          "Stupac4": "hat gehabt"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "haben",
+          "Stupac3": "hatten",
+          "Stupac4": "haben gehabt"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "habt",
+          "Stupac3": "hattet",
+          "Stupac4": "habt gehabt"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "haben",
+          "Stupac3": "hatten",
+          "Stupac4": "haben gehabt"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "haben (imati)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "pluskvamperfekt",
+          "Stupac3": "futur I",
+          "Stupac4": "futur II"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "hatte gehabt",
+          "Stupac3": "werde haben",
+          "Stupac4": "werde gehabt haben"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "hattest gehabt",
+          "Stupac3": "wirst haben",
+          "Stupac4": "wirst gehabt haben"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "hatte gehabt",
+          "Stupac3": "wird haben",
+          "Stupac4": "wird gehabt haben"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "hatten gehabt",
+          "Stupac3": "werden haben",
+          "Stupac4": "werden gehabt haben"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "hattet gehabt",
+          "Stupac3": "werdet haben",
+          "Stupac4": "werdet gehabt haben"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "hatten gehabt",
+          "Stupac3": "werden haben",
+          "Stupac4": "werden gehabt haben"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "werden (postati)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "prezent",
+          "Stupac3": "preterit",
+          "Stupac4": "perfekt"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "werde",
+          "Stupac3": "wurde",
+          "Stupac4": "bin geworden"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "wirst",
+          "Stupac3": "wurdest",
+          "Stupac4": "bist geworden"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "wird",
+          "Stupac3": "wurde",
+          "Stupac4": "ist geworden"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "werden",
+          "Stupac3": "wurden",
+          "Stupac4": "sind geworden"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "werdet",
+          "Stupac3": "wurdet",
+          "Stupac4": "seid geworden"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "werden",
+          "Stupac3": "wurden",
+          "Stupac4": "sind geworden"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "werden (postati)",
+      "Redovi": [
+        {
+          "Stupac1": "",
+          "Stupac2": "pluskvamperfekt",
+          "Stupac3": "futur I",
+          "Stupac4": "futur II"
+        },
+        {
+          "Stupac1": "ich",
+          "Stupac2": "war geworden",
+          "Stupac3": "werde werden",
+          "Stupac4": "werde geworden sein"
+        },
+        {
+          "Stupac1": "du",
+          "Stupac2": "warst geworden",
+          "Stupac3": "wirst werden",
+          "Stupac4": "wirst geworden sein"
+        },
+        {
+          "Stupac1": "er/sie/es",
+          "Stupac2": "war geworden",
+          "Stupac3": "wird werden",
+          "Stupac4": "wird geworden sein"
+        },
+        {
+          "Stupac1": "wir",
+          "Stupac2": "waren geworden",
+          "Stupac3": "werden werden",
+          "Stupac4": "werden geworden sein"
+        },
+        {
+          "Stupac1": "ihr",
+          "Stupac2": "wart geworden",
+          "Stupac3": "werdet werden",
+          "Stupac4": "werdet geworden sein"
+        },
+        {
+          "Stupac1": "sie",
+          "Stupac2": "waren geworden",
+          "Stupac3": "werden werden",
+          "Stupac4": "werden geworden sein"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "Vrsta pomoćnih glagola su i modalni glagoli:",
+    "GlagolPoLicima": [
+      "Er kann nichts essen. (On ne može ništa jesti.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Modalni glagoli biti će pobliže objašnjeni u idućoj lekciji.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
   }
 ]

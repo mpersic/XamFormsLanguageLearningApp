@@ -1,0 +1,356 @@
+[
+  {
+    "Intro": "Perfekt označava radnju ili zbivanje u prošlosti.",
+    "GlagolPoLicima": [],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Obično se upotrebljava razgovoru, kada se govori o sebi ili o drugima.",
+    "GlagolPoLicima": [
+      "Wo haben Sie denn das Wochenende verbracht? (Gdje ste proveli vikend?)",
+      "An den Plitvicer Seen. (Na Plitvičkim jezerima.)",
+      "Da haben Sie sicher gebadet. (Tamo ste se sigurno kupali.)",
+      "Nein, ich habe Spaziergänge gemacht und viel Sport getrieben. (Ne, šetao sam i mnogo se bavio športom.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Perfekt pravilnih glagola se tvori pomoću prezenta glagola haben ili sein i participa II. punoznačnog glagola. ",
+    "GlagolPoLicima": [
+      "machen",
+      "ich habe gemacht",
+      "du hast gemacht",
+      "er/sie/es hat gemacht",
+      "wir haben gemacht",
+      "ihr habt gemacht",
+      "sie haben gemacht"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Perfekt nepravilnih glagola se, kao i kod pravilnih glagola, tvori od prezenta pomoćnoga glagola haben ili sein i participa II.",
+    "GlagolPoLicima": [
+      "kommen",
+      "ich bin gekommen",
+      "du bist gekommen",
+      "er/sie/es ist gekommen",
+      "wir sind gekommen",
+      "ihr seid gekommen",
+      "sie sind gekommen"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pomoćni glagol stoji na drugom mjestu, a particip II. na kraju rečenice.",
+    "GlagolPoLicima": [
+      "Er hat den ganzen Nachmittag geschlafen. (Spavao je cijelo poslijepodne.)",
+      "Sie ist ihm im Konzert begegnet. (Srela ga je na koncertu.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "Uporaba pomoćnog glagola u perfektu pravilnih i nepravilnih glagola",
+      "A. Glagol haben:"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Većina glagola tvori perfekt s pomoćnim glagolom haben.",
+    "GlagolPoLicima": [
+      "a) svi prijelazni glagoli ",
+      "   Er hat sein Buch gefunden. (Našao je svoju knjigu.)",
+      "   Wir haben den Schlüssel gesucht. (Tražili smo ključ.)",
+      "b) svi povratni glagoli",
+      "   Er hat sich rasiert. (Brijao se.)",
+      "   Du hast dich gewaschen. (Prao/prala si se.)",
+      "c) bezlični glagoli",
+      "   Es hat geregnet. (Kišilo je.)",
+      "   Wie hat es dir gefallen? (Kako ti se svidjelo?)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "Iznimke: ",
+      "es gelingt (uspijeva) es ist gelungen",
+      "es geschieht (događa se) es ist geschehen",
+      "es passiert (događa se) es ist passiert",
+      "es kommt vor (događa se) es ist vorgekommen"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "d) svi modalni glagoli ",
+      "   Er hat das nicht sagen wollen. (Nije to htio reći.)",
+      "e) mnogi neprelazni glagoli",
+      "   Wir haben im Café gesessen. (Sjedili smo u kavani.)",
+      "   Er hat viel gearbeitet. (Mnogo je radio.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "B. Glagol sein"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "S pomoćnim glagolom sein tvore perfekt: ",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "a) neprelazni glagoli koji označavaju promjenu mjesta ",
+      "   Meine Freunde sind gekommen. (Moji prijatelji su došli.)",
+      "   Wir sind mit der Bahn gefahren. (Putovali smo vlakom.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Najčešći takvi glagoli:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+        {
+          "Stupac1": "Infinitiv",
+          "Stupac2": "Perfekt",
+          "Stupac3": "Prijevod",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "fahren",
+          "Stupac2": "Er ist gefahren.",
+          "Stupac3": "voziti se",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "fallen",
+          "Stupac2": "Er ist gefallen.",
+          "Stupac3": "pasti",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "gehen",
+          "Stupac2": "Er ist gegangen.",
+          "Stupac3": "ići",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "kommen",
+          "Stupac2": "Er ist gekommen.",
+          "Stupac3": "doći",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "laufen",
+          "Stupac2": "Er ist gelaufen.",
+          "Stupac3": "trčati",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "reisen",
+          "Stupac2": "Er ist gereist.",
+          "Stupac3": "putovati",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "rennen",
+          "Stupac2": "Er ist gerannt.",
+          "Stupac3": "trčati",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "springen",
+          "Stupac2": "Er ist gesprungen.",
+          "Stupac3": "skočiti",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "steigen",
+          "Stupac2": "Er ist gestiegen.",
+          "Stupac3": "penjati se",
+          "Stupac4": ""
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "b) neprelazni glagoli koji znače promjenu stanja",
+      "   Das Kind ist eingeschlafen. (Dijete je zaspalo.)",
+      "   Er ist erkrankt. (On se razbolio.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Drugi takvi glagoli:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+        {
+          "Stupac1": "Infinitiv",
+          "Stupac2": "Perfekt",
+          "Stupac3": "Prijevod",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "sterben",
+          "Stupac2": "Er ist gestorben.",
+          "Stupac3": "umrijeti",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "wachsen",
+          "Stupac2": "Er ist gewachsen.",
+          "Stupac3": "rasti",
+          "Stupac4": ""
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "c) glagoli bleiben, sein i werden",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+        {
+          "Stupac1": "Infinitiv",
+          "Stupac2": "Perfekt",
+          "Stupac3": "Prijevod",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "bleiben",
+          "Stupac2": "Er ist geblieben.",
+          "Stupac3": "ostati",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "sein",
+          "Stupac2": "Er ist gewesen.",
+          "Stupac3": "biti",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "werden",
+          "Stupac2": "Er ist geworden.",
+          "Stupac3": "postati",
+          "Stupac4": ""
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "",
+    "GlagolPoLicima": [
+      "C. Glagoli haben i sein:"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Neki glagoli tvore perfekt s haben ili sein, prema tome upotrebljavaju li se kao prelazni (koji imaju objekt u akuzativu) ili kao neprelazni(koji nemaju objekt u akuzativu).",
+    "GlagolPoLicima": [
+      "neprelazni: Sie ist nach Wien gefahren. (Otputovala je u Beč.)",
+      "prelazni: Sie hat einen VW gefahren. (Vozila je VW.)",
+      "neprelazni: Er ist in eine neue Wohnung gezogen. (Preselio se u novi stan.)",
+      "prelazni: Das Pferd hat den Wagen gezogen. (Konj je vukao kola.)",
+      "neprelazni: Ihre Haare sind im Wind getrocknet. (Njezina se kosa osušila na vjetru.)",
+      "prelazni: Sie hat ihre Haare getrocknet. (Sušila je kosu.)"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  }
+]

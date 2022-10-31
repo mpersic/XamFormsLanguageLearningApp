@@ -15,10 +15,18 @@
     <None Remove="grammarunits-recenice.json" />
     <None Remove="grammarunits-zamjenice.json" />
     <None Remove="JsonAssets\Grammar\exam-deklinacijaimenica.json" />
+    <None Remove="JsonAssets\Grammar\exam-perfekt(aktiv).json" />
     <None Remove="JsonAssets\Grammar\exam-preterit(aktiv).json" />
     <None Remove="JsonAssets\Grammar\exam-prezent(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\exam-pridjevbezclana.json" />
+    <None Remove="JsonAssets\Grammar\exam-pridjevizaneodredenogclana.json" />
+    <None Remove="JsonAssets\Grammar\exam-pridjevizaodredenogclana.json" />
+    <None Remove="JsonAssets\Grammar\futuri.(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\futurii.(Aktiv).json" />
     <None Remove="JsonAssets\Grammar\glagolskioblici.json" />
-    <None Remove="JsonAssets\Grammar\pravilniinepravilniglagoli.json" />
+    <None Remove="JsonAssets\Grammar\perfekt(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\pluskvamperfekt(aktiv).json" />
+    <None Remove="JsonAssets\Grammar\preterit(aktiv).json" />
     <None Remove="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
     <None Remove="JsonAssets\Vocabulary\brak.json" />
     <None Remove="JsonAssets\Vocabulary\djetinjstvo.json" />
@@ -52,6 +60,13 @@
   <ItemGroup>
     <EmbeddedResource Include="JsonAssets\Grammar\exam-preterit%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\exam-deklinacijaimenica.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-perfekt%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-pridjevbezclana.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-pridjevizaneodredenogclana.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\exam-pridjevizaodredenogclana.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\futuri.%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\pluskvamperfekt%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\futurii.%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-brojevi.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-glagoli.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits-imenice.json" />
@@ -63,7 +78,8 @@
     <EmbeddedResource Include="JsonAssets\Grammar\grammarunits.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\exam-prezent%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\glagolskioblici.json" />
-    <EmbeddedResource Include="JsonAssets\Grammar\pravilniinepravilniglagoli.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\preterit%28aktiv%29.json" />
+    <EmbeddedResource Include="JsonAssets\Grammar\perfekt%28aktiv%29.json" />
     <EmbeddedResource Include="JsonAssets\Grammar\samostalniipomocniglagoli.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\brak.json" />
     <EmbeddedResource Include="JsonAssets\Vocabulary\djetinjstvo.json" />
