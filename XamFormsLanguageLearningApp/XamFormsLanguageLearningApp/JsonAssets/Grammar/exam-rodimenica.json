@@ -1,0 +1,922 @@
+[
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mann",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Frau",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Vater",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mutter",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Frühling",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Sommer",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Herbst",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Winter",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Frühjahr",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Januar",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Februar",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Montag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Dienstag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Westen",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Süden",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Norden",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Osten",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "VW",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Skoda",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Fiat",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Opel",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Regen",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Schnee",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Nebel",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Hagel",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Titanic",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Malerei",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Kleinigkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Boeing",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gelegenheit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Heizung",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gesellschaft",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Zeitung",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Wirtschaft",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Fähigkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Krankheit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Partei",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Etage",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Politik",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Kopie",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Toleranz",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Aktion",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Qualität",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Frisur",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Differenz",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Eins",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Million",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Acht",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Kilowatt",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Cis",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Blau",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "A",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Englisch",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Grün",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Rot",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Deutsch",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Ypsilon",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Häuschen",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Büchlein",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gebirge",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gerede",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Getreide",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Essen",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Sprechen",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gute",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Dokument",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Neue",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Datum",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Studium",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Zentrum",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "tropische Afrika",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Museum",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Argument",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "alte Nürnberg",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gymnasium",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "benachbarte Österreich",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Abendkleid",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Briefmarke",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Spielplatz",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Samstag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Donnerstag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Freitag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Sonntag",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mittwoch",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Dezember",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "März",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "November",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Oktober",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "September",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "August",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Juni",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Juli",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "April",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mai",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Feigheit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Geschrei",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Traurigkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Gleichgültigkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Herzlosigkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Herzlichkeit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Zwei",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Drei",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Fünf",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Italienisch",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Spanisch",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Französisch",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Freundschaft",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Freiheit",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Fräulein",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Weib",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mitglied",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Mädchen",
+    "QuestionPart3": "",
+    "AnswerPart1": "das",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Tochter",
+    "QuestionPart3": "",
+    "AnswerPart1": "die",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Sohn",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "",
+    "QuestionPart2": "Koch",
+    "QuestionPart3": "",
+    "AnswerPart1": "der",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  }
+]

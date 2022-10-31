@@ -1,0 +1,555 @@
+[
+  {
+    "QuestionPart1": "jedan",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "eins",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dva",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "tri",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "drei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "četiri",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vier",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "pet",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünf",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "šest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechs",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "sedam",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sieben",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "osam",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "acht",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "devet",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neun",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "deset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "jedanaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "elf",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvanaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwölf",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "trinaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreizehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "četrnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vierzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "petnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünfzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "šesnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "sedamnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "siebzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "osamnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "achtzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "devetnaest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i jedan",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "einundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i dva",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zweiundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i tri",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreiundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i četiri",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vierundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i pet",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünfundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i šest",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechsundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i sedam",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "siebenundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i osam",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "achtundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i devet",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "trideset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreißig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "četrdeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vierzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+
+  {
+    "QuestionPart1": "pedeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünfzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "šezdeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "sedamdeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "siebzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "osamdeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "achtzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "devedeset",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "sto",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "hundert",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvjesto",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zweihundert",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "tristo",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreihundert",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "četristo",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vierhundert",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "petsto",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünfhundert",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "tisuću",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "tausend",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvije tisuće",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zweitausend",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "tri tisuće",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreitausend",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "deset tisuća",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zehntausend",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset tisuća",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwanzigtausend",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dvadeset i jedan",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "einundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "milijarda",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "eine Milliarde",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "dva milijuna",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwei Millionen",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1 + 4 = 5",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "eins plus vier ist fünf",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1984. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzehnhundertvierundachtzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1950. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzehnhundertfünfzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "2 + 3 = 5",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zwei plus drei ist fünf",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "3 - 2 = 1",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "drei minus zwei ist eins",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "3 x 2 = 6",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "drei mal zwei ist sechs",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "6 : 2 = 3",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechs durch zwei ist drei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "15 - 7 = 8",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "fünfzehn minus sieben ist acht",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "30 : 10 = 3",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreißig durch zehn ist drei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "21 : 7 = 3",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "einundzwanzig durch sieben ist drei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "27 + 11 = 38",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "siebenundzwanzig plus elf ist achtunddreißig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "4 x 6 = 24",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "vier mal sechs ist vierundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "13 x 2 = 26",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "dreizehn mal zwei ist sechsundzwanzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1697. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "sechzehnhundertsiebenundneunzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1997. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzehnhundertsiebenundneunzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1975. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neuzehnhundertfünfundsiebzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "2013. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zweitausenddreizehn",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "1980. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "neunzehnhundertachtzig",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "2002. (godina)",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "zweitausendzwei",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  },
+  {
+    "QuestionPart1": "milijun",
+    "QuestionPart2": "",
+    "QuestionPart3": "",
+    "AnswerPart1": "eine Million",
+    "AnswerPart2": "",
+    "AnswerPart3": ""
+  }
+]
