@@ -12,6 +12,8 @@ namespace XamFormsLanguageLearningApp.Models
         private int _tableHeight;
         private string _tableTitle;
         private bool _showTable;
+        private bool _showTableTitle;
+        private bool _hasFourColumns;
 
         #endregion Fields
 
@@ -24,10 +26,18 @@ namespace XamFormsLanguageLearningApp.Models
             GlagolPoLicima = domain.GlagolPoLicima;
             TableTitle = domain.TablicaNepravilnihGlagola.Ime;
             TableRows = domain.TablicaNepravilnihGlagola.Redovi;
+            foreach(var row in TableRows)
+            {
+                if(row.Stupac4.Length > 0)
+                {
+                    HasFourColumns = true;
+                }
+            }
             if(TableRows.Count > 0)
             {
+                ShowTableTitle = TableTitle.Length > 0;
                 ShowTable = true;
-                TableHeight = (TableRows.Count + 1) * 30;
+                TableHeight = ShowTableTitle ? (TableRows.Count + 1) * 30 : TableRows.Count * 30;
             }
         }
 
@@ -41,6 +51,18 @@ namespace XamFormsLanguageLearningApp.Models
         {
             get => _showTable;
             set => SetProperty(ref _showTable, value);
+        }
+
+        public bool ShowTableTitle
+        {
+            get => _showTableTitle;
+            set => SetProperty(ref _showTableTitle, value);
+        }
+
+        public bool HasFourColumns
+        {
+            get => _hasFourColumns;
+            set => SetProperty(ref _hasFourColumns, value);
         }
 
         public string TableTitle

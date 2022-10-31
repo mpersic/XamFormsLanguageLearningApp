@@ -3,10 +3,14 @@
     x:Class="XamFormsLanguageLearningApp.GrammarUnitPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Converters="clr-namespace:XamFormsLanguageLearningApp.Converters"
     xmlns:local="clr-namespace:XamFormsLanguageLearningApp"
     Title="{Binding Title}"
     Shell.TabBarIsVisible="False">
 
+    <ContentPage.Resources>
+        <Converters:BooleanNegationConverter x:Key="BooleanNegationConverter" />
+    </ContentPage.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -170,18 +174,217 @@
                             </BindableLayout.ItemTemplate>
                         </FlexLayout>
 
-                        <ListView
-                            HeightRequest="{Binding TableHeight}"
+                        <StackLayout IsVisible="{Binding ShowTable}">
+                            <Frame
+                                Padding="0"
+                                BackgroundColor="LightGreen"
+                                BorderColor="DarkSlateGray"
+                                HeightRequest="30"
+                                HorizontalOptions="FillAndExpand"
+                                IsVisible="{Binding ShowTableTitle}">
+                                <Label
+                                    FontSize="13"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding TableTitle}"
+                                    VerticalOptions="Center" />
+                            </Frame>
+                            <StackLayout
+                                BindableLayout.ItemsSource="{Binding TableRows}"
+                                IsVisible="{Binding HasFourColumns}"
+                                Spacing="0">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate>
+                                        <Frame Padding="0" BorderColor="DarkSlateBlue">
+                                            <StackLayout>
+                                                <Grid Margin="2">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="2.5*" />
+                                                        <ColumnDefinition Width="2.5*" />
+                                                        <ColumnDefinition Width="2.5*" />
+                                                        <ColumnDefinition Width="2.5*" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Label
+                                                        Grid.Column="0"
+                                                        Margin="3,0,0,0"
+                                                        FontSize="13"
+                                                        HorizontalOptions="FillAndExpand"
+                                                        HorizontalTextAlignment="Start"
+                                                        Text="{Binding Stupac1}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        Grid.Column="1"
+                                                        Margin="3,0,0,0"
+                                                        FontSize="13"
+                                                        HorizontalOptions="FillAndExpand"
+                                                        HorizontalTextAlignment="Start"
+                                                        Text="{Binding Stupac2}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        Grid.Column="2"
+                                                        Margin="3,0,0,0"
+                                                        FontSize="13"
+                                                        HorizontalOptions="FillAndExpand"
+                                                        HorizontalTextAlignment="Start"
+                                                        Text="{Binding Stupac3}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        Grid.Column="3"
+                                                        Margin="3,0,0,0"
+                                                        FontSize="13"
+                                                        HorizontalOptions="FillAndExpand"
+                                                        HorizontalTextAlignment="Start"
+                                                        IsVisible="{Binding HasFourColumns}"
+                                                        Text="{Binding Stupac4}"
+                                                        VerticalOptions="Center" />
+                                                    <BoxView
+                                                        Grid.Column="0"
+                                                        BackgroundColor="DarkSlateGray"
+                                                        HorizontalOptions="EndAndExpand"
+                                                        VerticalOptions="FillAndExpand"
+                                                        WidthRequest="1" />
+                                                    <BoxView
+                                                        Grid.Column="1"
+                                                        BackgroundColor="DarkSlateGray"
+                                                        HorizontalOptions="EndAndExpand"
+                                                        VerticalOptions="FillAndExpand"
+                                                        WidthRequest="1" />
+                                                    <BoxView
+                                                        Grid.Column="2"
+                                                        BackgroundColor="DarkSlateGray"
+                                                        HorizontalOptions="EndAndExpand"
+                                                        VerticalOptions="FillAndExpand"
+                                                        WidthRequest="1" />
+                                                    <BoxView
+                                                        Grid.Column="3"
+                                                        BackgroundColor="DarkSlateGray"
+                                                        HorizontalOptions="EndAndExpand"
+                                                        IsVisible="{Binding HasFourColumns}"
+                                                        VerticalOptions="FillAndExpand"
+                                                        WidthRequest="1" />
+                                                </Grid>
+                                                <!--<Grid Margin="2" IsVisible="{Binding HasFourColumns, Converter={x:StaticResource BooleanNegationConverter}}">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="3.33*" />
+                                                    <ColumnDefinition Width="3.33*" />
+                                                    <ColumnDefinition Width="3.33*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Label
+                                                    Grid.Column="0"
+                                                    Margin="3,0,0,0"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    HorizontalTextAlignment="Start"
+                                                    Text="{Binding Stupac1}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="1"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac2}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="2"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    Text="{Binding Stupac3}"
+                                                    VerticalOptions="Center" />
+                                                <BoxView
+                                                    Grid.Column="0"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="1"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="2"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                            </Grid>-->
+                                            </StackLayout>
+                                        </Frame>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </StackLayout>
+                            <StackLayout
+                                BindableLayout.ItemsSource="{Binding TableRows}"
+                                IsVisible="{Binding HasFourColumns, Converter={x:StaticResource BooleanNegationConverter}}"
+                                Spacing="0">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate>
+                                        <Frame Padding="0" BorderColor="DarkSlateBlue">
+                                            <Grid Margin="2">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="3.33*" />
+                                                    <ColumnDefinition Width="3.33*" />
+                                                    <ColumnDefinition Width="3.33*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Label
+                                                    Grid.Column="0"
+                                                    Margin="3,0,0,0"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    HorizontalTextAlignment="Start"
+                                                    Text="{Binding Stupac1}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="1"
+                                                    Margin="3,0,0,0"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    HorizontalTextAlignment="Start"
+                                                    Text="{Binding Stupac2}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    Grid.Column="2"
+                                                    Margin="3,0,0,0"
+                                                    FontSize="13"
+                                                    HorizontalOptions="FillAndExpand"
+                                                    HorizontalTextAlignment="Start"
+                                                    Text="{Binding Stupac3}"
+                                                    VerticalOptions="Center" />
+                                                <BoxView
+                                                    Grid.Column="0"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="1"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                                <BoxView
+                                                    Grid.Column="2"
+                                                    BackgroundColor="DarkSlateGray"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    VerticalOptions="FillAndExpand"
+                                                    WidthRequest="1" />
+                                            </Grid>
+                                        </Frame>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <!--<ListView
                             InputTransparent="True"
                             IsVisible="{Binding ShowTable}"
-                            ItemsSource="{Binding TableRows}"
-                            RowHeight="30">
+                            ItemsSource="{Binding TableRows}">
                             <ListView.Header>
                                 <Frame
                                     Padding="0"
-                                    HeightRequest="30"
                                     BorderColor="DarkSlateGray"
-                                    HorizontalOptions="FillAndExpand">
+                                    HeightRequest="30"
+                                    HorizontalOptions="FillAndExpand"
+                                    IsVisible="{Binding ShowTableTitle}">
                                     <Label
                                         FontSize="13"
                                         HorizontalOptions="Center"
@@ -201,13 +404,13 @@
                                                     <ColumnDefinition Width="2.5*" />
                                                 </Grid.ColumnDefinitions>
                                                 <Label
-                                                    Margin="3,0,0,0"
                                                     Grid.Column="0"
+                                                    Margin="3,0,0,0"
                                                     FontSize="13"
-                                                    VerticalOptions="Center"
                                                     HorizontalOptions="FillAndExpand"
+                                                    HorizontalTextAlignment="Start"
                                                     Text="{Binding Stupac1}"
-                                                    HorizontalTextAlignment="Start" />
+                                                    VerticalOptions="Center" />
                                                 <Label
                                                     Grid.Column="1"
                                                     FontSize="13"
@@ -255,7 +458,7 @@
                                     </ViewCell>
                                 </DataTemplate>
                             </ListView.ItemTemplate>
-                        </ListView>
+                        </ListView>-->
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type local:GrammarViewModel}}, Path=ItemTapped}"

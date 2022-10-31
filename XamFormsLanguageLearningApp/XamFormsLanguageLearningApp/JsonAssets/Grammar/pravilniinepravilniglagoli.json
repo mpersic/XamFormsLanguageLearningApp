@@ -1,0 +1,160 @@
+[
+  {
+    "Intro": "Prema konjugaciji glagoli se dijele na pravilne i nepravilne.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Pravilni glagoli ne mijenjaju glagolsku osnovu:",
+    "GlagolPoLicima": [
+      "infinitiv: such-en (tražiti)",
+      "prezent: er such-t ",
+      "preterit: er such-te",
+      "perfekt: er hat ge-such-t"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Nepravilni glagoli mijenjaju glagolsku osnovu:",
+    "GlagolPoLicima": [
+      "infinitiv: nehm-en (uzeti)",
+      "preterit: er nahm",
+      "prezent: er nimm-t",
+      "perfekt: er hat ge-nomm-en"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Nepravilni se glagoli razlikuju od pravilnih po tome što:",
+    "GlagolPoLicima": [
+      "mijenjaju osnovni vokal u preteritu i participu II.: nehmen → nahm → genommen",
+      "particip II . tvore s nastavkom –en: nehmen → genommen"
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "1.1. Posebne skupine pravilnih glagola",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Nekoliko glagola mijenja vokal osnove.",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+      ]
+    }
+  },
+  {
+    "Intro": "Ti glagoli imaju u prezentu e, a u preteritu i participu II. a. To su:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+        {
+          "Stupac1": "infinitiv",
+          "Stupac2": "preterit",
+          "Stupac3": "particip II",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "brennen",
+          "Stupac2": "brannte",
+          "Stupac3": "gebrannt",
+          "Stupac4": "gorjeti"
+        },
+        {
+          "Stupac1": "kennen",
+          "Stupac2": "kannte",
+          "Stupac3": "gekannt",
+          "Stupac4": "poznavati"
+        },
+        {
+          "Stupac1": "nennen",
+          "Stupac2": "nannte",
+          "Stupac3": "genannt",
+          "Stupac4": "nazivati"
+        },
+        {
+          "Stupac1": "rennen",
+          "Stupac2": "rannte",
+          "Stupac3": "gerannt",
+          "Stupac4": "trčati"
+        },
+        {
+          "Stupac1": "senden senden",
+          "Stupac2": "sandte sendete",
+          "Stupac3": "gesandt gesendet",
+          "Stupac4": "slati emitirati"
+        },
+        {
+          "Stupac1": "wenden sich an jemanden wenden",
+          "Stupac2": "wandte",
+          "Stupac3": "gewandt",
+          "Stupac4": "okrenuti obratiti se nekome"
+        }
+      ]
+    }
+  },
+  {
+    "Intro": "Glagol senden može imati i oblike bez promjene vokala, ali mu se onda mijenja značenje. Glagoli bringen (donijeti) i denken (misliti) također mijenjaju u preteritu osnovni vokal u odnosu prema prezentu, a nastupaju i promjene u konsonantima osnove:",
+    "GlagolPoLicima": [
+    ],
+    "Deklinacija": [],
+    "TablicaNepravilnihGlagola": {
+      "Ime": "",
+      "Redovi": [
+        {
+          "Stupac1": "infinitiv",
+          "Stupac2": "preterit",
+          "Stupac3": "particip II",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "bringen",
+          "Stupac2": "brachte",
+          "Stupac3": "gebracht",
+          "Stupac4": ""
+        },
+        {
+          "Stupac1": "denken",
+          "Stupac2": "dachte",
+          "Stupac3": "gedacht",
+          "Stupac4": ""
+        }
+      ]
+    }
+  }
+]
